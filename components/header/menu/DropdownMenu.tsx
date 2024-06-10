@@ -8,7 +8,7 @@ const menuContent = [
   {
     name: "Home",
     activeClass: "sf-with-ul",
-    page: "home",
+    page: "about",
     menuClass: "two-columns current-menu-item",
     dropDownItems: [
       {

@@ -11,7 +11,7 @@ import Testimonial from "../../../components/testimonial/Testimonial";
 import Image from "next/image";
 
 export const metadata = {
-  title: "About Us || Moonex Portfolio and Agency NextJS Template",
+  title: "About Us | ZaVolt",
 };
 
 const AboutUs = () => {
@@ -43,7 +43,7 @@ const AboutUs = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h1 className="large-heading">Moonex Labs</h1>
+                      <h1 className="large-heading">ZaVolt</h1>
                     </div>
                     {/* <!--Spacer--> */}
                     <div
@@ -58,7 +58,7 @@ const AboutUs = () => {
                       data-aos-delay="100"
                     >
                       <p className="fz-30 fw-bold text-uppercase has-3-color">
-                        Digital solutions for <br />
+                        Electrifying <br />
                         your business
                       </p>
                     </div>
@@ -90,10 +90,7 @@ const AboutUs = () => {
                               }}
                             ></div>
                             <p className="fz-24">
-                              We help our client suceed by creating identities,
-                              digital experiences, andprintmaterials that
-                              communicate clearly, achieve marketing goals &
-                              look fantastic.
+                            Welcome to ZaVolt, where we electrify your business to greatness! We take immense pride in being a premier company that offers top-tier design, marketing, and development solutions, all aimed at powering the unparalleled success of your brand. Our passionate team of digital wizards is committed to illuminating your true potential, igniting innovation, and crafting remarkable digital experiences. Join us on this electrifying journey, and together we'll make your business shine like never before!
                             </p>
                           </div>
                         </div>

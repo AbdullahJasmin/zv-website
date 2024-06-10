@@ -12,7 +12,7 @@ import Team from "@/components/team/Team";
 import TestimonialTwo from "@/components/testimonial/TestimonialTwo";
 
 export const metadata = {
-  title: "Home Agency || Moonex Portfolio and Agency NextJS Template",
+  title: "ZaVolt - Premier UI/UX, Development & Digital Marketing Agency",
 };
 
 const HomeAgency = () => {
@@ -21,7 +21,7 @@ const HomeAgency = () => {
       <div className="ptf-site-wrapper__inner">
         <HeaderAgency />
         {/* End Header Agency */}
-
+        
         <div className="ptf-main">
           <div className="ptf-page ptf-page--home-agency">
             {/*=============================================

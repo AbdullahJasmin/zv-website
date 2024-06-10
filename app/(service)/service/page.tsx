@@ -6,7 +6,7 @@ import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
 
 export const metadata = {
-  title: "Services || Moonex Portfolio and Agency NextJS Template",
+  title: "Services | ZaVolt",
 };
 
 const Service = () => {

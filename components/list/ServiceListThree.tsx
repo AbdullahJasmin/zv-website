@@ -1,12 +1,11 @@
 "use client";
-
 import React from "react";
 
 const serviceContent = [
-  { icon: "lnil-cup", name: "Brand Consultant" },
-  { icon: "lnil-website-rank", name: "UI/UX Solution" },
-  { icon: "lnil-3d", name: "Packaging" },
-  { icon: "lnil-video-camera-alt-1", name: "Motion Video & TVC" },
+  { imagePath: "../../public/assets/img/root/services/img-1.webp", name: "Brand Consultant" },
+  { imagePath: "../../public/assets/img/root/services/img-1.webp", name: "UI/UX Solution" },
+  { imagePath: "../../public/assets/img/root/services/img-1.webp", name: "Packaging" },
+  { imagePath: "../../public/assets/img/root/services/img-1.webp", name: "Motion Video & TVC" },
 ];
 
 const ServiceListThree = () => {
@@ -16,7 +15,7 @@ const ServiceListThree = () => {
         {serviceContent.map((val, i) => (
           <li key={i}>
             <a href="#">
-              <i className={`lnil ${val.icon}`}></i> {val.name}
+            <img src={val.imagePath} alt={val.name} style={{ width: '24px', height: '24px', marginRight: '8px' }} /> {val.name}
             </a>
           </li>
         ))}

@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import Search from "../form/Search";
 import DropdownMenu from "./menu/DropdownMenu";
 import MobileMenu from "./menu/MobileMenu";
 import { usePathname } from "next/navigation";
@@ -73,24 +72,6 @@ const HeaderAgency = () => {
               </nav>
               {/* <!--Buttons--> */}
 
-              {/* <!--Navbar Search--> */}
-              <div
-                className={
-                  click ? "ptf-navbar-search is-open" : "ptf-navbar-search"
-                }
-              >
-                <div className="ptf-navbar-search__wrapper">
-                  <Search />
-                </div>
-
-                <div
-                  className="ptf-navbar-search__toggle"
-                  onClick={handleClick}
-                >
-                  <i className="lnir lnir-search-alt"></i>
-                  <i className="lnir lnir-close"></i>
-                </div>
-              </div>
               {/* <!--Offcanvas Menu Toggle--> */}
 
               <div

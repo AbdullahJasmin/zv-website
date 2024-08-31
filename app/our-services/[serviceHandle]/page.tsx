@@ -1,45 +1,60 @@
-import CopyRight from "../../../../components/footer/copyright/CopyRight";
-import Footer from "../../../../components/footer/Footer";
-import ServiceListThree from "../../../../components/list/ServiceListThree";
-import Faq from "../../../../components/faq/Faq";
-import Skills from "../../../../components/skill/Skills";
-import Approach2 from "../../../../components/service/Approach2";
-import CounterThree from "../../../../components/counter/CounterThree";
-import ImageGridFour from "../../../../components/image-grid/ImageGridFour";
+import DefaultHeader from "@/components/headers/DefaultHeader";
+import { services } from "../data";
+import ImageGridFour from "@/components/image-grid/ImageGridFour";
+import CounterThree from "@/components/counter/CounterThree";
+import Skills from "@/components/skill/Skills";
+import Approach2 from "@/components/service/Approach2";
+import ServiceListThree from "@/components/list/ServiceListThree";
+import Faq from "app/(others-pages)/faq/page";
+import CopyRight from "@/components/footer/copyright/CopyRight";
+import Footer from "@/components/footer/Footer";
+import Head from "next/head";
+import { Metadata, ResolvingMetadata } from "next";
 
+interface OurServiceDetailsPageProps {
+  params: {
+    serviceHandle: string;
+  };
+}
 
-import { allserviceContent } from "../../../../data/service";
-import HeaderHomeDefault from "@/components/header/HeaderHomeDefault";
+function uppercaseToCapitalize(str: string) {
+  const words = str.split(" ");
+  const capitalizedWords = words.map(
+    (word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+  );
+  return capitalizedWords.join(" ");
+}
 
+function getServiceDetails(serviceHandle: string) {
+  const service = services.find((elm) => elm.handle == serviceHandle);
+  const title = uppercaseToCapitalize(
+    service?.titlePart1 + " " + service?.titlePart2
+  );
+  return {
+    service,
+    title,
+  };
+}
 
-export const metadata = {
-  title: "Service Details || Moonex Portfolio and Agency NextJS Template",
-};
+export async function generateMetadata(
+  { params }: OurServiceDetailsPageProps,
+  parent: ResolvingMetadata
+): Promise<Metadata> {
+  const { title } = getServiceDetails(params.serviceHandle);
+  return {
+    title: title + " | ZaVolt",
+  };
+}
 
-
-const ServiceDetails = ({ params }) => {
-
-  let title = 'UI/UX'
-
-
-  allserviceContent.forEach(elm => {
-    if (elm.id == params.id) {
-      title = elm.title || elm.name || (elm.titlePart1 + ' ' + elm.titlePart2)
-
-    }
-    if (elm.serviceList) {
-      elm.serviceList.forEach(item => {
-        if (item.id == params.id) {
-          title = item.title || item.name || (item.titlePart1 + ' ' + item.titlePart2)
-        }
-      })
-    }
-
-  })
+const OurServiceDetails = ({ params }: OurServiceDetailsPageProps) => {
+  const { title, service } = getServiceDetails(params.serviceHandle);
 
   return (
     <>
-      <HeaderHomeDefault />
+      <Head>
+        <title>{title + " | " + "ZaVolt"}</title>
+      </Head>
+      <DefaultHeader />
       {/* End Header */}
 
       <div className="ptf-main">
@@ -69,14 +84,7 @@ const ServiceDetails = ({ params }) => {
                       // @ts-ignore
                       style={{ "--ptf-xxl": "2.5rem" }}
                     ></div>
-                    <p className="fz-18">
-                      Our skilled and creative UX/UI development team has over
-                      10 years of proven experience in web application
-                      development. We definitely know how end-users interact
-                      with apps and how to create an easy-to-use user interface
-                      that offers an enjoyable experience for your target
-                      audience.
-                    </p>
+                    <p className="fz-18">{service?.descriptions}</p>
                   </div>
                   {/* <!--Spacer--> */}
                   <div
@@ -278,4 +286,4 @@ const ServiceDetails = ({ params }) => {
   );
 };
 
-export default ServiceDetails;
+export default OurServiceDetails;

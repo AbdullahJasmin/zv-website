@@ -18,7 +18,7 @@ const portfolioContent = [
   },
   {
     demoImg: "services",
-    routerPath: "/service",
+    routerPath: "/our-services",
     title: " Services",
     delayAnimationTime: "200",
   },

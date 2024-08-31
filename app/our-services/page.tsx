@@ -2,8 +2,8 @@ import CopyRight from "@/components/footer/copyright/CopyRight";
 import Footer from "@/components/footer/Footer";
 import ContactJarallax from "@/components/jarallax/ContactJarallax";
 import Approach from "./components/Approach";
-import ServiceOne from "@/components/service/ServiceOne";
 import DefaultHeader from "@/components/headers/DefaultHeader";
+import ServiceCatalog from "./components/ServiceCatalog";
 
 
 
@@ -66,7 +66,7 @@ const OurServicesPage = () => {
                   ></div>
                 </div>
                 <div className="col-lg-8 offset-lg-1">
-                  <ServiceOne />
+                  <ServiceCatalog />
                 </div>
               </div>
             </div>

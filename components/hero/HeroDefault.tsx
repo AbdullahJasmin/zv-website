@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 const heroContent = {
-  title: "Moonex",
+  title: "ZaVolt",
   subTitle1: " Crafting Digital",
   subTitle2: "Agency",
   subTitleDescription1: "Good design mean that",

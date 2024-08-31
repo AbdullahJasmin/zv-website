@@ -1,15 +1,18 @@
-import ServiceOne from "../../../components/service/ServiceOne";
-import Approach from "../../../components/service/Approach";
-import ContactJarallax from "../../../components/jarallax/ContactJarallax";
-import CopyRight from "../../../components/footer/copyright/CopyRight";
-import Footer from "../../../components/footer/Footer";
+import CopyRight from "@/components/footer/copyright/CopyRight";
+import Footer from "@/components/footer/Footer";
+import ContactJarallax from "@/components/jarallax/ContactJarallax";
+import Approach from "./components/Approach";
+import ServiceOne from "@/components/service/ServiceOne";
 import DefaultHeader from "@/components/headers/DefaultHeader";
 
+
+
+
 export const metadata = {
-  title: "Services | ZaVolt",
+  title: "Our Services | ZaVolt",
 };
 
-const Service = () => {
+const OurServicesPage = () => {
   return (
     <>
       <DefaultHeader />
@@ -164,4 +167,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default OurServicesPage;

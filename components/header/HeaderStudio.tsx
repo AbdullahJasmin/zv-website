@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import Search from "../form/Search";
+// import Search from "../form/Search";
 import DropdownMenu from "./menu/DropdownMenu";
 import MobileMenu from "./menu/MobileMenu";
 import Image from "next/image";
@@ -76,7 +76,7 @@ const HeaderStudio = () => {
                 }
               >
                 <div className="ptf-navbar-search__wrapper">
-                  <Search />
+                  {/* <Search /> */}
                 </div>
 
                 <div

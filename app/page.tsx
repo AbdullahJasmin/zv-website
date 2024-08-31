@@ -2,7 +2,6 @@ import Link from "next/link";
 import CounterTwo from "@/components/counter/CounterTwo";
 import CopyRightTwo from "@/components/footer/copyright/CopyRightTwo";
 import FooterTwo from "@/components/footer/FooterTwo";
-import HeaderAgency from "@/components/header/HeaderAgency";
 import HeroAgency from "@/components/hero/HeroAgency";
 import ListOne from "@/components/list/ListOne";
 import ListTwo from "@/components/list/ListTwo";
@@ -10,6 +9,7 @@ import PortfolioTw from "@/components/portfolio/PortfolioTwo";
 import Pricing from "@/components/pricing/Pricing";
 import Team from "@/components/team/Team";
 import TestimonialTwo from "@/components/testimonial/TestimonialTwo";
+import HomeHeader from "@/components/headers/HomeHeader";
 
 export const metadata = {
   title: "ZaVolt - Premier UI/UX, Development & Digital Marketing Agency",
@@ -19,9 +19,9 @@ const HomeAgency = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--home-agency">
       <div className="ptf-site-wrapper__inner">
-        <HeaderAgency />
+        <HomeHeader />
         {/* End Header Agency */}
-        
+
         <div className="ptf-main">
           <div className="ptf-page ptf-page--home-agency">
             {/*=============================================
@@ -169,7 +169,7 @@ const HomeAgency = () => {
                         style={{ "--ptf-xxl": "1.875rem" }}
                       ></div>
                       <h3 style={{ maxWidth: "30rem" }}>
-                        We bring trusted solutions for your business
+                        Empowering Your Business with Innovative Solutions
                       </h3>
                       {/* <!--Spacer--> */}
                       <div
@@ -178,14 +178,17 @@ const HomeAgency = () => {
                         style={{ "--ptf-xxl": "5rem", "--ptf-md": "2.5rem" }}
                       ></div>
                       <p className="fz-18" style={{ maxWidth: "30rem" }}>
-                        We help our client suceed by creating identities,
-                        digital experiences, and printmaterials that communicate
-                        clearly, achieve marketing goals, and look fantastic.
+                        At ZaVolt, we drive your success by creating impactful
+                        digital experiences, innovative brand identities, and
+                        results-oriented strategies. Our expertise lies in
+                        blending creativity with technology to amplify your
+                        brand&apos;s reach and effectiveness.
                       </p>
                       <p className="fz-18" style={{ maxWidth: "30rem" }}>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered alteration in
-                        some form, by injected humour
+                      Whether it&apos;s
+                        crafting a memorable online presence or optimizing your
+                        digital marketing efforts, we ensure your business not
+                        only meets its goals but exceeds them.
                       </p>
                     </div>
                     {/* <!--Spacer--> */}
@@ -426,8 +429,9 @@ const HomeAgency = () => {
               <div className="container">
                 <div
                   className="row"
-                  // @ts-ignore 
-                  style={{ "--bs-gutter-x": "2rem" }}>
+                  // @ts-ignore
+                  style={{ "--bs-gutter-x": "2rem" }}
+                >
                   <Pricing />
                 </div>
               </div>

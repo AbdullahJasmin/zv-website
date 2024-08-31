@@ -1,4 +1,4 @@
-import HeaderDefault from "../../../components/header/HeaderDefault";
+import DefaultHeader from "../../../components/headers/DefaultHeader";
 
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 
@@ -9,14 +9,14 @@ import PortfolioSix from "../../../components/portfolio/PortfolioSix";
 import RelatedPortfolio from "../../../components/portfolio/RelatedPortfolio";
 
 export const metadata = {
-  title: "Works Grid || Moonex Portfolio and Agency NextJS Template",
+  title: "Works Grid || ZaVolt Portfolio and Agency NextJS Template",
 };
 
 const WorksGrid = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--works-grid">
       <div className="ptf-site-wrapper__inner">
-        <HeaderDefault />
+        <DefaultHeader />
         {/* End  HeaderHomeDefault */}
 
         <div className="main">

@@ -9,7 +9,7 @@ const testimonialContent = [
     avatar: "twitter-avatar",
     name: "Thiago Alcantara",
     email: "@thiago.lfc",
-    hightlightText: "@moonex",
+    hightlightText: "@zavolt",
     date: "15 Dec, 2022",
     description: `a studio with passionate, profressional &
     full creativity. Much more things that i’m expect. Really

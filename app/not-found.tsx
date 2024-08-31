@@ -1,20 +1,17 @@
-
-
-
 import Image from "next/image";
 import Link from "next/link";
-import HeaderDefault from "../components/header/HeaderDefault";
 import CopyRight from "../components/footer/copyright/CopyRight";
 import Footer from "../components/footer/Footer";
+import DefaultHeader from "@/components/headers/DefaultHeader";
 
 export const metadata = {
-  title: "Not Found || Moonex Portfolio and Agency NextJS Template",
+  title: "Not Found || ZaVolt Portfolio and Agency NextJS Template",
 };
 
 const NotFound = () => {
   return (
     <>
-      <HeaderDefault />
+      <DefaultHeader />
       {/* End Header */}
 
       <div className="ptf-main">

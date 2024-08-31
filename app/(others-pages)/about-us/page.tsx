@@ -4,11 +4,11 @@ import Brand from "../../../components/brand/Brand";
 import Counter from "../../../components/counter/Counter";
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
-import HeaderDefault from "../../../components/header/HeaderDefault";
 import ImageGrid from "../../../components/image-grid/ImageGrid";
 import ServiceOne from "../../../components/service/ServiceOne";
 import Testimonial from "../../../components/testimonial/Testimonial";
 import Image from "next/image";
+import DefaultHeader from "@/components/headers/DefaultHeader";
 
 export const metadata = {
   title: "About Us | ZaVolt",
@@ -18,7 +18,7 @@ const AboutUs = () => {
   return (
     <div className="ptf-site-wrapper animsition  ptf-is--about-us">
       <div className="ptf-site-wrapper__inner">
-        <HeaderDefault />
+        <DefaultHeader />
         {/* End  HeaderHomeDefault */}
 
         <div className="ptf-main">
@@ -240,7 +240,7 @@ const AboutUs = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="h1 large-heading">Moonex’s Partners</h2>
+                      <h2 className="h1 large-heading">ZaVolt’s Partners</h2>
                     </div>
                     {/* <!--Spacer--> */}
                     <div

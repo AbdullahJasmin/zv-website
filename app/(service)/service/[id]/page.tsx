@@ -1,4 +1,3 @@
-import HeaderDefault from "../../../../components/header/HeaderDefault";
 import CopyRight from "../../../../components/footer/copyright/CopyRight";
 import Footer from "../../../../components/footer/Footer";
 import ServiceListThree from "../../../../components/list/ServiceListThree";
@@ -10,10 +9,11 @@ import ImageGridFour from "../../../../components/image-grid/ImageGridFour";
 
 
 import { allserviceContent } from "../../../../data/service";
+import DefaultHeader from "@/components/headers/DefaultHeader";
 
 
 export const metadata = {
-  title: "Service Details || Moonex Portfolio and Agency NextJS Template",
+  title: "Service Details || ZaVolt Portfolio and Agency NextJS Template",
 };
 
 
@@ -39,7 +39,7 @@ const ServiceDetails = ({ params }) => {
 
   return (
     <>
-      <HeaderDefault />
+      <DefaultHeader />
       {/* End Header */}
 
       <div className="ptf-main">

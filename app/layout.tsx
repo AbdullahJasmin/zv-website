@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "photoswipe/dist/photoswipe.css";
 import "aos/dist/aos.css";
 import 'react-tooltip/dist/react-tooltip.css'
+import './globals.css'
 import dynamic from "next/dynamic";
 
 const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {

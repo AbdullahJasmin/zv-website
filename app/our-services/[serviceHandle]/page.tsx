@@ -1,45 +1,31 @@
-import CopyRight from "../../../../components/footer/copyright/CopyRight";
-import Footer from "../../../../components/footer/Footer";
-import ServiceListThree from "../../../../components/list/ServiceListThree";
-import Faq from "../../../../components/faq/Faq";
-import Skills from "../../../../components/skill/Skills";
-import Approach2 from "../../../../components/service/Approach2";
-import CounterThree from "../../../../components/counter/CounterThree";
-import ImageGridFour from "../../../../components/image-grid/ImageGridFour";
-
-
-import { allserviceContent } from "../../../../data/service";
-import HeaderHomeDefault from "@/components/header/HeaderHomeDefault";
-
+import DefaultHeader from "@/components/headers/DefaultHeader";
+import { services } from "../data";
+import ImageGridFour from "@/components/image-grid/ImageGridFour";
+import CounterThree from "@/components/counter/CounterThree";
+import Skills from "@/components/skill/Skills";
+import Approach2 from "@/components/service/Approach2";
+import ServiceListThree from "@/components/list/ServiceListThree";
+import Faq from "app/(others-pages)/faq/page";
+import CopyRight from "@/components/footer/copyright/CopyRight";
+import Footer from "@/components/footer/Footer";
 
 export const metadata = {
-  title: "Service Details || Moonex Portfolio and Agency NextJS Template",
+  title: "Service Details || ZaVolt Portfolio and Agency NextJS Template",
 };
 
+interface OurServiceDetailsPageProps {
+  params: {
+    serviceHandle: string;
+  };
+}
 
-const ServiceDetails = ({ params }) => {
-
-  let title = 'UI/UX'
-
-
-  allserviceContent.forEach(elm => {
-    if (elm.id == params.id) {
-      title = elm.title || elm.name || (elm.titlePart1 + ' ' + elm.titlePart2)
-
-    }
-    if (elm.serviceList) {
-      elm.serviceList.forEach(item => {
-        if (item.id == params.id) {
-          title = item.title || item.name || (item.titlePart1 + ' ' + item.titlePart2)
-        }
-      })
-    }
-
-  })
+const OurServiceDetails = ({ params }: OurServiceDetailsPageProps) => {
+  const service = services.find((elm) => elm.handle == params.serviceHandle);
+  const title = service?.titlePart1 + " " + service?.titlePart2;
 
   return (
     <>
-      <HeaderHomeDefault />
+      <DefaultHeader />
       {/* End Header */}
 
       <div className="ptf-main">
@@ -69,14 +55,7 @@ const ServiceDetails = ({ params }) => {
                       // @ts-ignore
                       style={{ "--ptf-xxl": "2.5rem" }}
                     ></div>
-                    <p className="fz-18">
-                      Our skilled and creative UX/UI development team has over
-                      10 years of proven experience in web application
-                      development. We definitely know how end-users interact
-                      with apps and how to create an easy-to-use user interface
-                      that offers an enjoyable experience for your target
-                      audience.
-                    </p>
+                    <p className="fz-18">{service?.descriptions}</p>
                   </div>
                   {/* <!--Spacer--> */}
                   <div
@@ -278,4 +257,4 @@ const ServiceDetails = ({ params }) => {
   );
 };
 
-export default ServiceDetails;
+export default OurServiceDetails;

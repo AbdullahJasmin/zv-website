@@ -4,11 +4,11 @@ import Brand from "../../../components/brand/Brand";
 import Counter from "../../../components/counter/Counter";
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
-import HeaderDefault from "../../../components/header/HeaderDefault";
 import ImageGrid from "../../../components/image-grid/ImageGrid";
 import ServiceOne from "../../../components/service/ServiceOne";
 import Testimonial from "../../../components/testimonial/Testimonial";
 import Image from "next/image";
+import DefaultHeader from "@/components/headers/DefaultHeader";
 
 export const metadata = {
   title: "About Us | ZaVolt",
@@ -18,7 +18,7 @@ const AboutUs = () => {
   return (
     <div className="ptf-site-wrapper animsition  ptf-is--about-us">
       <div className="ptf-site-wrapper__inner">
-        <HeaderDefault />
+        <DefaultHeader />
         {/* End  HeaderHomeDefault */}
 
         <div className="ptf-main">
@@ -35,7 +35,7 @@ const AboutUs = () => {
               ></div>
 
               <div className="container-xxl">
-                <div className="row align-items-center">
+                <div className="row">
                   <div className="col-xl-6">
                     {/* <!--Animated Block--> */}
                     <div
@@ -90,7 +90,12 @@ const AboutUs = () => {
                               }}
                             ></div>
                             <p className="fz-24">
-                            Welcome to ZaVolt, where we electrify your business to greatness! We take immense pride in being a premier company that offers top-tier design, marketing, and development solutions, all aimed at powering the unparalleled success of your brand. Our passionate team of digital wizards is committed to illuminating your true potential, igniting innovation, and crafting remarkable digital experiences. Join us on this electrifying journey, and together we'll make your business shine like never before!
+                            Welcome to ZaVolt, where we electrify your business to greatness! 
+                            We take immense pride in being a premier company that offers top-tier design, 
+                            marketing, and development solutions, all aimed at powering the unparalleled success of your brand. 
+                            Our passionate team of digital wizards is committed to illuminating your true potential, igniting innovation, 
+                            and crafting remarkable digital experiences. 
+                            Join us on this electrifying journey, and together we&apos;ll make your business shine like never before!
                             </p>
                           </div>
                         </div>
@@ -235,7 +240,7 @@ const AboutUs = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="h1 large-heading">Moonex’s Partners</h2>
+                      <h2 className="h1 large-heading">ZaVolt’s Partners</h2>
                     </div>
                     {/* <!--Spacer--> */}
                     <div

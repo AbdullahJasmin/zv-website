@@ -2,7 +2,7 @@
 
 import Head from "next/head";
 
-import HeaderDefault from "../../../../components/header/HeaderDefault";
+import DefaultHeader from "../../../../components/headers/DefaultHeader";
 
 import CopyRight from "../../../../components/footer/copyright/CopyRight";
 
@@ -21,7 +21,7 @@ import Image from "next/image";
 import { PortfolioItem, allportfolioContent } from "../../../../data/works";
 
 export const metadata = {
-  title: "Work Showcase || Moonex Portfolio and Agency NextJS Template",
+  title: "Work Showcase || ZaVolt Portfolio and Agency NextJS Template",
 };
 
 const WorksShowcase = ({ params }) => {
@@ -51,11 +51,11 @@ const WorksShowcase = ({ params }) => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--work-showcase-1">
       <Head>
-        <title>Moonex - Works Showcase</title>
+        <title>ZaVolt - Works Showcase</title>
       </Head>
       {/* End Page SEO Content */}
       <div className="ptf-site-wrapper__inner">
-        <HeaderDefault />
+        <DefaultHeader />
         {/* End  HeaderHomeDefault */}
 
         <div className="main">
@@ -281,10 +281,10 @@ const WorksShowcase = ({ params }) => {
                     </div>
                     <div className="ptf-twitter-review__content">
                       <p>
-                        The team at <a href="#">@moonexlabs</a> is incredibly
+                        The team at <a href="#">@zavoltlabs</a> is incredibly
                         dedicated, knowledgeable, and helpful. The finished
                         product was beautiful, and worth every penny. I would
-                        absolutely recommend Moonex Labs.
+                        absolutely recommend ZaVolt Labs.
                       </p>
                     </div>
                   </div>

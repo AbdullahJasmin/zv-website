@@ -1,19 +1,19 @@
+import DefaultHeader from "@/components/headers/DefaultHeader";
 import BlogMasonryGrid from "../../../components/blog/BlogMasonryGrid";
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
 import SearchBlog from "../../../components/form/SearchBlog";
-import HeaderDefault from "../../../components/header/HeaderDefault";
 import NewsletterTwo from "../../../components/newsletter/NewsletterTwo";
 
 export const metadata = {
-  title: "Blog Masonry || Moonex Portfolio and Agency NextJS Template",
+  title: "Blog Masonry || ZaVolt Portfolio and Agency NextJS Template",
 };
 
 const BlogMasonry = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
       <div className="ptf-site-wrapper__inner">
-        <HeaderDefault />
+        <DefaultHeader />
         {/* End  HeaderHomeDefault */}
 
         <div className="main">

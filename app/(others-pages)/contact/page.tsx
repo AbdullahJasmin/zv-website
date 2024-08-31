@@ -1,18 +1,18 @@
-import HeaderDefault from "../../../components/header/HeaderDefault";
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
 import Social from "../../../components/social/Social";
 import ContactForm from "../../../components/ContactForm";
 import Address from "../../../components/Address";
+import DefaultHeader from "@/components/headers/DefaultHeader";
 
 export const metadata = {
-  title: "Contact || Moonex Portfolio and Agency NextJS Template",
+  title: "Contact || ZaVolt Portfolio and Agency NextJS Template",
 };
 
 const Contact = () => {
   return (
     <>
-      <HeaderDefault />
+      <DefaultHeader />
       {/* End Header */}
 
       <div className="ptf-main">

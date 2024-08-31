@@ -3,7 +3,7 @@
 import React from "react";
 
 const testimonialContent = {
-  descriptions: `“moonex- a studio with passionate, professional & full creativity. Much more than what i’m expect. Really awesome & satisfied!`,
+  descriptions: `“zavolt- a studio with passionate, professional & full creativity. Much more than what i’m expect. Really awesome & satisfied!`,
   name: "Diogo Jota",
   designation: "Lead Product at Google Inc",
 };

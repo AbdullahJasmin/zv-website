@@ -1,4 +1,4 @@
-import HeaderDefault from "../../../components/header/HeaderDefault";
+import DefaultHeader from "../../../components/headers/DefaultHeader";
 
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 
@@ -7,7 +7,7 @@ import Footer from "../../../components/footer/Footer";
 import PortfolioListing from "../../../components/portfolio/PortfolioListing";
 
 export const metadata = {
-  title: "Works Listing || Moonex Portfolio and Agency NextJS Template",
+  title: "Works Listing || ZaVolt Portfolio and Agency NextJS Template",
 };
 
 const WorksListing = () => {
@@ -16,7 +16,7 @@ const WorksListing = () => {
       <div className="ptf-site-wrapper animsition ptf-is--works-listing">
         {/* End Page SEO Content */}
         <div className="ptf-site-wrapper__inner">
-          <HeaderDefault />
+          <DefaultHeader />
           {/* End  HeaderHomeDefault */}
 
           <div className="main">

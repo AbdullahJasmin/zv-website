@@ -41,8 +41,8 @@ const FooterThreeDark = () => {
           data-aos-delay="200"
         >
           <div className="ptf-widget ptf-widget-text">
-            <a className="fz-36 has-white-color" href="mailto:hello@moonex.co">
-              hello@moonex.co
+            <a className="fz-36 has-white-color" href="mailto:contact@zavolt.com">
+              contact@zavolt.com
             </a>
             {/* <!--Spacer--> */}
             <div

@@ -1,16 +1,16 @@
-import HeaderDefault from "../../../components/header/HeaderDefault";
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
 import FaqTwo from "../../../components/faq/FaqTwo";
+import DefaultHeader from "@/components/headers/DefaultHeader";
 
 export const metadata = {
-  title: "Faq || Moonex Portfolio and Agency NextJS Template",
+  title: "Faq || ZaVolt Portfolio and Agency NextJS Template",
 };
 
 const Faq = () => {
   return (
     <>
-      <HeaderDefault />
+      <DefaultHeader />
       {/* End Header */}
 
       <div className="ptf-main">

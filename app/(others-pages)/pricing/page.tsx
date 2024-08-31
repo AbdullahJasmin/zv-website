@@ -1,17 +1,17 @@
 import Link from "next/link";
-import HeaderDefault from "../../../components/header/HeaderDefault";
 import Pricing from "../../../components/pricing/Pricing";
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
+import DefaultHeader from "@/components/headers/DefaultHeader";
 
 export const metadata = {
-  title: "Pricing  || Moonex Portfolio and Agency NextJS Template",
+  title: "Pricing  || ZaVolt Portfolio and Agency NextJS Template",
 };
 
 const Pricings = () => {
   return (
     <>
-      <HeaderDefault />
+      <DefaultHeader />
       {/* End Header */}
 
       <div className="ptf-main">

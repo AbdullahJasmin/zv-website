@@ -1,20 +1,20 @@
+import DefaultHeader from "@/components/headers/DefaultHeader";
 import BlogGridSLider from "../../../components/blog/BlogGridSLider";
 import BlogThree from "../../../components/blog/BlogThree";
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
 import SearchBlog from "../../../components/form/SearchBlog";
-import HeaderDefault from "../../../components/header/HeaderDefault";
 import NewsletterTwo from "../../../components/newsletter/NewsletterTwo";
 
 export const metadata = {
-  title: "Blog Grid || Moonex Portfolio and Agency NextJS Template",
+  title: "Blog Grid || ZaVolt Portfolio and Agency NextJS Template",
 };
 
 const BlogGrid = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
       <div className="ptf-site-wrapper__inner">
-        <HeaderDefault />
+        <DefaultHeader />
         {/* End  HeaderHomeDefault */}
 
         <div className="main">

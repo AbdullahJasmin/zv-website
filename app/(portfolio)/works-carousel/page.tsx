@@ -1,18 +1,18 @@
 import Link from "next/link";
-import HeaderDefault from "../../../components/header/HeaderDefault";
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
 import Portfolio from "../../../components/portfolio/Portfolio";
+import DefaultHeader from "@/components/headers/DefaultHeader";
 
 export const metadata = {
-  title: "Work Carousel || Moonex Portfolio and Agency NextJS Template",
+  title: "Work Carousel || ZaVolt Portfolio and Agency NextJS Template",
 };
 
 const WorksCarousel = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--works-carousel">
       <div className="ptf-site-wrapper__inner">
-        <HeaderDefault />
+        <DefaultHeader />
         {/* End  HeaderHomeDefault */}
 
         <div className="main">

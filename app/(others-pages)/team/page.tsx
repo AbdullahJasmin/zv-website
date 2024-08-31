@@ -1,4 +1,4 @@
-import HeaderDefault from "../../../components/header/HeaderDefault";
+import DefaultHeader from "@/components/headers/DefaultHeader";
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
 import TeamTwo from "../../../components/team/TeamTwo";
@@ -10,7 +10,7 @@ export const metadata = {
 const Team = () => {
   return (
       <>
-        <HeaderDefault />
+        <DefaultHeader />
         {/* End Header */}
 
         <div className="ptf-main">

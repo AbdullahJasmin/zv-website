@@ -95,32 +95,23 @@ export const serviceContent: ServiceItem[] = [
   {
     id: 11,
     icon: "lnil lnil-cup",
-    titlePart1: "BRAND",
-    titlePart2: "CONSULTANT",
-    descriptions: ` We build and activate brands throung cultural insight &amp;
-          strategic vision.`,
+    titlePart1: "CUSTOM SOFTWARE",
+    titlePart2: "DEVELOPMENT",
+    descriptions: `Streamline your business operations with our custom software solutions. We create tailor-made applications that address your unique challenges, boost efficiency, and support your business growth.`,
   },
   {
     id: 12,
     icon: "lnil lnil-website-rank",
-    titlePart1: "UI/UX",
-    titlePart2: "SOLUTION",
+    titlePart1: "MOBILE APPLICATION",
+    titlePart2: "DEVELOPMENT",
     descriptions: ` We build and activate brands throung cultural insight &amp;
           strategic vision.`,
   },
   {
     id: 13,
     icon: "lnil lnil-3d",
-    titlePart1: "PACKAGING",
-    titlePart2: "",
-    descriptions: ` We build and activate brands throung cultural insight &amp;
-          strategic vision.`,
-  },
-  {
-    id: 14,
-    icon: "lnil lnil-video-camera-alt-1",
-    titlePart1: "MOTION VIDEO",
-    titlePart2: "& TVC",
+    titlePart1: "CUSTOM AI",
+    titlePart2: "SOLUTIONS",
     descriptions: ` We build and activate brands throung cultural insight &amp;
           strategic vision.`,
   },

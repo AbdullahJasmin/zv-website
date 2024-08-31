@@ -29,11 +29,11 @@ const Address = () => {
         {/*  @ts-ignore */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "1.25rem" }}></div>
         <p className="fz-20 lh-1p5 has-black-color">
-          <a href="mailto:hello@moonex.co">
-            hello@moonex.co
+          <a href="mailto:contact@zavolt.com">
+            contact@zavolt.com
             <br />
           </a>
-          <a href="mailto:career@moonex.co">career@moonex.co</a>
+          <a href="mailto:career@zavolt.co">career@zavolt.co</a>
         </p>
       </div>
 

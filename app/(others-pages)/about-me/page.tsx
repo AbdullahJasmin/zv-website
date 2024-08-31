@@ -2,15 +2,15 @@ import Image from "next/image";
 import BrandFour from "../../../components/brand/BrandFour";
 import BrandThree from "../../../components/brand/BrandThree";
 import FooterFour from "../../../components/footer/FooterFour";
-import HeaderDefault from "../../../components/header/HeaderDefault";
 import InstagramFeed from "../../../components/InstagramFeed";
 import ServiceListFive from "../../../components/list/ServiceListFive";
 import Resume from "../../../components/Resume";
 import SocialTwo from "../../../components/social/SocialTwo";
 import TestimonialThree from "../../../components/testimonial/TestimonialThree";
+import DefaultHeader from "@/components/headers/DefaultHeader";
 
 export const metadata = {
-  title: "About Me || Moonex Portfolio and Agency NextJS Template",
+  title: "About Me || ZaVolt Portfolio and Agency NextJS Template",
 };
 
 const avatar = "/assets/img/about-me-main-image.jpg";
@@ -19,7 +19,7 @@ const AboutMe = () => {
   return (
     <div className="ptf-site-wrapper animsition  ptf-is--about-me">
       <div className="ptf-site-wrapper__inner">
-        <HeaderDefault />
+        <DefaultHeader />
         {/* End  HeaderHomeDefault */}
 
         <div className="ptf-main">

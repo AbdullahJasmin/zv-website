@@ -7,15 +7,15 @@ import BlogPostAuthor from "../../../../components/blog/BlogPostAuthor";
 import RelatedPost from "../../../../components/blog/RelatedPost";
 import CopyRight from "../../../../components/footer/copyright/CopyRight";
 import Footer from "../../../../components/footer/Footer";
-import HeaderDefault from "../../../../components/header/HeaderDefault";
 import ImageGridTwo from "../../../../components/image-grid/ImageGridTwo";
 import SocialFour from "../../../../components/social/SocialFour";
 
 
 import { BlogItem, allblog } from "../../../../data/blog";
+import DefaultHeader from "@/components/headers/DefaultHeader";
 
 export const metadata = {
-  title: "Blog Details || Moonex Portfolio and Agency NextJS Template",
+  title: "Blog Details || ZaVolt Portfolio and Agency NextJS Template",
 };
 
 const BlogDetailsSidebar = ({ params }) => {
@@ -45,11 +45,11 @@ const BlogDetailsSidebar = ({ params }) => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--single-post-sidebar">
       <Head>
-        <title>Moonex - Bog Details Sidebar</title>
+        <title>ZaVolt - Bog Details Sidebar</title>
       </Head>
       {/* End Page SEO Content */}
       <div className="ptf-site-wrapper__inner">
-        <HeaderDefault />
+        <DefaultHeader />
         {/* End  HeaderHomeDefault */}
 
         <div className="main">
@@ -189,7 +189,7 @@ const BlogDetailsSidebar = ({ params }) => {
                         </div>
                         <div className="ptf-twitter-review__content">
                           <p>
-                            <a href="#">@moonex</a> - a studio with passionate,
+                            <a href="#">@zavolt</a> - a studio with passionate,
                             profressional & full creativity. Much more things
                             that i’m expect. Really awesome & satisfied, alway
                             recommended!

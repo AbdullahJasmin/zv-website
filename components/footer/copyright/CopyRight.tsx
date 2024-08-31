@@ -24,7 +24,7 @@ const CopyRight = () => {
         <p className="ptf-footer-copyright has-black-color">
           ©{new Date().getFullYear()}{" "}
           <span>
-            Moonex by{" "}
+            ZaVolt by{" "}
             <a
               href="https://themeforest.net/user/ib-themes"
               rel="noopener noreferrer"

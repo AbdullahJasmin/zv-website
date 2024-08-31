@@ -7,8 +7,8 @@ import BlogFour from "../../../components/blog/BlogFour";
 import Pagination from "../../../components/blog/Pagination";
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
-import HeaderDefault from "../../../components/header/HeaderDefault";
 import { blogContentfive } from "../../../data/blog";
+import DefaultHeader from "@/components/headers/DefaultHeader";
 
 const BlogSidebar = () => {
   const [pageNumber, setPageNumber] = useState(1);
@@ -16,7 +16,7 @@ const BlogSidebar = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--blog-sidebar">
       <div className="ptf-site-wrapper__inner">
-        <HeaderDefault />
+        <DefaultHeader />
         {/* End  HeaderHomeDefault */}
 
         <div className="main">

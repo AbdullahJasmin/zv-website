@@ -1,10 +1,10 @@
-import HeaderDefault from "../../../components/header/HeaderDefault";
+import DefaultHeader from "../../../components/headers/DefaultHeader";
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
 import PortfolioSevenMasonry from "../../../components/portfolio/PortfolioSevenMasonry";
 
 export const metadata = {
-  title: "Work Masonry || Moonex Portfolio and Agency NextJS Template",
+  title: "Work Masonry || ZaVolt Portfolio and Agency NextJS Template",
 };
 
 const WorksMasonry = () => {
@@ -12,7 +12,7 @@ const WorksMasonry = () => {
     <div className="ptf-site-wrapper animsition ptf-is--works-masonry">
       {/* End Page SEO Content */}
       <div className="ptf-site-wrapper__inner">
-        <HeaderDefault />
+        <DefaultHeader />
         {/* End  HeaderHomeDefault */}
 
         <div className="main">

@@ -25,8 +25,11 @@ const HeroAgency = () => {
         <div className="ptf-showcase-image image-1">
           <div className="ptf-showcase-slide">
             <div className="container">
-              <h1 className="fz-100 fz-90--lg lh-1 has-white-color text-center">
-                <span className="has-accent-1">Electrifying</span>Your Brand
+              <h1 className="fz-100 fz-90--lg lh-1 has-white-color">
+                <span className="has-accent-1">
+                  Electrifying <br />{" "}
+                </span>
+                Your Brand
               </h1>
 
               {/* <!--Spacer--> */}
@@ -37,10 +40,12 @@ const HeroAgency = () => {
               ></div>
 
               <p
-                className="fz-24 has-white-color text-center"
-                style={{ maxWidth: "34.375rem", margin: "0 auto" }}
+                className="fz-24 has-white-color"
+                style={{ maxWidth: "34.375rem" }}
               >
-              Experience the magic of our innovative approach as we illuminate your path to unparalleled achievements in the digital landscape. Discover how we will empower your business to shine like never before!
+                At ZaVolt, we fuse creativity with technology to spark unique
+                digital experiences that drive results. Your vision, our
+                expertise—together, we light the path to your brand&apos;s success.
               </p>
 
               {/* <!--Spacer--> */}
@@ -50,7 +55,7 @@ const HeroAgency = () => {
                 style={{ "--ptf-xxl": "3.625rem" }}
               ></div>
 
-              <div className="d-flex justify-content-center">
+              <div className="d-flex">
                 {/* <!--Button--> */}
                 <a className="ptf-btn ptf-btn--primary" href="" target="_self">
                   Get Started
@@ -72,7 +77,7 @@ const HeroAgency = () => {
         <div className="ptf-showcase-image image-2">
           <div className="ptf-showcase-slide">
             <div className="container">
-              <h1 className="fz-100 fz-90--lg lh-1 has-white-color text-center">
+              <h1 className="fz-100 fz-90--lg lh-1 has-white-color">
                 <span className="has-accent-1">Swiss</span> Style <br />
                 Interface
               </h1>
@@ -83,8 +88,8 @@ const HeroAgency = () => {
                 style={{ "--ptf-xxl": "2.125rem" }}
               ></div>
               <p
-                className="fz-24 has-white-color text-center"
-                style={{ maxWidth: "34.375rem", margin: "0 auto" }}
+                className="fz-24 has-white-color"
+                style={{ maxWidth: "34.375rem" }}
               >
                 Like any great agency, we are only as good as the result we
                 deliver of our recent work.
@@ -94,7 +99,7 @@ const HeroAgency = () => {
                 // @ts-ignore
                 style={{ "--ptf-xxl": "3.625rem" }}
               ></div>
-              <div className="d-flex justify-content-center">
+              <div className="d-flex">
                 {/* <!--Button--> */}
                 <a className="ptf-btn ptf-btn--primary" href="" target="_self">
                   Get Started

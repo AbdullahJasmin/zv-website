@@ -35,7 +35,7 @@ const AboutUs = () => {
               ></div>
 
               <div className="container-xxl">
-                <div className="row align-items-center">
+                <div className="row">
                   <div className="col-xl-6">
                     {/* <!--Animated Block--> */}
                     <div
@@ -90,7 +90,12 @@ const AboutUs = () => {
                               }}
                             ></div>
                             <p className="fz-24">
-                            Welcome to ZaVolt, where we electrify your business to greatness! We take immense pride in being a premier company that offers top-tier design, marketing, and development solutions, all aimed at powering the unparalleled success of your brand. Our passionate team of digital wizards is committed to illuminating your true potential, igniting innovation, and crafting remarkable digital experiences. Join us on this electrifying journey, and together we'll make your business shine like never before!
+                            Welcome to ZaVolt, where we electrify your business to greatness! 
+                            We take immense pride in being a premier company that offers top-tier design, 
+                            marketing, and development solutions, all aimed at powering the unparalleled success of your brand. 
+                            Our passionate team of digital wizards is committed to illuminating your true potential, igniting innovation, 
+                            and crafting remarkable digital experiences. 
+                            Join us on this electrifying journey, and together we&apos;ll make your business shine like never before!
                             </p>
                           </div>
                         </div>

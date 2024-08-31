@@ -8,10 +8,8 @@ import ServiceListThree from "@/components/list/ServiceListThree";
 import Faq from "app/(others-pages)/faq/page";
 import CopyRight from "@/components/footer/copyright/CopyRight";
 import Footer from "@/components/footer/Footer";
-
-export const metadata = {
-  title: "Service Details || ZaVolt Portfolio and Agency NextJS Template",
-};
+import Head from "next/head";
+import { Metadata, ResolvingMetadata } from "next";
 
 interface OurServiceDetailsPageProps {
   params: {
@@ -19,12 +17,43 @@ interface OurServiceDetailsPageProps {
   };
 }
 
+function uppercaseToCapitalize(str: string) {
+  const words = str.split(" ");
+  const capitalizedWords = words.map(
+    (word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
+  );
+  return capitalizedWords.join(" ");
+}
+
+function getServiceDetails(serviceHandle: string) {
+  const service = services.find((elm) => elm.handle == serviceHandle);
+  const title = uppercaseToCapitalize(
+    service?.titlePart1 + " " + service?.titlePart2
+  );
+  return {
+    service,
+    title,
+  };
+}
+
+export async function generateMetadata(
+  { params }: OurServiceDetailsPageProps,
+  parent: ResolvingMetadata
+): Promise<Metadata> {
+  const { title } = getServiceDetails(params.serviceHandle);
+  return {
+    title: title + " | ZaVolt",
+  };
+}
+
 const OurServiceDetails = ({ params }: OurServiceDetailsPageProps) => {
-  const service = services.find((elm) => elm.handle == params.serviceHandle);
-  const title = service?.titlePart1 + " " + service?.titlePart2;
+  const { title, service } = getServiceDetails(params.serviceHandle);
 
   return (
     <>
+      <Head>
+        <title>{title + " | " + "ZaVolt"}</title>
+      </Head>
       <DefaultHeader />
       {/* End Header */}
 

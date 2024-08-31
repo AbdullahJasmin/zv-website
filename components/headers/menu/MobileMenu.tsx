@@ -119,7 +119,7 @@ const menuContent = [
       },
       {
         name: "Services",
-        routerPath: "/service",
+        routerPath: "/our-services",
       },
       {
         name: "Service Details",

@@ -30,7 +30,7 @@ const WorksShowcase = ({ params }) => {
   
 
   let pageItem: PortfolioItem = {
-    img: "/assets/img/portfolio/work-2.png",
+    img: "/images/portfolio/work-2.png",
     categorie: "Product",
     title: "Film & Art Festival",
   }
@@ -126,7 +126,7 @@ const WorksShowcase = ({ params }) => {
                       src={
                         pageItem.img ||
                         pageItem.imgPopup ||
-                        "/assets/img/portfolio/single-work/content-image-1.png"
+                        "/images/portfolio/single-work/content-image-1.png"
                       }
                       alt="work"
                       loading="lazy"
@@ -262,7 +262,7 @@ const WorksShowcase = ({ params }) => {
                           width={1200}
                           height={1200}
                           style={{ width: "100%", height: "100%" }}
-                          src="/assets/img/root/twitter-avatar.png"
+                          src="/images/root/twitter-avatar.png"
                           alt=""
                           loading="lazy"
                         />

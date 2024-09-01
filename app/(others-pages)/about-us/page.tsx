@@ -121,17 +121,17 @@ const AboutUs = () => {
                           <img
                             width={1200}
                             height={1200}
-                            src="/assets/img/root/about-us/about-us-main-image-mask.png"
+                            src="/images/root/about-us/about-us-main-image-mask.png"
                             alt="layer"
                             loading="lazy"
                             className="lay2"
                             style={{
                               zIndex: "1",
                             }}
-                            srcSet="/assets/img/about-us-main-image.jpg"
+                            srcSet="/images/about-us-main-image.jpg"
                           />
                           <img
-                            src="/assets/img/root/about-us/about-us-main-image-layer-1.png"
+                            src="/images/root/about-us/about-us-main-image-layer-1.png"
                             alt="layer"
                             loading="lazy"
                             style={{ zIndex: "2" }}
@@ -288,7 +288,7 @@ const AboutUs = () => {
             <section
               className="jarallax jarallax-img"
               style={{
-                backgroundImage: `url(${"" + "/assets/img/about-us-testimonial-background.png"
+                backgroundImage: `url(${"" + "/images/about-us-testimonial-background.png"
                   })`,
               }}
             >
@@ -311,7 +311,7 @@ const AboutUs = () => {
                         width={1200}
                         height={1200}
                         style={{ width: "100%", height: "100%" }}
-                        src="/assets/img/root/quote.png"
+                        src="/images/root/quote.png"
                         alt=""
                         loading="lazy"
                       />

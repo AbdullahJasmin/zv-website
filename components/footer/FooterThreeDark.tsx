@@ -10,7 +10,7 @@ const FooterThreeDark = () => {
             <Image
               width={141}
               height={46}
-              src="/assets/img/root/logo-white.png"
+              src="/images/root/logo-white.png"
               alt="logo"
               loading="lazy"
             />

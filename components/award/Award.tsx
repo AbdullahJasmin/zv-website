@@ -75,7 +75,7 @@ const Award = () => {
               height={1200}
               style={{ width: "45%" }}
               // layout="fill"
-              src={`/assets/img/root/rewards/${val.img}.png`}
+              src={`/images/root/rewards/${val.img}.png`}
               alt="brand"
               loading="lazy"
             />

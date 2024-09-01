@@ -30,7 +30,7 @@ const Skills = () => {
                       width={1200}
                       height={1200}
                       style={{width : '100%' , height: '100%'}}
-                  src={`/assets/img/root/skills/${item.logo}.png`}
+                  src={`/images/root/skills/${item.logo}.png`}
                   alt="HTML/CSS"
                   loading="lazy"
                 />

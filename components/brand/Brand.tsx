@@ -77,7 +77,7 @@ const Brand = () => {
                     height: "90px",
                     objectFit: "contain",
                   }}
-                  src={`/assets/img/root/partners/${item.imgName}.png`}
+                  src={`/images/root/partners/${item.imgName}.png`}
                   alt="Zeplin"
                   loading="lazy"
                 />

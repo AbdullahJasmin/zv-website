@@ -3,7 +3,7 @@
 import React from "react";
 import SocialTwo from "../../social/SocialTwo";
 
-const logo = "/assets/img/root/logo-white.png";
+const logo = "/images/root/logo-white.png";
 import Image from "next/image";
 const CopyRightTwo = () => {
   return (

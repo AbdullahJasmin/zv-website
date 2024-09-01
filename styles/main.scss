@@ -1,5 +1,5 @@
 // html{
-    /* Master Stylesheet
+/* Master Stylesheet
  * Version: 1.0.0
  *
  * Coded by ib-themes
@@ -15,8 +15,7 @@
 
 // bootstrap
 
-
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 // @import '~bootstrap/scss/bootstrap;
 
 // Custom.scss
@@ -24,18 +23,11 @@
 
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 
-
 // react modal
-@import "node_modules/react-modal-video/scss/modal-video.scss";
+@import "../node_modules/react-modal-video/scss/modal-video.scss";
 
 // fonts
 @import url("https://fonts.googleapis.com/css2?family=Amiri&amp;display=swap");
-@import url("../fonts/CerebriSans/style.css");
-
-// icons
-@import url("../fonts/LineIcons-PRO/WebFonts/Pro-Light/font-css/LinIconsPro-Light.css");
-@import url("../fonts/LineIcons-PRO/WebFonts/Pro-Regular/font-css/LineIcons.css");
-@import url("../fonts/Socicons/socicon.css");
 
 /* 01. Helpers */
 @import "abstracts/functions";
@@ -113,3 +105,6 @@
 @import "widgets/ptf-twitter-review";
 @import "widgets/ptf-video-button";
 // }
+
+// Setup fonts
+

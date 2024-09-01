@@ -6,21 +6,21 @@ import Image from "next/image";
 
 const imageList = [
   {
-    img: "/assets/img/portfolio/single-work/content-image-2.png",
+    img: "/images/portfolio/single-work/content-image-2.png",
     column: "col-lg-6",
     alt: "image 1",
     width: "416",
     height: "335",
   },
   {
-    img: "/assets/img/portfolio/single-work/content-image-3.png",
+    img: "/images/portfolio/single-work/content-image-3.png",
     column: "col-lg-6",
     alt: "image 2",
     width: "416",
     height: "335",
   },
   {
-    img: "/assets/img/portfolio/single-work/content-image-4.png",
+    img: "/images/portfolio/single-work/content-image-4.png",
     column: "col-lg-12",
     alt: "image 3",
     width: "1296",

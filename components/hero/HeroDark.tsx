@@ -2,9 +2,9 @@
 
 import React from "react";
 import Image from "next/image";
-const heroImg = "/assets/img/home/dark/home-dark-main-image.jpg";
-const circleText = "/assets/img/root/home-dark/circle-text.png";
-const circleLogo = "/assets/img/root/home-dark/circle-logo.png";
+const heroImg = "/images/home/dark/home-dark-main-image.jpg";
+const circleText = "/images/root/home-dark/circle-text.png";
+const circleLogo = "/images/root/home-dark/circle-logo.png";
 const heroContent = {
   text1: " Bigger",
   text2: " Bolder and",
@@ -48,7 +48,7 @@ const HeroDark = () => {
             {/* <!--Mask Image--> */}
             <div className="ptf-mask-image">
               <img
-                src="/assets/img/root/home-dark/home-dark-main-image-mask.png"
+                src="/images/root/home-dark/home-dark-main-image-mask.png"
                 alt="layer"
                 loading="lazy"
                 className="lay3"

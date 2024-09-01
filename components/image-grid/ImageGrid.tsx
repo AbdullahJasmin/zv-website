@@ -3,8 +3,8 @@
 import { Gallery, Item } from "react-photoswipe-gallery";
 import Image from "next/image";
 const imageList = [
-  { img: "/assets/img/about-us-image-1.png", delayAnimation: "0" },
-  { img: "/assets/img/about-us-image-2.png", delayAnimation: "100" },
+  { img: "/images/about-us-image-1.png", delayAnimation: "0" },
+  { img: "/images/about-us-image-2.png", delayAnimation: "100" },
 ];
 
 const ImageGrid = () => {

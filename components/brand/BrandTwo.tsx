@@ -39,7 +39,7 @@ const BrandTwo = () => {
             width={1200}
             height={1200}
             style={{ width: "132px", height: "54px" }}
-            src={`/assets/img/root/clients/${val.icon}.png`}
+            src={`/images/root/clients/${val.icon}.png`}
             alt="brand logo"
             loading="lazy"
           />

@@ -2,7 +2,7 @@
 -------------------------------------------- */
 
 .ptf-page--contact {
-  // background-image: url(../../img/root/contact-bubble.png);
+  // background-image: url(/images/root/contact-bubble.png);
   background-repeat: no-repeat;
   background-position: 100% 130px;
 }
@@ -42,7 +42,7 @@
 -------------------------------------------- */
 
 .ptf-page--about-us section:first-of-type {
-  background-image: url(../../img/root/about-us-bubble.png);
+  background-image: url(/images/root/about-us-bubble.png);
   background-repeat: no-repeat;
   background-position: calc(50% + 200px) calc(100% + 50px);
 }
@@ -69,7 +69,7 @@
     width: px2rem(387px);
     height: px2rem(460px);
 
-    background-image: url(../../img/root/about-me-bubble.png);
+    background-image: url(/images/root/about-me-bubble.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -80,8 +80,8 @@
 }
 
 .ptf-page--about-me .ptf-custom--1568 {
-  background-image: url(../../img/root/about-me-bubble-2.png),
-    url(../../img/root/about-me-bubble-3.png);
+  background-image: url(/images/root/about-me-bubble-2.png),
+    url(/images/root/about-me-bubble-3.png);
   background-repeat: no-repeat, no-repeat;
   background-position: 0 calc(50% - 50px), 100% calc(50% + 250px);
 }
@@ -115,7 +115,7 @@
 }
 
 .ptf-is--home-modern section:first-of-type {
-  background-image: url(../../img/root/home-modern-bubble.png);
+  background-image: url(/images/root/home-modern-bubble.png);
   background-repeat: no-repeat;
   background-position: calc(50% + 100px) calc(100% + 50px);
 }
@@ -143,7 +143,7 @@
 -------------------------------------------- */
 
 .ptf-page--home-trending {
-  background-image: url(../../img/root/home-trending-bubbles.png);
+  background-image: url(/images/root/home-trending-bubbles.png);
   background-repeat: no-repeat;
   background-position: 50% 250px;
   background-size: contain;
@@ -166,7 +166,7 @@
   }
 
   section:first-of-type {
-    background-image: url(../../img/home/default/main-image.png);
+    background-image: url(/images/home/default/main-image.png);
     background-repeat: no-repeat;
     background-position: calc(50vw - 100px) calc(50% + 150px);
   }
@@ -177,13 +177,13 @@
 
 .ptf-is--home-studio {
   section:first-of-type {
-    background-image: url(../../img/root/home-studio-bubble-1.png);
+    background-image: url(/images/root/home-studio-bubble-1.png);
     background-repeat: no-repeat;
     background-position: 100% 200px;
   }
 
   section.ptf-custom--1562 {
-    background-image: url(../../img/root/home-studio-bubble-2.png);
+    background-image: url(/images/root/home-studio-bubble-2.png);
     background-repeat: no-repeat;
     background-position: 0 100%;
   }
@@ -194,8 +194,8 @@
 
 .ptf-is--home-freelancer {
   .ptf-custom--1528 {
-    background-image: url(../../img/root/home-freelancer-bubble-1.png),
-      url(../../img/root/home-freelancer-bubble-2.png);
+    background-image: url(/images/root/home-freelancer-bubble-1.png),
+      url(/images/root/home-freelancer-bubble-2.png);
     background-repeat: no-repeat, no-repeat;
     background-position: 0 650px, 100% 65%;
   }
@@ -215,7 +215,7 @@
   }
 
   section:last-of-type {
-    background-image: url(../../img/root/call-to-action.png);
+    background-image: url(/images/root/call-to-action.png);
     background-repeat: no-repeat;
     background-position: calc(50% + 30px) calc(50% + 30px);
     @media (max-width: 575px) {
@@ -253,13 +253,13 @@
   }
 
   .ptf-custom--1772 {
-    background-image: url(../../img/root/home-dark-bubble-2.png);
+    background-image: url(/images/root/home-dark-bubble-2.png);
     background-repeat: no-repeat;
     background-position: 100% 150px;
   }
 
   .ptf-custom--1674 {
-    background-image: url(../../img/root/home-dark-bubble-1.png);
+    background-image: url(/images/root/home-dark-bubble-1.png);
     background-repeat: no-repeat;
     background-position: 0 250px;
   }
@@ -280,7 +280,7 @@
       width: px2rem(254px);
       height: px2rem(192px);
 
-      background-image: url(../../img/root/home-dark-waves.png);
+      background-image: url(/images/root/home-dark-waves.png);
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -293,7 +293,7 @@
 .ptf-is--home-agency {
   .ptf-custom--3993 {
     position: relative;
-    background-image: url(../../img/home/agency/about-image.png);
+    background-image: url(/images/home/agency/about-image.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -318,7 +318,7 @@
 
   .ptf-custom--1569 {
     background-color: var(--ptf-color-8);
-    background-image: url(../../img/root/home-agency-symbol.png);
+    background-image: url(/images/root/home-agency-symbol.png);
     background-repeat: no-repeat;
     background-position: calc(100% + 15px) calc(100% + 150px);
   }

@@ -70,7 +70,7 @@ const TestimonialTwo = () => {
                       width={1200}
                       height={1200}
                       style={{width : '100%' , height: '100%'}}
-                    src={`/assets/img/root/${val.avatar}.png`}
+                    src={`/images/root/${val.avatar}.png`}
                     alt="avatar"
                     loading="lazy"
                   />

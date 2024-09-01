@@ -36,7 +36,7 @@ const NotFound = () => {
                       width={1200}
                       height={1200}
                       style={{ width: "100%", height: "100%" }}
-                      src="/assets/img/root/404-robot.png"
+                      src="/images/root/404-robot.png"
                       alt="robot"
                       loading="lazy"
                     />

@@ -19,7 +19,7 @@ const InstagramFeed = () => {
                       width={1200}
                       height={1200}
                       style={{width : '100%' , height: '100%'}}
-              src={`/assets/img/instagram/${icon}.png`}
+              src={`/images/instagram/${icon}.png`}
               alt="instagram icon"
               loading="lazy"
             />

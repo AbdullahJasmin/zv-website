@@ -46,7 +46,7 @@ const BrandThree = () => {
             width={200}
             height={200}
             style={{ width: "150px", height: "64px", objectFit: "contain" }}
-            src={`/assets/img/root/clients/${val.icon}.png`}
+            src={`/images/root/clients/${val.icon}.png`}
             alt="brand icon"
             loading="lazy"
           />

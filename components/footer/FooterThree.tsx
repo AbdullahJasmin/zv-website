@@ -14,7 +14,7 @@ const FooterThree = () => {
               width={1200}
               height={1200}
               style={{ width: "141px", height: "46px" }}
-              src="/assets/img/root/logo-dark.png"
+              src="/images/root/logo-dark.png"
               alt=""
               loading="lazy"
             />

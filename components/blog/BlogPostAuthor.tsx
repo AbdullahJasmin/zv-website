@@ -9,7 +9,7 @@ const BlogPostAuthor = () => {
           width={80}
           height={80}
           style={{ objectFit: "cover" }}
-          src="/assets/img/root/author-avatar.png"
+          src="/images/root/author-avatar.png"
           alt="author"
           loading="lazy"
         />

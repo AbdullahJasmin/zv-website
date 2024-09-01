@@ -13,7 +13,7 @@ export const metadata = {
   title: "About Me || ZaVolt Portfolio and Agency NextJS Template",
 };
 
-const avatar = "/assets/img/about-me-main-image.jpg";
+const avatar = "/images/about-me-main-image.jpg";
 
 const AboutMe = () => {
   return (
@@ -49,13 +49,13 @@ const AboutMe = () => {
                         {/* <!--Mask Image--> */}
                         <div className="ptf-mask-image">
                           <img
-                            src="/assets/img/root/about-me/about-me-main-image-layer-2.png"
+                            src="/images/root/about-me/about-me-main-image-layer-2.png"
                             alt="layer"
                             loading="lazy"
                             style={{ zIndex: "2" }}
                           />
                           <img
-                            src="/assets/img/root/about-me/about-me-main-image-mask.png"
+                            src="/images/root/about-me/about-me-main-image-mask.png"
                             alt="layer"
                             loading="lazy"
                             className="lay"
@@ -70,7 +70,7 @@ const AboutMe = () => {
                             width={1200}
                             height={1200}
                             style={{ width: "100%", height: "100%" }}
-                            src="/assets/img/root/about-me/about-me-main-image-layer-1.png"
+                            src="/images/root/about-me/about-me-main-image-layer-1.png"
                             alt="layer"
                             loading="lazy"
                           />

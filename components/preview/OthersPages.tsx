@@ -106,7 +106,7 @@ const OthersPages = () => {
                       width={1200}
                       height={1200}
                       style={{width : '100%'  }}
-                    src={`/assets/img/root/intro/${demo.demoImg}.png`}
+                    src={`/images/root/intro/${demo.demoImg}.png`}
                     alt={demo.title}
                     loading="lazy"
                   />

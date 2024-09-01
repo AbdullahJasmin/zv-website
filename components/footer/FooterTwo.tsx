@@ -14,18 +14,20 @@ const FooterTwo = () => {
               <li>
                 <span>Address</span>
                 <p>
-                  Suite 1506, ERAGON Building, 256 Fifth Avenue, CA 92006,
-                  United States
+                  38/12, Huludagoda Rd,
+                  Mount Lavinia 10350,
+                  Western Province,
+                  Sri Lanka
                 </p>
               </li>
               <li>
                 <span>Phone</span>
-                <a href="tel:86631250859">+8 (663) 125-08-59</a>
+                <a href="tel:94771281441">(+94) 77 128 1441</a>
               </li>
               <li>
                 <span>Email</span>
-                <a href="mailto:hello@zavoltstudio.com">
-                  hello@zavoltstudio.com
+                <a href="mailto:contact@zavolt.com">
+                  contact@zavolt.com
                 </a>
               </li>
             </ul>

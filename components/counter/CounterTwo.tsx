@@ -7,17 +7,17 @@ import VisibilitySensor from "react-visibility-sensor";
 const counterUpContent = [
   {
     startCount: "0",
-    endCount: "25600",
+    endCount: "20",
     metaText1: "HAPPY CLIENTS",
-    metaText2: "IN 25 YEARS",
+    metaText2: "IN 1.5 YEARS",
     animationDelay: "100",
     colClass: "",
   },
   {
     startCount: "0",
-    endCount: "76500",
-    metaText1: "PROJECTS COMPLETED ON",
-    metaText2: "THE WORLDWIDE",
+    endCount: "30",
+    metaText1: "PROJECTS COMPLETED",
+    metaText2: "WITH WORLDWIDE CLIENTELE",
     animationDelay: "200",
     colClass: "text-xl-end",
   },

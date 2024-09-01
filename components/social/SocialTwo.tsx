@@ -4,24 +4,16 @@ import React from "react";
 
 const socialList = [
   {
-    iconName: "socicon-twitter",
-    link: "https://twitter.com/",
-  },
-  {
     iconName: "socicon-facebook",
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/zavoltcom",
   },
   {
     iconName: "socicon-instagram",
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/zavolt_com",
   },
   {
-    iconName: "socicon-pinterest",
-    link: "https://www.pinterest.com/",
-  },
-  {
-    iconName: "socicon-dribbble",
-    link: "https://dribbble.com/",
+    iconName: "socicon-linkedin",
+    link: "https://www.linkedin.com/company/zavolt",
   },
 ];
 

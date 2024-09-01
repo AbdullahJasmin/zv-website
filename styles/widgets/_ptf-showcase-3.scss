@@ -83,13 +83,13 @@
 
 // custom
 .image-1 {
-  background-image: url(../../img/home/agency/main-slide-1.png);
+  background-image: url(/images/home/agency/main-slide-1.png);
 }
 .image-2 {
-  background-image: url(../../img/home/agency/main-slide-2.png);
+  background-image: url(/images/home/agency/main-slide-2.png);
 }
 .image-3 {
-  background-image: url(../../img/home/agency/main-slide-3.png);
+  background-image: url(/images/home/agency/main-slide-3.png);
 }
 .ptf-showcase-3 {
   .slick-prev {
@@ -117,7 +117,7 @@
     height: 0;
 
     &::after {
-      background: url(../../img/arrow-right.svg) no-repeat;
+      background: url(/images/arrow-right.svg) no-repeat;
       width: 52px;
       height: 52px;
       filter: invert(1);

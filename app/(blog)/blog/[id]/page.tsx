@@ -27,7 +27,7 @@ const BlogDetails = ({ params }) => {
 
  
   let pageItem: BlogItem ={
-    img: "/assets/img/home/default/post-1.png",
+    img: "/images/home/default/post-1.png",
     cat: "Product",
     date: "Dec 15, 2021",
     title: "Review product BWIB",
@@ -166,7 +166,7 @@ const BlogDetails = ({ params }) => {
                               width={1200}
                               height={1200}
                               style={{ width: "100%", height: "100%" }}
-                              src="/assets/img/root/twitter-avatar.png"
+                              src="/images/root/twitter-avatar.png"
                               alt="avatar"
                               loading="lazy"
                             />

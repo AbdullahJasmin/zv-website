@@ -2,10 +2,10 @@
 import React from "react";
 
 const serviceContent = [
-  { imagePath: "../../public/assets/img/root/services/img-1.webp", name: "Brand Consultant" },
-  { imagePath: "../../public/assets/img/root/services/img-1.webp", name: "UI/UX Solution" },
-  { imagePath: "../../public/assets/img/root/services/img-1.webp", name: "Packaging" },
-  { imagePath: "../../public/assets/img/root/services/img-1.webp", name: "Motion Video & TVC" },
+  { imagePath: "../../public/images/root/services/img-1.webp", name: "Brand Consultant" },
+  { imagePath: "../../public/images/root/services/img-1.webp", name: "UI/UX Solution" },
+  { imagePath: "../../public/images/root/services/img-1.webp", name: "Packaging" },
+  { imagePath: "../../public/images/root/services/img-1.webp", name: "Motion Video & TVC" },
 ];
 
 const ServiceListThree = () => {

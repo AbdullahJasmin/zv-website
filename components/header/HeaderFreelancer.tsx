@@ -38,7 +38,7 @@ const HeaderFreelancer = () => {
                   height={103}
                   style={{ objectFit: "contain" }}
                   className="black"
-                  src="/assets/img/root/logo-center-dark.png"
+                  src="/images/root/logo-center-dark.png"
                   alt="logo"
                   loading="lazy"
                 />
@@ -47,7 +47,7 @@ const HeaderFreelancer = () => {
                   height={103}
                   style={{ objectFit: "contain" }}
                   className="white"
-                  src="/assets/img/root/logo-center-white.png"
+                  src="/images/root/logo-center-white.png"
                   alt="logo"
                   loading="lazy"
                 />

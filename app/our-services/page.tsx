@@ -85,7 +85,7 @@ const OurServicesPage = () => {
             className="has-accent-1-background"
             style={{
               backgroundImage: `url(${
-                "" + "/assets/img/root/service-bubble.png"
+                "" + "/images/root/service-bubble.png"
               })`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "100% calc(100% + 120px)",
@@ -129,7 +129,7 @@ const OurServicesPage = () => {
             className="jarallax jarallax-img"
             style={{
               backgroundImage: `url(${
-                "" + "/assets/img/services-call-to-action-background.png"
+                "" + "/images/services-call-to-action-background.png"
               })`,
             }}
           >

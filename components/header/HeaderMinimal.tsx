@@ -21,7 +21,7 @@ const HeaderMinimal = () => {
                   height={146}
                   style={{ objectFit: "contain" }}
                   className="black"
-                  src="/assets/img/root/logo-dark.png"
+                  src="/images/root/logo-dark.png"
                   alt="logo"
                   loading="lazy"
                 />
@@ -30,7 +30,7 @@ const HeaderMinimal = () => {
                   height={146}
                   style={{ objectFit: "contain" }}
                   className="white"
-                  src="/assets/img/root/logo-white.png"
+                  src="/images/root/logo-white.png"
                   alt="logo"
                   loading="lazy"
                 />

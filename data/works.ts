@@ -15,31 +15,31 @@ export type PortfolioItem = {
 export const portfolioContent: PortfolioItem[] = [
   {
     id: 1,
-    img: "/assets/img/portfolio/work-1.png",
+    img: "/images/portfolio/work-1.png",
     categorie: "UI/UX",
     title: "Taskly Dashboard",
   },
   {
     id: 2,
-    img: "/assets/img/portfolio/work-2.png",
+    img: "/images/portfolio/work-2.png",
     categorie: "Product",
     title: "Film & Art Festival",
   },
   {
     id: 3,
-    img: "/assets/img/portfolio/work-3.png",
+    img: "/images/portfolio/work-3.png",
     categorie: "Branding, Packaging",
     title: "Dark Wishky Wine",
   },
   {
     id: 4,
-    img: "/assets/img/portfolio/work-4.png",
+    img: "/images/portfolio/work-4.png",
     categorie: "Illustration",
     title: "Swiss Style Poster",
   },
   {
     id: 5,
-    img: "/assets/img/portfolio/work-5.png",
+    img: "/images/portfolio/work-5.png",
     categorie: "UI/UX",
     title: "Liarch Architecture Firm",
   },
@@ -47,12 +47,12 @@ export const portfolioContent: PortfolioItem[] = [
 
 export const portfolioContentfive: PortfolioItem[] = [
 
-  { id: 6, img: "/assets/img/home/modern/work-1.png", meta: "Web Design", title: "Supro Online Store" },
-  { id: 7, img: "/assets/img/home/modern/work-2.png", meta: "Web Design, Branding", title: "FG Print Brand" },
-  { id: 8, img: "/assets/img/home/modern/work-4.png", meta: "Web Design", title: "Taskly Dashboard" },
-  { id: 22, img: "/assets/img/home/modern/work-3.png", meta: "Illustration", title: "LW Poster" },
-  { id: 9, img: "/assets/img/home/modern/work-6.png", meta: "Branding, Motion", title: "Film & Art Festival" },
-  { id: 10, img: "/assets/img/home/modern/work-5.png", meta: "Branding, Motion", title: "Dark Wishky Wine" },
+  { id: 6, img: "/images/home/modern/work-1.png", meta: "Web Design", title: "Supro Online Store" },
+  { id: 7, img: "/images/home/modern/work-2.png", meta: "Web Design, Branding", title: "FG Print Brand" },
+  { id: 8, img: "/images/home/modern/work-4.png", meta: "Web Design", title: "Taskly Dashboard" },
+  { id: 22, img: "/images/home/modern/work-3.png", meta: "Illustration", title: "LW Poster" },
+  { id: 9, img: "/images/home/modern/work-6.png", meta: "Branding, Motion", title: "Film & Art Festival" },
+  { id: 10, img: "/images/home/modern/work-5.png", meta: "Branding, Motion", title: "Dark Wishky Wine" },
 ]
 
 export const portfolioContentfour: PortfolioItem[] = [
@@ -61,7 +61,7 @@ export const portfolioContentfour: PortfolioItem[] = [
     title: "MNX Business Card",
     date: "2021",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/work-4.png",
+    imgPopup: "/images/portfolio/work-4.png",
     dataId: "work-1",
     meta: "Branding, Motion",
   },
@@ -70,7 +70,7 @@ export const portfolioContentfour: PortfolioItem[] = [
     title: "SPA Brand",
     date: "2021",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/work-2.png",
+    imgPopup: "/images/portfolio/work-2.png",
     dataId: "work-2",
     meta: "Branding, Motion",
   },
@@ -79,7 +79,7 @@ export const portfolioContentfour: PortfolioItem[] = [
     title: "Lewis Studio Website",
     date: "2021",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/work-3.png",
+    imgPopup: "/images/portfolio/work-3.png",
     dataId: "work-3",
     meta: "Branding, Motion Video",
   },
@@ -88,7 +88,7 @@ export const portfolioContentfour: PortfolioItem[] = [
     title: "LW Poster",
     date: "2021",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/work-6.png",
+    imgPopup: "/images/portfolio/work-6.png",
     dataId: "work-4",
     meta: "Illustration",
   },
@@ -97,7 +97,7 @@ export const portfolioContentfour: PortfolioItem[] = [
     title: "Taskly Dashboard",
     date: "2021",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/work-5.png",
+    imgPopup: "/images/portfolio/work-5.png",
     dataId: "work-5",
     meta: "Web Design",
   },
@@ -106,7 +106,7 @@ export const portfolioContentfour: PortfolioItem[] = [
     title: "Swiss Style Poster",
     date: "2021",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/work-2.png",
+    imgPopup: "/images/portfolio/work-2.png",
     dataId: "work-6",
     meta: "Branding, Motion",
   },
@@ -115,7 +115,7 @@ export const portfolioContentfour: PortfolioItem[] = [
     title: "Firm & Art Festival",
     date: "2021",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/work-6.png",
+    imgPopup: "/images/portfolio/work-6.png",
     dataId: "work-7",
     meta: "Branding, Motion",
   },
@@ -124,7 +124,7 @@ export const portfolioContentfour: PortfolioItem[] = [
     title: "Dark Whisky Wine",
     date: "2021",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/work-1.png",
+    imgPopup: "/images/portfolio/work-1.png",
     dataId: "work-8",
 
     meta: "Illustration",
@@ -134,7 +134,7 @@ export const portfolioContentfour: PortfolioItem[] = [
     title: "Liarch Archicture Firm",
     date: "2021",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/work-6.png",
+    imgPopup: "/images/portfolio/work-6.png",
     dataId: "work-9",
     meta: "Illustration",
   },
@@ -143,7 +143,7 @@ export const portfolioContentfour: PortfolioItem[] = [
     title: "Supro Online Store",
     date: "2021",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/work-5.png",
+    imgPopup: "/images/portfolio/work-5.png",
     dataId: "work-10",
     meta: "Web Design",
   },
@@ -152,7 +152,7 @@ export const portfolioContentfour: PortfolioItem[] = [
     title: "Andy Grammar Coach",
     date: "2021",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/work-1.png",
+    imgPopup: "/images/portfolio/work-1.png",
     dataId: "work-11",
     meta: "UI/UX Interaction",
   },
@@ -165,7 +165,7 @@ export const portfolioContentlisting: PortfolioItem[] = [
     title: "Supro Online Store",
     date: "2021",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/grid/work-1.png",
+    imgPopup: "/images/portfolio/grid/work-1.png",
     dataId: "work-1",
   },
   {
@@ -174,7 +174,7 @@ export const portfolioContentlisting: PortfolioItem[] = [
     title: "LW Poster",
     date: "2020",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/grid/work-2.png",
+    imgPopup: "/images/portfolio/grid/work-2.png",
     dataId: "work-2",
   },
   {
@@ -183,7 +183,7 @@ export const portfolioContentlisting: PortfolioItem[] = [
     title: "Lewis Studio Website",
     date: "2020",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/grid/work-3.png",
+    imgPopup: "/images/portfolio/grid/work-3.png",
     dataId: "work-3",
   },
   {
@@ -192,7 +192,7 @@ export const portfolioContentlisting: PortfolioItem[] = [
     title: "SPA Brand",
     date: "2021",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/grid/work-4.png",
+    imgPopup: "/images/portfolio/grid/work-4.png",
     dataId: "work-4",
   },
   {
@@ -201,7 +201,7 @@ export const portfolioContentlisting: PortfolioItem[] = [
     title: "Taskly Dashboard",
     date: "2020",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/grid/work-5.png",
+    imgPopup: "/images/portfolio/grid/work-5.png",
     dataId: "work-5",
   },
   {
@@ -210,7 +210,7 @@ export const portfolioContentlisting: PortfolioItem[] = [
     title: "Film & Art Festival",
     date: "2020",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/grid/work-6.png",
+    imgPopup: "/images/portfolio/grid/work-6.png",
     dataId: "work-6",
   },
   {
@@ -219,7 +219,7 @@ export const portfolioContentlisting: PortfolioItem[] = [
     title: "Dark Wishky Wine",
     date: "2020",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/grid/work-7.png",
+    imgPopup: "/images/portfolio/grid/work-7.png",
     dataId: "work-7",
   },
 
@@ -229,22 +229,22 @@ export const portfolioContentlisting: PortfolioItem[] = [
 ];
 
 export const portfolioContentmasonry: PortfolioItem[] = [
-  { id: 30, img: "/assets/img/portfolio/masonry/work-1.png", meta: "Web Design", title: "Supro Online Store" },
-  { id: 31, img: "/assets/img/portfolio/masonry/work-3.png", meta: "Web Design, Branding ,Packaging", title: "FG Print Brand" },
-  { id: 32, img: "/assets/img/portfolio/masonry/work-5.png", meta: "Web Design", title: "Taskly Dashboard" },
-  { id: 33, img: "/assets/img/portfolio/masonry/work-4.png", meta: "Illustration", title: "LW Poster" },
-  { id: 34, img: "/assets/img/portfolio/masonry/work-2.png", meta: "Branding, Motion ,Animation", title: "Film & Art Festival" },
-  { id: 35, img: "/assets/img/portfolio/masonry/work-6.png", meta: "Branding, Motion ,Animation", title: "Dark Wishky Wine" },
+  { id: 30, img: "/images/portfolio/masonry/work-1.png", meta: "Web Design", title: "Supro Online Store" },
+  { id: 31, img: "/images/portfolio/masonry/work-3.png", meta: "Web Design, Branding ,Packaging", title: "FG Print Brand" },
+  { id: 32, img: "/images/portfolio/masonry/work-5.png", meta: "Web Design", title: "Taskly Dashboard" },
+  { id: 33, img: "/images/portfolio/masonry/work-4.png", meta: "Illustration", title: "LW Poster" },
+  { id: 34, img: "/images/portfolio/masonry/work-2.png", meta: "Branding, Motion ,Animation", title: "Film & Art Festival" },
+  { id: 35, img: "/images/portfolio/masonry/work-6.png", meta: "Branding, Motion ,Animation", title: "Dark Wishky Wine" },
 ];
 
 export const portfolioContentsix: PortfolioItem[] = [
 
-  { id: 36, img: "/assets/img/home/modern/work-1.png", meta: "Web Design", title: "Supro Online Store" },
-  { id: 37, img: "/assets/img/home/modern/work-2.png", meta: "Web Design, Branding ,Packaging", title: "FG Print Brand" },
-  { id: 38, img: "/assets/img/home/modern/work-4.png", meta: "Web Design", title: "Taskly Dashboard" },
-  { id: 39, img: "/assets/img/home/modern/work-3.png", meta: "Illustration", title: "LW Poster" },
-  { id: 40, img: "/assets/img/home/modern/work-6.png", meta: "Branding, Motion ,Animation", title: "Film & Art Festival" },
-  { id: 41, img: "/assets/img/home/modern/work-5.png", meta: "Branding, Motion ,Animation", title: "Dark Wishky Wine" },
+  { id: 36, img: "/images/home/modern/work-1.png", meta: "Web Design", title: "Supro Online Store" },
+  { id: 37, img: "/images/home/modern/work-2.png", meta: "Web Design, Branding ,Packaging", title: "FG Print Brand" },
+  { id: 38, img: "/images/home/modern/work-4.png", meta: "Web Design", title: "Taskly Dashboard" },
+  { id: 39, img: "/images/home/modern/work-3.png", meta: "Illustration", title: "LW Poster" },
+  { id: 40, img: "/images/home/modern/work-6.png", meta: "Branding, Motion ,Animation", title: "Film & Art Festival" },
+  { id: 41, img: "/images/home/modern/work-5.png", meta: "Branding, Motion ,Animation", title: "Dark Wishky Wine" },
 
 
 
@@ -253,37 +253,37 @@ export const portfolioContentsix: PortfolioItem[] = [
 export const portfolioContentthree: PortfolioItem[] = [
   {
     id: 42,
-    img: "/assets/img/home/studio/work-1.png",
+    img: "/images/home/studio/work-1.png",
     categorie: "UI/UX",
     title: "Taskly Dashboard",
   },
   {
     id: 43,
-    img: "/assets/img/home/studio/work-2.png",
+    img: "/images/home/studio/work-2.png",
     categorie: "Product",
     title: "Film & Art Festival",
   },
   {
     id: 44,
-    img: "/assets/img/home/studio/work-3.png",
+    img: "/images/home/studio/work-3.png",
     categorie: "Branding, Packaging",
     title: "Dark Wishky Wine",
   },
   {
     id: 45,
-    img: "/assets/img/home/studio/work-4.png",
+    img: "/images/home/studio/work-4.png",
     categorie: "Illustration",
     title: "Swiss Style Poster",
   },
   {
     id: 46,
-    img: "/assets/img/home/studio/work-5.png",
+    img: "/images/home/studio/work-5.png",
     categorie: "UI/UX",
     title: "Liarch Architecture Firm",
   },
   {
     id: 47,
-    img: "/assets/img/home/studio/work-6.png",
+    img: "/images/home/studio/work-6.png",
     categorie: "UI/UX",
     title: "Andy Grammer",
   },
@@ -296,7 +296,7 @@ export const portfolioContenttwo: PortfolioItem[] = [
     title: "Supro Online Store",
     date: "2021",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/grid/work-1.png",
+    imgPopup: "/images/portfolio/grid/work-1.png",
     dataId: "work-1",
   },
   {
@@ -305,7 +305,7 @@ export const portfolioContenttwo: PortfolioItem[] = [
     title: "LW Poster",
     date: "2020",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/grid/work-2.png",
+    imgPopup: "/images/portfolio/grid/work-2.png",
     dataId: "work-2",
   },
   {
@@ -314,7 +314,7 @@ export const portfolioContenttwo: PortfolioItem[] = [
     title: "Lewis Studio Website",
     date: "2020",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/grid/work-3.png",
+    imgPopup: "/images/portfolio/grid/work-3.png",
     dataId: "work-3",
   },
   {
@@ -323,7 +323,7 @@ export const portfolioContenttwo: PortfolioItem[] = [
     title: "SPA Brand",
     date: "2021",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/grid/work-4.png",
+    imgPopup: "/images/portfolio/grid/work-4.png",
     dataId: "work-4",
   },
   {
@@ -332,7 +332,7 @@ export const portfolioContenttwo: PortfolioItem[] = [
     title: "Taskly Dashboard",
     date: "2020",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/grid/work-5.png",
+    imgPopup: "/images/portfolio/grid/work-5.png",
     dataId: "work-5",
   },
   {
@@ -341,7 +341,7 @@ export const portfolioContenttwo: PortfolioItem[] = [
     title: "Film & Art Festival",
     date: "2020",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/grid/work-6.png",
+    imgPopup: "/images/portfolio/grid/work-6.png",
     dataId: "work-6",
   },
   {
@@ -350,25 +350,25 @@ export const portfolioContenttwo: PortfolioItem[] = [
     title: "Dark Wishky Wine",
     date: "2020",
     routerLink: "/portfolio-details",
-    imgPopup: "/assets/img/portfolio/grid/work-7.png",
+    imgPopup: "/images/portfolio/grid/work-7.png",
     dataId: "work-7",
   },
 ];
 
 export const portfolioContentRelated: PortfolioItem[] = [
-  { id: 55, img: "/assets/img/portfolio/work-1.png", categorie: "UI/UX", title: "Taskly Dashboard" },
-  { id: 56, img: "/assets/img/portfolio/work-2.png", categorie: "Product", title: "Film & Art Festival" },
+  { id: 55, img: "/images/portfolio/work-1.png", categorie: "UI/UX", title: "Taskly Dashboard" },
+  { id: 56, img: "/images/portfolio/work-2.png", categorie: "Product", title: "Film & Art Festival" },
   {
     id: 57,
-    img: "/assets/img/portfolio/work-3.png",
+    img: "/images/portfolio/work-3.png",
     categorie: "Branding, Packaging",
     title: "Dark Wishky Wine",
   },
-  { id: 58, img: "/assets/img/portfolio/work-4.png", categorie: "Illustration", title: "Swiss Style Poster" },
-  { id: 59, img: "/assets/img/portfolio/work-5.png", categorie: "UI/UX", title: "Liarch Architecture Firm" },
+  { id: 58, img: "/images/portfolio/work-4.png", categorie: "Illustration", title: "Swiss Style Poster" },
+  { id: 59, img: "/images/portfolio/work-5.png", categorie: "UI/UX", title: "Liarch Architecture Firm" },
   {
     id: 60,
-    img: "/assets/img/portfolio/work-6.png",
+    img: "/images/portfolio/work-6.png",
     categorie: "Branding, Packaging, Motion Video",
     title: "FG Print Brand",
   },

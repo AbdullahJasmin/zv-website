@@ -19,7 +19,7 @@ const ComingSoon = () => {
             className="min-vh-100 jarallax"
             style={{
               backgroundImage: `url(${
-                "" + "/assets/img/root/coming-soon-background.png"
+                "" + "/images/root/coming-soon-background.png"
               })`,
             }}
           >
@@ -101,7 +101,7 @@ const ComingSoon = () => {
                       <Image
                         width={1200}
                         height={1200}
-                        src="/assets/img/root/coming-soon-logo.png"
+                        src="/images/root/coming-soon-logo.png"
                         alt=""
                         style={{
                           maxWidth: "33.25rem",

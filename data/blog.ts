@@ -17,7 +17,7 @@ export type BlogItem = {
 export const blogContent: BlogItem[] = [
     {
       id: 1,
-      img: "/assets/img/home/default/post-1.png",
+      img: "/images/home/default/post-1.png",
       cat: "Product",
       date: "Dec 15, 2021",
       title: "Review product BWIB",
@@ -26,7 +26,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:2 ,
-      img: "/assets/img/home/default/post-2.png",
+      img: "/images/home/default/post-2.png",
       cat: "Inspiration",
       date: "Dec 7, 2021",
       title: " Site inspiration with Swiss style",
@@ -35,7 +35,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:3 ,
-      img: "/assets/img/home/default/post-3.png",
+      img: "/images/home/default/post-3.png",
       cat: "Community",
       date: "Dec 7, 2021",
       title: "Minimalist Trends",
@@ -48,7 +48,7 @@ export const blogContent: BlogItem[] = [
  export const blogContentfive: BlogItem[] = [
     {
       id: 4,
-      img: "/assets/img/blog/listing/post-1.png",
+      img: "/images/blog/listing/post-1.png",
       categories: "Product",
       date: "Dec 15, 2021",
       title: "Minimalist Trends",
@@ -57,7 +57,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:5 ,
-      img: "/assets/img/blog/listing/post-2.png",
+      img: "/images/blog/listing/post-2.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "How to build photoshoots scene for product impress more",
@@ -66,7 +66,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:6 ,
-      img: "/assets/img/blog/listing/post-3.png",
+      img: "/images/blog/listing/post-3.png",
       categories: "COMMUNITY",
       date: "Dec 7, 2021",
       title: "The role of leader in teamwork",
@@ -75,7 +75,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:7 ,
-      img: "/assets/img/blog/listing/post-4.png",
+      img: "/images/blog/listing/post-4.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "Business Card, small but the most important",
@@ -84,7 +84,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 8,
-      img: "/assets/img/blog/listing/post-5.png",
+      img: "/images/blog/listing/post-5.png",
       categories: "Inspiration",
       date: "Nov 7, 2021",
       title: "Simple Logos Collection",
@@ -93,7 +93,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 9,
-      img: "/assets/img/blog/listing/post-1.png",
+      img: "/images/blog/listing/post-1.png",
       categories: "Product",
       date: "Dec 15, 2021",
       title: "Minimalist Trends",
@@ -102,7 +102,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:10 ,
-      img: "/assets/img/blog/listing/post-2.png",
+      img: "/images/blog/listing/post-2.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "How to build photoshoots scene for product impress more",
@@ -111,7 +111,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:11 ,
-      img: "/assets/img/blog/listing/post-3.png",
+      img: "/images/blog/listing/post-3.png",
       categories: "COMMUNITY",
       date: "Dec 7, 2021",
       title: "The role of leader in teamwork",
@@ -120,7 +120,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:12 ,
-      img: "/assets/img/blog/listing/post-4.png",
+      img: "/images/blog/listing/post-4.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "Business Card, small but the most important",
@@ -129,7 +129,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:13 ,
-      img: "/assets/img/blog/listing/post-5.png",
+      img: "/images/blog/listing/post-5.png",
       categories: "Inspiration",
       date: "Nov 7, 2021",
       title: "Simple Logos Collection",
@@ -138,7 +138,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 14,
-      img: "/assets/img/blog/listing/post-1.png",
+      img: "/images/blog/listing/post-1.png",
       categories: "Product",
       date: "Dec 15, 2021",
       title: "Minimalist Trends",
@@ -147,7 +147,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:15 ,
-      img: "/assets/img/blog/listing/post-2.png",
+      img: "/images/blog/listing/post-2.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "How to build photoshoots scene for product impress more",
@@ -156,7 +156,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 16,
-      img: "/assets/img/blog/listing/post-3.png",
+      img: "/images/blog/listing/post-3.png",
       categories: "COMMUNITY",
       date: "Dec 7, 2021",
       title: "The role of leader in teamwork",
@@ -165,7 +165,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:17 ,
-      img: "/assets/img/blog/listing/post-4.png",
+      img: "/images/blog/listing/post-4.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "Business Card, small but the most important",
@@ -174,7 +174,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 18,
-      img: "/assets/img/blog/listing/post-5.png",
+      img: "/images/blog/listing/post-5.png",
       categories: "Inspiration",
       date: "Nov 7, 2021",
       title: "Simple Logos Collection",
@@ -183,7 +183,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 19,
-      img: "/assets/img/blog/listing/post-1.png",
+      img: "/images/blog/listing/post-1.png",
       categories: "Product",
       date: "Dec 15, 2021",
       title: "Minimalist Trends",
@@ -192,7 +192,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:20 ,
-      img: "/assets/img/blog/listing/post-2.png",
+      img: "/images/blog/listing/post-2.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "How to build photoshoots scene for product impress more",
@@ -201,7 +201,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:21 ,
-      img: "/assets/img/blog/listing/post-3.png",
+      img: "/images/blog/listing/post-3.png",
       categories: "COMMUNITY",
       date: "Dec 7, 2021",
       title: "The role of leader in teamwork",
@@ -210,7 +210,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:22 ,
-      img: "/assets/img/blog/listing/post-4.png",
+      img: "/images/blog/listing/post-4.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "Business Card, small but the most important",
@@ -219,7 +219,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:23 ,
-      img: "/assets/img/blog/listing/post-5.png",
+      img: "/images/blog/listing/post-5.png",
       categories: "Inspiration",
       date: "Nov 7, 2021",
       title: "Simple Logos Collection",
@@ -228,7 +228,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:24 ,
-      img: "/assets/img/blog/listing/post-1.png",
+      img: "/images/blog/listing/post-1.png",
       categories: "Product",
       date: "Dec 15, 2021",
       title: "Minimalist Trends",
@@ -237,7 +237,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:25 ,
-      img: "/assets/img/blog/listing/post-2.png",
+      img: "/images/blog/listing/post-2.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "How to build photoshoots scene for product impress more",
@@ -246,7 +246,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:26 ,
-      img: "/assets/img/blog/listing/post-3.png",
+      img: "/images/blog/listing/post-3.png",
       categories: "COMMUNITY",
       date: "Dec 7, 2021",
       title: "The role of leader in teamwork",
@@ -255,7 +255,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:28 ,
-      img: "/assets/img/blog/listing/post-4.png",
+      img: "/images/blog/listing/post-4.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "Business Card, small but the most important",
@@ -264,7 +264,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:29 ,
-      img: "/assets/img/blog/listing/post-5.png",
+      img: "/images/blog/listing/post-5.png",
       categories: "Inspiration",
       date: "Nov 7, 2021",
       title: "Simple Logos Collection",
@@ -273,7 +273,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:30 ,
-      img: "/assets/img/blog/listing/post-1.png",
+      img: "/images/blog/listing/post-1.png",
       categories: "Product",
       date: "Dec 15, 2021",
       title: "Minimalist Trends",
@@ -282,7 +282,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:31 ,
-      img: "/assets/img/blog/listing/post-2.png",
+      img: "/images/blog/listing/post-2.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "How to build photoshoots scene for product impress more",
@@ -291,7 +291,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 32,
-      img: "/assets/img/blog/listing/post-3.png",
+      img: "/images/blog/listing/post-3.png",
       categories: "COMMUNITY",
       date: "Dec 7, 2021",
       title: "The role of leader in teamwork",
@@ -300,7 +300,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 33,
-      img: "/assets/img/blog/listing/post-4.png",
+      img: "/images/blog/listing/post-4.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "Business Card, small but the most important",
@@ -309,7 +309,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 34,
-      img: "/assets/img/blog/listing/post-5.png",
+      img: "/images/blog/listing/post-5.png",
       categories: "Inspiration",
       date: "Nov 7, 2021",
       title: "Simple Logos Collection",
@@ -318,7 +318,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 35,
-      img: "/assets/img/blog/listing/post-1.png",
+      img: "/images/blog/listing/post-1.png",
       categories: "Product",
       date: "Dec 15, 2021",
       title: "Minimalist Trends",
@@ -327,7 +327,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:36 ,
-      img: "/assets/img/blog/listing/post-2.png",
+      img: "/images/blog/listing/post-2.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "How to build photoshoots scene for product impress more",
@@ -336,7 +336,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:37 ,
-      img: "/assets/img/blog/listing/post-3.png",
+      img: "/images/blog/listing/post-3.png",
       categories: "COMMUNITY",
       date: "Dec 7, 2021",
       title: "The role of leader in teamwork",
@@ -345,7 +345,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:38 ,
-      img: "/assets/img/blog/listing/post-4.png",
+      img: "/images/blog/listing/post-4.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "Business Card, small but the most important",
@@ -354,7 +354,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 39,
-      img: "/assets/img/blog/listing/post-5.png",
+      img: "/images/blog/listing/post-5.png",
       categories: "Inspiration",
       date: "Nov 7, 2021",
       title: "Simple Logos Collection",
@@ -363,7 +363,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:40 ,
-      img: "/assets/img/blog/listing/post-1.png",
+      img: "/images/blog/listing/post-1.png",
       categories: "Product",
       date: "Dec 15, 2021",
       title: "Minimalist Trends",
@@ -372,7 +372,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 41,
-      img: "/assets/img/blog/listing/post-2.png",
+      img: "/images/blog/listing/post-2.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "How to build photoshoots scene for product impress more",
@@ -381,7 +381,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:42 ,
-      img: "/assets/img/blog/listing/post-3.png",
+      img: "/images/blog/listing/post-3.png",
       categories: "COMMUNITY",
       date: "Dec 7, 2021",
       title: "The role of leader in teamwork",
@@ -390,7 +390,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:43 ,
-      img: "/assets/img/blog/listing/post-4.png",
+      img: "/images/blog/listing/post-4.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "Business Card, small but the most important",
@@ -399,7 +399,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 44,
-      img: "/assets/img/blog/listing/post-5.png",
+      img: "/images/blog/listing/post-5.png",
       categories: "Inspiration",
       date: "Nov 7, 2021",
       title: "Simple Logos Collection",
@@ -408,7 +408,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:45 ,
-      img: "/assets/img/blog/listing/post-1.png",
+      img: "/images/blog/listing/post-1.png",
       categories: "Product",
       date: "Dec 15, 2021",
       title: "Minimalist Trends",
@@ -417,7 +417,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:46 ,
-      img: "/assets/img/blog/listing/post-2.png",
+      img: "/images/blog/listing/post-2.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "How to build photoshoots scene for product impress more",
@@ -426,7 +426,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:47 ,
-      img: "/assets/img/blog/listing/post-3.png",
+      img: "/images/blog/listing/post-3.png",
       categories: "COMMUNITY",
       date: "Dec 7, 2021",
       title: "The role of leader in teamwork",
@@ -435,7 +435,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:48 ,
-      img: "/assets/img/blog/listing/post-4.png",
+      img: "/images/blog/listing/post-4.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "Business Card, small but the most important",
@@ -444,7 +444,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 49,
-      img: "/assets/img/blog/listing/post-5.png",
+      img: "/images/blog/listing/post-5.png",
       categories: "Inspiration",
       date: "Nov 7, 2021",
       title: "Simple Logos Collection",
@@ -453,7 +453,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:50 ,
-      img: "/assets/img/blog/listing/post-1.png",
+      img: "/images/blog/listing/post-1.png",
       categories: "Product",
       date: "Dec 15, 2021",
       title: "Minimalist Trends",
@@ -462,7 +462,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 51,
-      img: "/assets/img/blog/listing/post-2.png",
+      img: "/images/blog/listing/post-2.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "How to build photoshoots scene for product impress more",
@@ -471,7 +471,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:52 ,
-      img: "/assets/img/blog/listing/post-3.png",
+      img: "/images/blog/listing/post-3.png",
       categories: "COMMUNITY",
       date: "Dec 7, 2021",
       title: "The role of leader in teamwork",
@@ -480,7 +480,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 53,
-      img: "/assets/img/blog/listing/post-4.png",
+      img: "/images/blog/listing/post-4.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "Business Card, small but the most important",
@@ -489,7 +489,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:54 ,
-      img: "/assets/img/blog/listing/post-5.png",
+      img: "/images/blog/listing/post-5.png",
       categories: "Inspiration",
       date: "Nov 7, 2021",
       title: "Simple Logos Collection",
@@ -498,7 +498,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 55,
-      img: "/assets/img/blog/listing/post-1.png",
+      img: "/images/blog/listing/post-1.png",
       categories: "Product",
       date: "Dec 15, 2021",
       title: "Minimalist Trends",
@@ -507,7 +507,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:56 ,
-      img: "/assets/img/blog/listing/post-2.png",
+      img: "/images/blog/listing/post-2.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "How to build photoshoots scene for product impress more",
@@ -516,7 +516,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 57,
-      img: "/assets/img/blog/listing/post-3.png",
+      img: "/images/blog/listing/post-3.png",
       categories: "COMMUNITY",
       date: "Dec 7, 2021",
       title: "The role of leader in teamwork",
@@ -525,7 +525,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:58 ,
-      img: "/assets/img/blog/listing/post-4.png",
+      img: "/images/blog/listing/post-4.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "Business Card, small but the most important",
@@ -534,7 +534,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:59 ,
-      img: "/assets/img/blog/listing/post-5.png",
+      img: "/images/blog/listing/post-5.png",
       categories: "Inspiration",
       date: "Nov 7, 2021",
       title: "Simple Logos Collection",
@@ -543,7 +543,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 60,
-      img: "/assets/img/blog/listing/post-1.png",
+      img: "/images/blog/listing/post-1.png",
       categories: "Product",
       date: "Dec 15, 2021",
       title: "Minimalist Trends",
@@ -552,7 +552,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 61,
-      img: "/assets/img/blog/listing/post-2.png",
+      img: "/images/blog/listing/post-2.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "How to build photoshoots scene for product impress more",
@@ -561,7 +561,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 62,
-      img: "/assets/img/blog/listing/post-3.png",
+      img: "/images/blog/listing/post-3.png",
       categories: "COMMUNITY",
       date: "Dec 7, 2021",
       title: "The role of leader in teamwork",
@@ -570,7 +570,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:63 ,
-      img: "/assets/img/blog/listing/post-4.png",
+      img: "/images/blog/listing/post-4.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "Business Card, small but the most important",
@@ -579,7 +579,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 64,
-      img: "/assets/img/blog/listing/post-5.png",
+      img: "/images/blog/listing/post-5.png",
       categories: "Inspiration",
       date: "Nov 7, 2021",
       title: "Simple Logos Collection",
@@ -588,7 +588,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:65 ,
-      img: "/assets/img/blog/listing/post-1.png",
+      img: "/images/blog/listing/post-1.png",
       categories: "Product",
       date: "Dec 15, 2021",
       title: "Minimalist Trends",
@@ -597,7 +597,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:66 ,
-      img: "/assets/img/blog/listing/post-2.png",
+      img: "/images/blog/listing/post-2.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "How to build photoshoots scene for product impress more",
@@ -606,7 +606,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:67 ,
-      img: "/assets/img/blog/listing/post-3.png",
+      img: "/images/blog/listing/post-3.png",
       categories: "COMMUNITY",
       date: "Dec 7, 2021",
       title: "The role of leader in teamwork",
@@ -615,7 +615,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:68 ,
-      img: "/assets/img/blog/listing/post-4.png",
+      img: "/images/blog/listing/post-4.png",
       categories: "Inspiration",
       date: "Dec 15, 2021",
       title: "Business Card, small but the most important",
@@ -624,7 +624,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:69 ,
-      img: "/assets/img/blog/listing/post-5.png",
+      img: "/images/blog/listing/post-5.png",
       categories: "Inspiration",
       date: "Nov 7, 2021",
       title: "Simple Logos Collection",
@@ -637,7 +637,7 @@ export const blogContent: BlogItem[] = [
  export const blogContentFour: BlogItem[] = [
     {
       id: 70,
-      img: "/assets/img/blog/grid/post-4.png",
+      img: "/images/blog/grid/post-4.png",
       cat: "Product",
       date: "Dec 15, 2021",
       title: "site inspiration with Swiss style",
@@ -645,7 +645,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 71,
-      img: "/assets/img/blog/grid/post-3.png",
+      img: "/images/blog/grid/post-3.png",
       cat: "Inspiration",
       date: "Dec 7, 2021",
   
@@ -657,7 +657,7 @@ export const blogContent: BlogItem[] = [
  export const BlogGridContent: BlogItem[] = [
     {
       id: 72,
-      img: "/assets/img/blog/slider/post-1.png",
+      img: "/images/blog/slider/post-1.png",
       date: "Dec 7, 2021",
       title: "How to use solid color combine with simple furnitures",
       descriptions: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -666,7 +666,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 73,
-      img: "/assets/img/blog/slider/post-2.png",
+      img: "/images/blog/slider/post-2.png",
       date: "Dec 11, 2021",
       title: "The evolution of Swiss style in Interaction Design",
       descriptions: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -675,7 +675,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 74,
-      img: "/assets/img/blog/slider/post-3.png",
+      img: "/images/blog/slider/post-3.png",
       date: "Dec 7, 2021",
       title: "The evolution of Swiss style in Interaction Design",
       descriptions: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -688,7 +688,7 @@ export const blogContent: BlogItem[] = [
  export const blogContentmansorygrid: BlogItem[] = [
     {
       id:75 ,
-      img: "/assets/img/blog/masonry/post-1.png",
+      img: "/images/blog/masonry/post-1.png",
       cat: "Product",
       date: "Dec 15, 2021",
       title: "Review product BWIB",
@@ -697,7 +697,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:76 ,
-      img: "/assets/img/blog/masonry/post-2.png",
+      img: "/images/blog/masonry/post-2.png",
       cat: "Inspiration",
       date: "Dec 15, 2021",
       title: "The evolution of Swiss style in Interaction Design",
@@ -706,7 +706,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:77 ,
-      img: "/assets/img/blog/masonry/post-3.png",
+      img: "/images/blog/masonry/post-3.png",
       cat: "Community",
       date: "Dec 15, 2021",
       title: "Design Trends - Stage 14",
@@ -715,7 +715,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:78 ,
-      img: "/assets/img/blog/masonry/post-4.png",
+      img: "/images/blog/masonry/post-4.png",
       cat: "Inspiration",
       date: "Dec 15, 2021",
       title: "Site inspiration with Swiss style",
@@ -724,7 +724,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:79 ,
-      img: "/assets/img/blog/masonry/post-5.png",
+      img: "/images/blog/masonry/post-5.png",
       cat: "Inspiration",
       date: "Dec 15, 2021",
       title: " Contrast in Brand Design",
@@ -733,7 +733,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:80 ,
-      img: "/assets/img/blog/masonry/post-6.png",
+      img: "/images/blog/masonry/post-6.png",
       cat: "Inspiration",
       date: "Dec 15, 2021",
       title: "Minimalist Trends",
@@ -742,7 +742,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:81 ,
-      img: "/assets/img/blog/masonry/post-7.png",
+      img: "/images/blog/masonry/post-7.png",
       cat: "Inspiration",
       date: "Dec 15, 2021",
       title: "The role of leader inteamwork",
@@ -751,7 +751,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:82 ,
-      img: "/assets/img/blog/masonry/post-8.png",
+      img: "/images/blog/masonry/post-8.png",
       cat: "Community",
       date: "Dec 15, 2021",
       title: "Simple Logos Collection",
@@ -760,7 +760,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 83,
-      img: "/assets/img/blog/masonry/post-9.png",
+      img: "/images/blog/masonry/post-9.png",
       cat: "Inspiration",
       date: "Dec 15, 2021",
       title: "  How to build photoshoots scene for product impress more",
@@ -769,7 +769,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id: 84,
-      img: "/assets/img/blog/masonry/post-10.png",
+      img: "/images/blog/masonry/post-10.png",
       cat: "Product",
       date: "Dec 15, 2021",
       title: "Krown, Clothing & Accessories",
@@ -778,7 +778,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:85 ,
-      img: "/assets/img/blog/masonry/post-11.png",
+      img: "/images/blog/masonry/post-11.png",
       cat: "Inspiration",
       date: "Dec 15, 2021",
       title: " Graphic in the life",
@@ -787,7 +787,7 @@ export const blogContent: BlogItem[] = [
     },
     {
       id:86 ,
-      img: "/assets/img/blog/masonry/post-12.png",
+      img: "/images/blog/masonry/post-12.png",
       cat: "Community",
       date: "Dec 15, 2021",
       title: "UX Process",
@@ -799,63 +799,63 @@ export const blogContent: BlogItem[] = [
   export const blogContentthree: BlogItem[] = [
     {
       id:87 ,
-      img: "/assets/img/blog/grid/post-1.png",
+      img: "/images/blog/grid/post-1.png",
       cat: "Product",
       date: "Dec 15, 2021",
       title: "Review product BWIB",
     },
     {
       id:88 ,
-      img: "/assets/img/blog/grid/post-2.png",
+      img: "/images/blog/grid/post-2.png",
       cat: "Inspiration",
       date: "Dec 7, 2021",
       title: "Contrast in Brand Design",
     },
     {
       id:89 ,
-      img: "/assets/img/blog/grid/post-3.png",
+      img: "/images/blog/grid/post-3.png",
       cat: "Community",
       date: "Dec 7, 2021",
       title: "The evolution of Swiss style in Interaction Design",
     },
     {
       id:90 ,
-      img: "/assets/img/blog/grid/post-4.png",
+      img: "/images/blog/grid/post-4.png",
       cat: "Product",
       date: "Dec 15, 2021",
       title: "Site inspiration with Swiss style",
     },
     {
       id:91 ,
-      img: "/assets/img/blog/grid/post-5.png",
+      img: "/images/blog/grid/post-5.png",
       cat: "Inspiration",
       date: "Dec 7, 2021",
       title: "Minimalist Trends",
     },
     {
       id: 92,
-      img: "/assets/img/blog/grid/post-6.png",
+      img: "/images/blog/grid/post-6.png",
       cat: "Community",
       date: "Dec 7, 2021",
       title: "Design Trends - Stage 14",
     },
     {
       id: 93,
-      img: "/assets/img/blog/grid/post-7.png",
+      img: "/images/blog/grid/post-7.png",
       cat: "Product",
       date: "Dec 15, 2021",
       title: "Business Card, small but the most important",
     },
     {
       id:94 ,
-      img: "/assets/img/blog/grid/post-8.png",
+      img: "/images/blog/grid/post-8.png",
       cat: "Inspiration",
       date: "Dec 7, 2021",
       title: "The role of leader in teamwork",
     },
     {
       id: 95,
-      img: "/assets/img/blog/grid/post-9.png",
+      img: "/images/blog/grid/post-9.png",
       cat: "Community",
       date: "Dec 7, 2021",
       title: "Simple Logos Collection",
@@ -865,21 +865,21 @@ export const blogContent: BlogItem[] = [
  export const blogContenttwo: BlogItem[] = [
   {
     id:96 ,
-    img: "/assets/img/blog/grid/post-10.png",
+    img: "/images/blog/grid/post-10.png",
     cat: "Product",
     date: "Dec 15, 2021",
     title: "Review product BWIB",
   },
   {
     id: 97,
-    img: "/assets/img/blog/grid/post-2.png",
+    img: "/images/blog/grid/post-2.png",
     cat: "Inspiration",
     date: "Dec 7, 2021",
     title: " Site inspiration with Swiss style",
   },
   {
     id: 98,
-    img: "/assets/img/blog/grid/post-3.png",
+    img: "/images/blog/grid/post-3.png",
     cat: "Community",
     date: "Dec 7, 2021",
     title: "Minimalist Trends",
@@ -889,14 +889,14 @@ export const blogContent: BlogItem[] = [
 export const relatedPost: BlogItem[] = [
   {
     id:99 ,
-    img: "/assets/img/blog/grid/post-1.png",
+    img: "/images/blog/grid/post-1.png",
     cat: "Product",
     date: "Dec 15, 2021",
     title: "Review product BWIB",
   },
   {
     id:100 ,
-    img: "/assets/img/blog/grid/post-2.png",
+    img: "/images/blog/grid/post-2.png",
     cat: "Inspiration",
     date: "Dec 7, 2021",
     title: "Contrast in Brand Design",
@@ -908,28 +908,28 @@ export const popularPostContent: BlogItem[] = [
     postNumber: "1",
     catName: "Inspiration",
     title: "Minimalist Trends",
-    img: "/assets/img/blog/grid/post-3.png",
+    img: "/images/blog/grid/post-3.png",
   },
   {
     id:102 ,
     postNumber: "2",
     catName: "News",
     title: "Contrast in Brand Design",
-    img: "/assets/img/blog/grid/post-2.png",
+    img: "/images/blog/grid/post-2.png",
   },
   {
     id:103 ,
     postNumber: "3",
     catName: "Product",
     title: "The evolution of Swiss style in ...",
-    img: "/assets/img/blog/grid/post-3.png",
+    img: "/images/blog/grid/post-3.png",
   },
   {
     id:104 ,
     postNumber: "4",
     catName: "Others",
     title: "Site inspiration with Swiss style",
-    img: "/assets/img/blog/grid/post-2.png",
+    img: "/images/blog/grid/post-2.png",
   },
 ];
 

@@ -13,7 +13,12 @@ const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
 });
 
 
-import "../public/assets/scss/main.scss";
+import "../styles/main.scss";
+import "../styles/fonts/1.css";
+import "../styles/fonts/2.css";
+import "../styles/fonts/3.css";
+import "../styles/fonts/4.css";
+
 const ScrollToTop = dynamic(() => import("../components/ScrollToTop"), {
   ssr: false,
 });

@@ -146,7 +146,7 @@ const HeroDefault = () => {
               height={1200}
               style={{ width: "100%", height: "100%" }}
               className="spin"
-              src="/assets/img/root/home-default/circle-text.png"
+              src="/images/root/home-default/circle-text.png"
               alt="logo"
               loading="lazy"
             />
@@ -154,7 +154,7 @@ const HeroDefault = () => {
               width={1200}
               height={1200}
               style={{ width: "100%", height: "100%" }}
-              src="/assets/img/root/home-default/circle-logo.png"
+              src="/images/root/home-default/circle-logo.png"
               alt="logo"
               loading="lazy"
             />

@@ -13,7 +13,7 @@ const BlogComment = () => {
               width={70}
               height={70}
               style={{ objectFit: "cover" }}
-              src="/assets/img/root/comment-avatar-1.png"
+              src="/images/root/comment-avatar-1.png"
               alt="comment author"
               loading="lazy"
             />
@@ -47,7 +47,7 @@ const BlogComment = () => {
                   width={1200}
                   height={1200}
                   style={{ width: "45px", height: "45px" }}
-                  src="/assets/img/root/comment-avatar-2.png"
+                  src="/images/root/comment-avatar-2.png"
                   alt="avatar"
                   loading="lazy"
                 />
@@ -84,7 +84,7 @@ const BlogComment = () => {
               width={1200}
               height={1200}
               style={{ width: "70px", height: "70px" }}
-              src="/assets/img/root/comment-avatar-3.png"
+              src="/images/root/comment-avatar-3.png"
               alt="avatar"
               loading="lazy"
             />

@@ -58,7 +58,7 @@ const BrandFour = () => {
                       height: "57px",
                       objectFit: "contain",
                     }}
-                    src={`/assets/img/root/advantages/${val.icon}.png`}
+                    src={`/images/root/advantages/${val.icon}.png`}
                     alt="Figma"
                     loading="lazy"
                   />

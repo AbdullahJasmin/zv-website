@@ -46,7 +46,7 @@ export default function ScrollToTop() {
             <Image
                       width={1200}
                       height={1200}
-                      style={{width : '17px' , height: '17px'}} src="/assets/img/chevron-w.png" alt="icon" />
+                      style={{width : '17px' , height: '17px'}} src="/images/chevron-w.png" alt="icon" />
           </button>
         </div>
       )}

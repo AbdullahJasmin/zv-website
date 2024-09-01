@@ -6,13 +6,13 @@ import Image from "next/image";
 
 const imageList = [
   {
-    img: "/assets/img/blog/single-post/content-image-1.png",
+    img: "/images/blog/single-post/content-image-1.png",
     delayAnimation: "0",
     imageOwner: "@element5digital",
     link: "https://element5digital.com/",
   },
   {
-    img: "/assets/img/blog/single-post/content-image-2.png",
+    img: "/images/blog/single-post/content-image-2.png",
     delayAnimation: "100",
     imageOwner: "@insideweather",
     link: "https://insideweather.com/",

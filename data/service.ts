@@ -191,11 +191,10 @@ export const serviceContentfour: ServiceItem[] = [
 ];
 
 export const serviceListfive: ServiceItem[] = [
-  { id: 37, name: "Branding", number: "17" },
-  { id: 38, name: " Interaction Design", number: "54" },
-  { id: 39, name: "Motion", number: "6" },
-  { id: 40, name: "Illustration", number: "9" },
-  { id: 41, name: "Photography", number: "25" },
+  { id: 1, name: "Full Stack Web Development", number: "1" },
+  { id: 2, name: "Mobile App Development", number: "2" },
+  { id: 3, name: "AI Solutions", number: "3" },
+  { id: 4, name: "IT Consultant", number: "4" },
 ];
 
 
@@ -239,16 +238,11 @@ export const brandContent: ServiceItem[] = [
 
 
 export const listContenttwo: ServiceItem[] = [
-  { id: 56, name: "SEO" }
-  ,
-  { id: 57, name: "Marketing Strategy" }
-  ,
-  { id: 58, name: "Email Marketing" }
-  ,
-  { id: 59, name: "GG/FB ADs" }
-  ,
-  { id: 60, name: "Content Writing" }
-  ,
+  { id: 11, name: "Branding" },
+  { id: 12, name: "UI/UX Design" },
+  { id: 13, name: "WordPress Development" },
+  { id: 14, name: "Digital Marketing" },
+  { id: 15, name: "Social Media Management" },
 ];
 
 

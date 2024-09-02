@@ -4,13 +4,12 @@ import React from "react";
 import Link from "next/link";
 
 const footerItems = [
-  { itemName: "Faqs", link: "" },
+  { itemName: "FAQs", link: "" },
   { itemName: "Term & Conditions", link: "" },
   { itemName: "Privacy Policy", link: "" },
-  { itemName: "Help", link: "" },
-  { itemName: "Works", link: "" },
-  { itemName: "Studio", link: "" },
-  { itemName: "News", link: "" },
+  { itemName: "Contact Us", link: "" },
+  { itemName: "ZV Digital", link: "https://zavolt.digital" },
+  { itemName: "Blog", link: "https://blog.zavolt.com" },
 ];
 
 const FooterList = () => {

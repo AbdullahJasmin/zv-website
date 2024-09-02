@@ -3,7 +3,7 @@
 import React from "react";
 import SocialTwo from "../../social/SocialTwo";
 import Image from "next/image";
-const logo = "/images/root/logo-dark.png";
+const logo = "/images/root/logo-white.png";
 
 const CopyRight = () => {
   return (
@@ -11,9 +11,9 @@ const CopyRight = () => {
       <div className="col-12 col-md">
         <a href="#">
           <Image
-            width={1200}
-            height={1200}
-            style={{ width: "141px", height: "46px" }}
+            width={950}
+            height={370}
+            style={{ width: "95px", height: "37px" }}
             src={logo}
             alt="logo"
             loading="lazy"

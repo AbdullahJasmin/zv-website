@@ -11,9 +11,9 @@ const CopyRightTwo = () => {
       <div className="col-12 col-md-3">
         <a href="#">
           <Image
-                      width={1200}
-                      height={1200}
-                      style={{width : '151px' , height: '46px'}} src={logo} alt="logo" loading="lazy" />
+                      width={1280}
+                      height={500}
+                      style={{width : '128px' , height: '50px'}} src={logo} alt="logo" loading="lazy" />
         </a>
       </div>
       {/* End .col */}
@@ -23,14 +23,14 @@ const CopyRightTwo = () => {
           ©{new Date().getFullYear()}{" "}
           <span className="has-white-color">
             <a
-              href="https://themeforest.net/user/ib-themes"
+              href="https://zavolt.com"
               rel="noopener noreferrer"
               target="_blank"
             >
-              ib-themes
+              ZAVOLT (PVT) LTD
             </a>
           </span>
-          . All Rights Reserved.
+          &ensp;-&ensp;All Rights Reserved.
         </p>
       </div>
       {/* End .col */}

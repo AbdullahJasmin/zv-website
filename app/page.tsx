@@ -67,7 +67,7 @@ const HomeAgency = () => {
                           Directly
                         </div>
                         <div className="ptf-phone-block__phone">
-                          <a href="tel:+3796354868">(+37) 96 3548 68</a>
+                          <a href="tel:+94771281441">(+94) 77 128 1441</a>
                         </div>
                       </div>
                     </div>
@@ -109,7 +109,7 @@ const HomeAgency = () => {
                       data-aos-delay="0"
                     >
                       <h2 className="h1 large-heading has-accent-1">
-                        Creative Design & Advertising
+                        Creative Design & Development
                       </h2>
                     </div>
                   </div>
@@ -244,7 +244,7 @@ const HomeAgency = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2>Design</h2>
+                      <h2>ZaVolt</h2>
                       {/* <!--Spacer--> */}
                       <div
                         className="ptf-spacer"
@@ -270,7 +270,7 @@ const HomeAgency = () => {
                       data-aos="fade"
                       data-aos-delay="100"
                     >
-                      <h2>Advertising</h2>
+                      <h2>ZV Digital</h2>
                       {/* <!--Spacer--> */}
                       <div
                         className="ptf-spacer"
@@ -401,54 +401,54 @@ const HomeAgency = () => {
             {/*=============================================
             Start Pricing section
             ============================================== */}
-            <section>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                // @ts-ignore
-                style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}
-              ></div>
-              <div className="container">
-                {/* <!--Animated Block--> */}
-                <div
-                  className="ptf-animated-block"
-                  data-aos="fade"
-                  data-aos-delay="0"
-                >
-                  <h2 className="h1 large-heading has-accent-1">
-                    Pricing & Plan
-                  </h2>
-                </div>
-                {/* <!--Spacer--> */}
-                <div
-                  className="ptf-spacer"
-                  // @ts-ignore
-                  style={{ "--ptf-xxl": "3.75rem", "--ptf-md": "1.875rem" }}
-                ></div>
-              </div>
-              <div className="container">
-                <div
-                  className="row"
-                  // @ts-ignore
-                  style={{ "--bs-gutter-x": "2rem" }}
-                >
-                  <Pricing />
-                </div>
-              </div>
-              {/* <!--Spacer--> */}
-              <div
-                className="ptf-spacer"
-                // @ts-ignore
-                style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}
-              ></div>
-            </section>
+            {/*<section>*/}
+            {/*  /!* <!--Spacer--> *!/*/}
+            {/*  <div*/}
+            {/*    className="ptf-spacer"*/}
+            {/*    // @ts-ignore*/}
+            {/*    style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}*/}
+            {/*  ></div>*/}
+            {/*  <div className="container">*/}
+            {/*    /!* <!--Animated Block--> *!/*/}
+            {/*    <div*/}
+            {/*      className="ptf-animated-block"*/}
+            {/*      data-aos="fade"*/}
+            {/*      data-aos-delay="0"*/}
+            {/*    >*/}
+            {/*      <h2 className="h1 large-heading has-accent-1">*/}
+            {/*        Pricing & Plan*/}
+            {/*      </h2>*/}
+            {/*    </div>*/}
+            {/*    /!* <!--Spacer--> *!/*/}
+            {/*    <div*/}
+            {/*      className="ptf-spacer"*/}
+            {/*      // @ts-ignore*/}
+            {/*      style={{ "--ptf-xxl": "3.75rem", "--ptf-md": "1.875rem" }}*/}
+            {/*    ></div>*/}
+            {/*  </div>*/}
+            {/*  <div className="container">*/}
+            {/*    <div*/}
+            {/*      className="row"*/}
+            {/*      // @ts-ignore*/}
+            {/*      style={{ "--bs-gutter-x": "2rem" }}*/}
+            {/*    >*/}
+            {/*      <Pricing />*/}
+            {/*    </div>*/}
+            {/*  </div>*/}
+            {/*  /!* <!--Spacer--> *!/*/}
+            {/*  <div*/}
+            {/*    className="ptf-spacer"*/}
+            {/*    // @ts-ignore*/}
+            {/*    style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}*/}
+            {/*  ></div>*/}
+            {/*</section>*/}
 
-            <section>
-              <div className="container">
-                {/* <!--Divider--> */}
-                <div className="ptf-divider"></div>
-              </div>
-            </section>
+            {/*<section>*/}
+            {/*  <div className="container">*/}
+            {/*    /!* <!--Divider--> *!/*/}
+            {/*    <div className="ptf-divider"></div>*/}
+            {/*  </div>*/}
+            {/*</section>*/}
 
             {/*=============================================
           Start Testimonial section

@@ -2,7 +2,6 @@
 
 import React from "react";
 import CountUp from "react-countup";
-import VisibilitySensor from "react-visibility-sensor";
 
 const counterUpContent = [
   {
@@ -45,17 +44,6 @@ const CounterTwo = () => {
                   duration={1}
                   redraw={true}
                 >
-                  {({ countUpRef }) => (
-                    <VisibilitySensor
-                      onChange={(isVisible) => {
-                        if (isVisible) {
-                          setFocus(true);
-                        }
-                      }}
-                    >
-                      <span ref={countUpRef} />
-                    </VisibilitySensor>
-                  )}
                 </CountUp>
               </div>
               <h5 className="ptf-counter-up__title">

@@ -58,7 +58,7 @@ const WorksCarousel = () => {
                           has-black-color
                           d-none d-lg-inline-flex
                         "
-                      href="/works-grid"
+                      href="/projects-portfolio"
                       style={{ marginLeft: "5.625rem" }}
                     >
                       All Projects <i className="lnil lnil-chevron-right"></i>

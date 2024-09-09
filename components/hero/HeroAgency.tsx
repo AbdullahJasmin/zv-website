@@ -63,10 +63,11 @@ const HeroAgency = () => {
                 {/* <!--Button--> */}
                 <Link
                   className="ptf-btn ptf-btn--secondary"
-                  href="/discover"
+                  // href="/discover"
+                  href="/our-services"
                   style={{ marginLeft: "2rem" }}
                 >
-                  Discover Our Journey
+                  Our Services
                 </Link>
               </div>
             </div>

@@ -23,7 +23,7 @@ const HeaderMinimal = () => {
                   className="black"
                   src="/images/root/logo-dark.png"
                   alt="logo"
-                  loading="lazy"
+                  priority
                 />
                 <Image
                   width={151}
@@ -33,6 +33,7 @@ const HeaderMinimal = () => {
                   src="/images/root/logo-white.png"
                   alt="logo"
                   loading="lazy"
+                  priority
                 />
               </Link>
               {/* <!--Buttons--> */}

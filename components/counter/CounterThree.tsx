@@ -2,7 +2,6 @@
 
 import React from "react";
 import CountUp from "react-countup";
-import VisibilitySensor from "react-visibility-sensor";
 
 const counterUpContent = [
   {
@@ -63,17 +62,6 @@ const CounterThree = () => {
                   duration={1}
                   redraw={true}
                 >
-                  {({ countUpRef }) => (
-                    <VisibilitySensor
-                      onChange={(isVisible) => {
-                        if (isVisible) {
-                          setFocus(true);
-                        }
-                      }}
-                    >
-                      <span ref={countUpRef} />
-                    </VisibilitySensor>
-                  )}
                 </CountUp>
               </div>
             </div>

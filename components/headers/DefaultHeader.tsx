@@ -48,7 +48,7 @@ const DefaultHeader = () => {
                   className="black"
                   src="/images/root/logo-dark.png"
                   alt="logo"
-                  loading="lazy"
+                  priority  
                 />
                 <Image
                   width={151}
@@ -57,7 +57,7 @@ const DefaultHeader = () => {
                   className="white"
                   src="/images/root/logo-white.png"
                   alt="logo"
-                  loading="lazy"
+                  priority
                 />
               </Link>
               <nav className="ptf-nav ptf-nav--default">

@@ -85,7 +85,7 @@ const HomeAgency = () => {
             </section>
 
             <section>
-              <div className="container">
+              <div className="container px-3 px-lg-0">
                 {/* <!--Divider--> */}
                 <div className="ptf-divider"></div>
               </div>
@@ -108,7 +108,7 @@ const HomeAgency = () => {
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="h1 large-heading has-accent-1">
+                      <h2 className="h2 large-heading has-accent-1">
                         Creative Design & Development
                       </h2>
                     </div>
@@ -144,9 +144,11 @@ const HomeAgency = () => {
             {/* End  Advertising Big Title */}
 
             <section className="ptf-custom--3993 jarallax">
-              <div className="container">
+              <div className="-fluid px-3 px-lg-0">
                 <div className="row">
-                  <div className="col-lg-5 offset-lg-7">
+                  <div className="col-lg-5 offset-lg-7 px-lg-5" style={{
+                    backgroundColor: 'rgba(255,255,255,0.8)'
+                  }}>
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
@@ -210,7 +212,7 @@ const HomeAgency = () => {
             <section>
               {/* <!--Spacer--> */}
               <div
-                className="ptf-spacer"
+                className="ptf-spacer px-3 px-lg-0"
                 // @ts-ignore
                 style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
               ></div>
@@ -304,7 +306,7 @@ const HomeAgency = () => {
           Start Latest Works section
           ============================================== */}
             <section>
-              <div className="container">
+              <div className="container px-3 px-lg-0">
                 {/* <!--Animated Block--> */}
                 <div
                   className="ptf-animated-block"
@@ -314,21 +316,21 @@ const HomeAgency = () => {
                   <h2 className="h1 large-heading has-accent-1 d-inline-flex">
                     Latest Works
                   </h2>
-                  <Link
-                    className="ptf-link-with-arrow fz-18 text-uppercase d-none d-lg-inline-flex"
-                    href="/works-masonry"
-                    style={{ marginLeft: "5.625rem" }}
-                  >
-                    All Projects{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      style={{ height: "1em" }}
-                      viewBox="0 0 17 17"
-                    >
-                      <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z" />
-                    </svg>
-                  </Link>
+                  {/*<Link*/}
+                  {/*  className="ptf-link-with-arrow fz-18 text-uppercase d-none d-lg-inline-flex"*/}
+                  {/*  href="/works-masonry"*/}
+                  {/*  style={{ marginLeft: "5.625rem" }}*/}
+                  {/*>*/}
+                  {/*  All Projects{" "}*/}
+                  {/*  <svg*/}
+                  {/*    xmlns="http://www.w3.org/2000/svg"*/}
+                  {/*    fill="currentColor"*/}
+                  {/*    style={{ height: "1em" }}*/}
+                  {/*    viewBox="0 0 17 17"*/}
+                  {/*  >*/}
+                  {/*    <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z" />*/}
+                  {/*  </svg>*/}
+                  {/*</Link>*/}
                 </div>
                 {/* End .ptf-animated-block */}
 
@@ -365,7 +367,7 @@ const HomeAgency = () => {
             <section className="ptf-custom--1569">
               {/* <!--Spacer--> */}
               <div
-                className="ptf-spacer"
+                className="ptf-spacer px-"
                 // @ts-ignore
                 style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}
               ></div>

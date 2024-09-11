@@ -83,30 +83,30 @@ const HeaderHomeDefault = () => {
       </header>
       {/* End header */}
 
-      <div
-        className={
-          click1 ? "ptf-offcanvas-menu is-open" : "ptf-offcanvas-menu "
-        }
-      >
-        <div className="ptf-offcanvas-menu__header">
-          <div className="ptf-language-switcher">
-            <a className="is-active" href="#">
-              Eng
-            </a>
-            <a href="#">Fra</a>
-            <a href="#">Ger</a>
-          </div>
-          <span
-            className="ptf-offcanvas-menu-icon js-offcanvas-menu-toggle"
-            onClick={handleClick1}
-          >
-            <i className="lnir lnir-close"></i>
-          </span>
-        </div>
-        {/* End .ptf-offcanvas-menu__header */}
+      {/*<div*/}
+      {/*  className={*/}
+      {/*    click1 ? "ptf-offcanvas-menu is-open" : "ptf-offcanvas-menu "*/}
+      {/*  }*/}
+      {/*>*/}
+      {/*  <div className="ptf-offcanvas-menu__header">*/}
+      {/*    <div className="ptf-language-switcher">*/}
+      {/*      <a className="is-active" href="#">*/}
+      {/*        Eng*/}
+      {/*      </a>*/}
+      {/*      <a href="#">Fra</a>*/}
+      {/*      <a href="#">Ger</a>*/}
+      {/*    </div>*/}
+      {/*    <span*/}
+      {/*      className="ptf-offcanvas-menu-icon js-offcanvas-menu-toggle"*/}
+      {/*      onClick={handleClick1}*/}
+      {/*    >*/}
+      {/*      <i className="lnir lnir-close"></i>*/}
+      {/*    </span>*/}
+      {/*  </div>*/}
+      {/*  /!* End .ptf-offcanvas-menu__header *!/*/}
 
-        {/* <MobileMenu /> */}
-      </div>
+      {/*  /!* <MobileMenu /> *!/*/}
+      {/*</div>*/}
       {/* End sidebar menu */}
     </>
   );

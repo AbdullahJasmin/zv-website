@@ -27,11 +27,14 @@ export default function RootLayout({ children }) {
   const [showCursor, setShowCursor] = useState(false);
   useEffect(() => {
     AOS.init({
-      duration: 1200,
+      duration: 1000,
     });
 
     if (typeof window !== "undefined") {
-      setShowCursor(true);
+      const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+      if (!isTouchDevice) {
+        setShowCursor(true);
+      }
     }
   }, []);
   return (
@@ -48,7 +51,7 @@ export default function RootLayout({ children }) {
             outerScale={1.2}
           />
         )}
-        {showCursor && <ScrollToTop />}{" "}
+        <ScrollToTop />
       </body>
     </html>
   );

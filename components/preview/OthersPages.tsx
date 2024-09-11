@@ -47,8 +47,8 @@ const portfolioContent = [
     delayAnimationTime: "200",
   },
   {
-    demoImg: "contact",
-    routerPath: "/contact",
+    demoImg: "contact-us",
+    routerPath: "/contact-us",
     title: "Contact",
     delayAnimationTime: "300",
   },

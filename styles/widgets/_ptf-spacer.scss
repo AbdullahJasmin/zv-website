@@ -3,9 +3,7 @@
 
 .ptf-spacer {
 	display: block;
-
 	height: var(--ptf-xxl);
-
 	clear: both;
 
 	@include mq('xlarge') {

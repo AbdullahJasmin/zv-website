@@ -6,7 +6,7 @@ import Footer from "../../../components/footer/Footer";
 import DefaultHeader from "@/components/headers/DefaultHeader";
 
 export const metadata = {
-  title: "Services | ZaVolt",
+  title: "Services - ZaVolt",
 };
 
 const Service = () => {

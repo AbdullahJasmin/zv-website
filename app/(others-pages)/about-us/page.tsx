@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Award from "../../../components/award/Award";
 import Brand from "../../../components/brand/Brand";
 import Counter from "../../../components/counter/Counter";
@@ -11,7 +10,7 @@ import Image from "next/image";
 import DefaultHeader from "@/components/headers/DefaultHeader";
 
 export const metadata = {
-  title: "About Us | ZaVolt",
+    title: "About Us - ZaVolt",
 };
 
 const AboutUs = () => {

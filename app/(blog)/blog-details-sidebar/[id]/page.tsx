@@ -11,11 +11,11 @@ import ImageGridTwo from "../../../../components/image-grid/ImageGridTwo";
 import SocialFour from "../../../../components/social/SocialFour";
 
 
-import { BlogItem, allblog } from "../../../../data/blog";
+import {allblog, BlogItem} from "../../../../data/blog";
 import DefaultHeader from "@/components/headers/DefaultHeader";
 
 export const metadata = {
-  title: "Blog Details || ZaVolt Portfolio and Agency NextJS Template",
+  title: "Blog Details - ZaVolt",
 };
 
 const BlogDetailsSidebar = ({ params }) => {

@@ -1,5 +1,3 @@
-
-
 import Head from "next/head";
 
 import DefaultHeader from "../../../../components/headers/DefaultHeader";
@@ -17,11 +15,10 @@ import ImageGridThree from "../../../../components/image-grid/ImageGridThree";
 import Image from "next/image";
 
 
-
-import { PortfolioItem, allportfolioContent } from "../../../../data/works";
+import {allportfolioContent, PortfolioItem} from "../../../../data/works";
 
 export const metadata = {
-  title: "Work Showcase || ZaVolt Portfolio and Agency NextJS Template",
+    title: "Work Showcase - ZaVolt",
 };
 
 const WorksShowcase = ({ params }) => {

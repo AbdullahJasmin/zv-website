@@ -6,7 +6,7 @@ import SearchBlog from "../../../components/form/SearchBlog";
 import NewsletterTwo from "../../../components/newsletter/NewsletterTwo";
 
 export const metadata = {
-  title: "Blog Masonry || ZaVolt Portfolio and Agency NextJS Template",
+  title: "Blog - ZaVolt",
 };
 
 const BlogMasonry = () => {

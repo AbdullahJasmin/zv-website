@@ -5,7 +5,7 @@ import Portfolio from "../../../components/portfolio/Portfolio";
 import DefaultHeader from "@/components/headers/DefaultHeader";
 
 export const metadata = {
-  title: "Work Carousel || ZaVolt Portfolio and Agency NextJS Template",
+  title: "Work Carousel - ZaVolt",
 };
 
 const WorksCarousel = () => {

@@ -4,7 +4,7 @@ import DefaultHeader from "@/components/headers/DefaultHeader";
 import PortfolioSevenMasonry from "@/components/portfolio/PortfolioSevenMasonry";
 
 export const metadata = {
-  title: "Work Masonry || ZaVolt Portfolio and Agency NextJS Template",
+    title: "Work Masonry - ZaVolt",
 };
 
 const WorksMasonry = () => {

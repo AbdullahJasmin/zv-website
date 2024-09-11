@@ -1,4 +1,3 @@
-import Link from "next/link";
 import CounterTwo from "@/components/counter/CounterTwo";
 import CopyRightTwo from "@/components/footer/copyright/CopyRightTwo";
 import FooterTwo from "@/components/footer/FooterTwo";
@@ -6,7 +5,6 @@ import HeroAgency from "@/components/hero/HeroAgency";
 import ListOne from "@/components/list/ListOne";
 import ListTwo from "@/components/list/ListTwo";
 import PortfolioTw from "@/components/portfolio/PortfolioTwo";
-import Pricing from "@/components/pricing/Pricing";
 import Team from "@/components/team/Team";
 import TestimonialTwo from "@/components/testimonial/TestimonialTwo";
 import HomeHeader from "@/components/headers/HomeHeader";
@@ -147,7 +145,7 @@ const HomeAgency = () => {
               <div className="-fluid px-3 px-lg-0">
                 <div className="row">
                   <div className="col-lg-5 offset-lg-7 px-lg-5" style={{
-                    backgroundColor: 'rgba(255,255,255,0.8)'
+                    backgroundColor: 'rgba(255,255,255,0.85)'
                   }}>
                     {/* <!--Spacer--> */}
                     <div
@@ -170,7 +168,7 @@ const HomeAgency = () => {
                         // @ts-ignore
                         style={{ "--ptf-xxl": "1.875rem" }}
                       ></div>
-                      <h3 style={{ maxWidth: "30rem", color: "white" }}>
+                      <h3 style={{maxWidth: "30rem"}}>
                         Empowering Your Business with Innovative Solutions
                       </h3>
                       {/* <!--Spacer--> */}
@@ -179,14 +177,14 @@ const HomeAgency = () => {
                         // @ts-ignore
                         style={{ "--ptf-xxl": "5rem", "--ptf-md": "2.5rem" }}
                       ></div>
-                      <p className="fz-18" style={{ maxWidth: "30rem", color: "white" }}>
+                      <p className="fz-18" style={{maxWidth: "30rem"}}>
                         At ZaVolt, we drive your success by creating impactful
                         digital experiences, innovative brand identities, and
                         results-oriented strategies. Our expertise lies in
                         blending creativity with technology to amplify your
                         brand&apos;s reach and effectiveness.
                       </p>
-                      <p className="fz-18" style={{ maxWidth: "30rem", color: "white" }}>
+                      <p className="fz-18" style={{maxWidth: "30rem"}}>
                       Whether it&apos;s
                         crafting a memorable online presence or optimizing your
                         digital marketing efforts, we ensure your business not

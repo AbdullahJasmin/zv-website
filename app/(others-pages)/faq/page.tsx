@@ -4,7 +4,7 @@ import FaqTwo from "../../../components/faq/FaqTwo";
 import DefaultHeader from "@/components/headers/DefaultHeader";
 
 export const metadata = {
-  title: "Faq || ZaVolt Portfolio and Agency NextJS Template",
+  title: "FAQ - ZaVolt",
 };
 
 const Faq = () => {

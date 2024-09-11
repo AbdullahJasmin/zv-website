@@ -4,7 +4,7 @@ import Newsletter from "../../../components/Newsletter";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Coming Soon || ZaVolt Portfolio and Agency NextJS Template",
+  title: "Coming Soon - ZaVolt",
 };
 
 const ComingSoon = () => {

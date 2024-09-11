@@ -7,7 +7,7 @@ import Footer from "../../../components/footer/Footer";
 import PortfolioListing from "../../../components/portfolio/PortfolioListing";
 
 export const metadata = {
-  title: "Works Listing || ZaVolt Portfolio and Agency NextJS Template",
+  title: "Works Listing - ZaVolt",
 };
 
 const WorksListing = () => {

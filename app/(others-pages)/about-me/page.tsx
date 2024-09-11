@@ -10,7 +10,7 @@ import TestimonialThree from "../../../components/testimonial/TestimonialThree";
 import DefaultHeader from "@/components/headers/DefaultHeader";
 
 export const metadata = {
-  title: "About Me || ZaVolt Portfolio and Agency NextJS Template",
+  title: "About Me - ZaVolt",
 };
 
 const avatar = "/images/about-me-main-image.jpg";

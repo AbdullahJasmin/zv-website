@@ -7,7 +7,7 @@ import SearchBlog from "../../../components/form/SearchBlog";
 import NewsletterTwo from "../../../components/newsletter/NewsletterTwo";
 
 export const metadata = {
-  title: "Blog Grid || ZaVolt Portfolio and Agency NextJS Template",
+  title: "Blog",
 };
 
 const BlogGrid = () => {

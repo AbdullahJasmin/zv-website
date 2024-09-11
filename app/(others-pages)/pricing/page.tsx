@@ -5,7 +5,7 @@ import Footer from "../../../components/footer/Footer";
 import DefaultHeader from "@/components/headers/DefaultHeader";
 
 export const metadata = {
-  title: "Pricing  || ZaVolt Portfolio and Agency NextJS Template",
+  title: "Pricing   - ZaVolt",
 };
 
 const Pricings = () => {

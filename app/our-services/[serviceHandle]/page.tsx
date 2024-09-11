@@ -1,5 +1,5 @@
 import DefaultHeader from "@/components/headers/DefaultHeader";
-import { services } from "../data";
+import {services} from "../data";
 import ImageGridFour from "@/components/image-grid/ImageGridFour";
 import Skills from "@/components/skill/Skills";
 import Approach2 from "@/components/service/Approach2";
@@ -8,7 +8,7 @@ import Faq from "app/(others-pages)/faq/page";
 import CopyRight from "@/components/footer/copyright/CopyRight";
 import Footer from "@/components/footer/Footer";
 import Head from "next/head";
-import { Metadata, ResolvingMetadata } from "next";
+import {Metadata, ResolvingMetadata} from "next";
 
 interface OurServiceDetailsPageProps {
   params: {
@@ -41,7 +41,7 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const { title } = getServiceDetails(params.serviceHandle);
   return {
-    title: title + " | ZaVolt",
+    title: title + " - ZaVolt",
   };
 }
 

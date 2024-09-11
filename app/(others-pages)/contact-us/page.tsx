@@ -6,7 +6,7 @@ import Address from "../../../components/Address";
 import DefaultHeader from "@/components/headers/DefaultHeader";
 
 export const metadata = {
-  title: "Contact || ZaVolt Portfolio and Agency NextJS Template",
+  title: "Contact Us - ZaVolt",
 };
 
 const Contact = () => {

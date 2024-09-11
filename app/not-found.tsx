@@ -5,7 +5,7 @@ import Footer from "../components/footer/Footer";
 import DefaultHeader from "@/components/headers/DefaultHeader";
 
 export const metadata = {
-  title: "Not Found || ZaVolt Portfolio and Agency NextJS Template",
+  title: "Not Found - ZaVolt",
 };
 
 const NotFound = () => {

@@ -9,7 +9,7 @@ import PortfolioSix from "../../../components/portfolio/PortfolioSix";
 import RelatedPortfolio from "../../../components/portfolio/RelatedPortfolio";
 
 export const metadata = {
-  title: "Works Grid || ZaVolt Portfolio and Agency NextJS Template",
+  title: "Works",
 };
 
 const WorksGrid = () => {

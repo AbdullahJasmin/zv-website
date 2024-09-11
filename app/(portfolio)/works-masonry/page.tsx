@@ -4,7 +4,7 @@ import Footer from "../../../components/footer/Footer";
 import PortfolioSevenMasonry from "../../../components/portfolio/PortfolioSevenMasonry";
 
 export const metadata = {
-  title: "Work Masonry || ZaVolt Portfolio and Agency NextJS Template",
+  title: "Work - ZaVolt",
 };
 
 const WorksMasonry = () => {

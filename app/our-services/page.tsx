@@ -6,10 +6,8 @@ import DefaultHeader from "@/components/headers/DefaultHeader";
 import ServiceCatalog from "./components/ServiceCatalog";
 
 
-
-
 export const metadata = {
-  title: "Our Services | ZaVolt",
+  title: "Our Services - ZaVolt",
 };
 
 const OurServicesPage = () => {

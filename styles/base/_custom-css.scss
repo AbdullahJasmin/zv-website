@@ -293,10 +293,9 @@
 .ptf-is--home-agency {
   .ptf-custom--3993 {
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/home/agency/about-image.webp');
+    background-image: url('/images/home/agency/about-image.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    
 
     &::after {
       content: "";

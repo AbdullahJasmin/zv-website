@@ -11,9 +11,9 @@ const CopyRightTwo = () => {
       <div className="col-12 col-md-3">
         <a href="#">
           <Image
-                      width={1280}
-                      height={500}
-                      style={{width : '128px' , height: '50px'}} src={logo} alt="logo" loading="lazy" />
+                      width={128}
+                      height={33}
+                      style={{width : '128px' , height: '33px'}} src={logo} alt="logo" loading="lazy" />
         </a>
       </div>
       {/* End .col */}

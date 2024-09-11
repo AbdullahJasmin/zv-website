@@ -23,15 +23,15 @@ const PortfolioTwo = () => {
             data-tooltip-id={val.dataId}
             key={i}
           >
-            <Link
-              className="ptf-work__link"
-              href={`/works/${val.id}`}
-            ></Link>
+            {/*<Link*/}
+            {/*  className="ptf-work__link"*/}
+            {/*  href={`/works/${val.id}`}*/}
+            {/*></Link>*/}
             <ReactTooltip
               float
               id={val.dataId}
               place="right"
-              variant="dark"
+              variant="light"
               style={{ zIndex: 1000 }}
             >
               <div className="poup-link">

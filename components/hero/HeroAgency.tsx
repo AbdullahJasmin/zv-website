@@ -9,7 +9,7 @@ const HeroAgency = () => {
   const [isOpen, setOpen] = useState(false);
 
   const settings = {
-    dots: true,
+    dots: false,
     arrow: false,
     infinite: true,
     fade: true,
@@ -21,11 +21,10 @@ const HeroAgency = () => {
   };
   return (
     <>
-      <Slider {...settings}>
-        <div className="ptf-showcase-image image-1">
+        <div className="ptf-showcase-image image-1 px-3 px-lg-0">
           <div className="ptf-showcase-slide">
             <div className="container">
-              <h1 className="fz-100 fz-90--lg lh-1 has-white-color">
+              <h1 className="fz-70 fz-100--lg lh-1p1 has-white-color">
                 <span className="has-accent-1">
                   Electrifying <br />
                 </span>
@@ -40,7 +39,7 @@ const HeroAgency = () => {
               ></div>
 
               <p
-                className="fz-24 has-white-color"
+                className="fz-20 has-white-color"
                 style={{ maxWidth: "34.375rem" }}
               >
                 At ZaVolt, we fuse creativity with technology to spark unique
@@ -63,7 +62,6 @@ const HeroAgency = () => {
                 {/* <!--Button--> */}
                 <Link
                   className="ptf-btn ptf-btn--secondary"
-                  // href="/discover"
                   href="/our-services"
                   style={{ marginLeft: "2rem" }}
                 >
@@ -166,7 +164,6 @@ const HeroAgency = () => {
         {/*  </div>*/}
         {/*</div>*/}
         {/* End .ptf-showcase-image */}
-      </Slider>
       {/*<ModalVideo*/}
       {/*  channel="youtube"*/}
       {/*  autoplay*/}

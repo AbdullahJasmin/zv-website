@@ -2,225 +2,199 @@
 
 import React from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import {usePathname} from "next/navigation";
 
 import {
-  Sidebar,
-  Menu,
-  MenuItem,
-  SubMenu,
-  
+    Sidebar,
+    Menu,
+    MenuItem,
+    SubMenu,
+
 } from "react-pro-sidebar";
 
 import Social from "../../social/Social";
 
 const menuContent = [
-  {
-    name: "Home",
-    page: "home",
-    dropDownItems: [
-      {
-        name: "Home Default",
-        routerPath: "/home-default",
-      },
-      {
-        name: "Home Studio",
-        routerPath: "/home-studio",
-      },
-      {
-        name: "Home Agency",
-        routerPath: "/home-agency",
-      },
-      {
-        name: "Home Minimal",
-        routerPath: "/home-minimal",
-      },
-      {
-        name: "Home Dark",
-        routerPath: "/home-dark",
-      },
-      {
-        name: "Home Freelancer",
-        routerPath: "/home-freelancer",
-      },
-      {
-        name: "Home Trending",
-        routerPath: "/home-trending",
-      },
-      {
-        name: "Home Modern",
-        routerPath: "/home-modern",
-      },
-    ],
-  },
-  {
-    name: "Portfolio",
-    page: "works",
-    dropDownItems: [
-      {
-        name: "Works Grid",
-        routerPath: "/works-grid",
-      },
-      {
-        name: "Works Masonry",
-        routerPath: "/works-masonry",
-      },
-      {
-        name: "Works Listing",
-        routerPath: "/works-listing",
-      },
-      {
-        name: "Works Carousel",
-        routerPath: "/works-carousel",
-      },
-      {
-        name: "Works Showcase",
-        routerPath: "/works/3",
-      },
-    ],
-  },
-  {
-    name: "Blog",
-    page: "blog",
-    dropDownItems: [
-      {
-        name: "Blog Grid",
-        routerPath: "/blog-grid",
-      },
-      {
-        name: "Blog Masonry",
-        routerPath: "/blog-masonry",
-      },
-      {
-        name: "Blog Sidebar",
-        routerPath: "/blog-sidebar",
-      },
-      {
-        name: "Blog Details",
-        routerPath: "/blog/2",
-      },
-      {
-        name: "Blog Details Sidebar",
-        routerPath: "/blog-details-sidebar/7",
-      },
-    ],
-  },
-  {
-    name: "Pages",
-    page: "others",
-    dropDownItems: [
-      {
+    {
         name: "About Us",
+        activeClass: "",
+        page: "about",
+        menuClass: "",
         routerPath: "/about-us",
-      },
-      {
-        name: "About Me",
-        routerPath: "/about-me",
-      },
-      {
-        name: "Services",
+    },
+    // {
+    //   name: "Portfolio",
+    //   page: "works",
+    //   activeClass: "",
+    //   menuClass: "",
+    //   routerPath: "/works",
+    // },
+    {
+        name: "Our Services",
+        activeClass: "",
+        page: "services",
+        menuClass: "",
         routerPath: "/our-services",
-      },
-      {
-        name: "Service Details",
-        routerPath: "/service/5",
-      },
-      {
-        name: "Pricing",
-        routerPath: "/pricing",
-      },
-      {
-        name: "Team",
-        routerPath: "/team",
-      },
-      {
+    },
+    // {
+    //   name: "Products",
+    //   activeClass: "",
+    //   page: "products",
+    //   menuClass: "",
+    //   routerPath: "/products",
+    // },
+    {
+        name: "Contact Us",
+        activeClass: "",
+        page: "contact-us",
+        menuClass: "",
+        routerPath: "/contact-us",
+    },
+    {
         name: "FAQ",
+        activeClass: "",
+        menuClass: "",
+        page: "faq",
         routerPath: "/faq",
-      },
-      {
-        name: "Contact",
-        routerPath: "/contact",
-      },
-      {
-        name: "Page 404",
-        routerPath: "/404",
-      },
-      {
-        name: "Coming Soon",
-        routerPath: "/coming-soon",
-      },
-    ],
-  },
+    },
+    {
+        name: "Blog",
+        activeClass: "",
+        menuClass: "",
+        page: "blog",
+        routerPath: "https://blog.zavolt.com",
+    },
+    // {
+    //   name: "More ...",
+    //   activeClass: "",
+    //   page: "others",
+    //   menuClass: "current-menu-item",
+    //   dropDownItems: [
+    //     {
+    //       name: "Resources",
+    //       subMenu: [
+    //         {
+    //           name: "Blog",
+    //           routerPath: "/resources/blog",
+    //         },
+    //         {
+    //           name: "Podcasts",
+    //           routerPath: "/resources/podcasts",
+    //         },
+    //         {
+    //           name: "Sessions",
+    //           routerPath: "/resources/sessions",
+    //         },
+    //       ],
+    //     },
+    //     {
+    //       name: "Career",
+    //       routerPath: "/coming-soon",
+    //     },
+    //     {
+    //       name: "Sales Partnership",
+    //       routerPath: "/contact-us-us",
+    //     },
+    //     {
+    //       name: "News",
+    //       routerPath: "/news",
+    //     },
+    //   ],
+    // },
 ];
 
 const MobileMenu = () => {
-  let currentPage = "";
-  const pathname = usePathname();
+    let currentPage = "";
+    const pathname = usePathname();
 
-  currentPage = pathname.split("-")[0].split("/")[1];
+    currentPage = pathname.split("-")[0].split("/")[1];
 
-  if (
-    currentPage !== "works" &&
-    currentPage !== "blog" &&
-    currentPage !== "home"
-  ) {
-    currentPage = "others";
-  }
-  // titleStyle={item.page == currentPage ? {color: '#fa4529'}:''}
+    if (
+        currentPage !== "works" &&
+        currentPage !== "blog" &&
+        currentPage !== "home"
+    ) {
+        currentPage = "others";
+    }
+    // titleStyle={item.page == currentPage ? {color: '#fa4529'}:''}
 
-  return (
-    <>
-      <div className="ptf-offcanvas-menu__navigation">
-        <Sidebar>
-          {/* <SidebarContent> */}
-            <Menu className="sidebar-menu_wrapper">
-              {menuContent.map((item, i) => (
-                <SubMenu
-                  className={item.page == currentPage ? "active-page" : ""}
-                  title={item.name}
-                  key={i}
-                >
-                  {item.dropDownItems.map((val, i) => (
-                    <MenuItem key={i}>
-                      <Link
-                        className={
-                          val.routerPath == pathname ? "active-page" : ""
-                        }
-                        href={val.routerPath}
-                      >
-                        {val.name}
-                      </Link>
-                    </MenuItem>
-                  ))}
-                </SubMenu>
-              ))}
-            </Menu>
-          {/* </SidebarContent> */}
-        </Sidebar>
-      </div>
-      {/* End .ptf-offcanvas-menu__navigation */}
+    return (
+        <>
+            <div className="ptf-offcanvas-menu__navigation">
+                <Sidebar>
+                    {/* <SidebarContent> */}
+                    <Menu className="sidebar-menu_wrapper">
+                        {menuContent.map((item, i) => (
+                            <li className={`menu-item-has-children ${item.menuClass}`} key={i}>
+                                {item.routerPath ? (
+                                    <Link href={item.routerPath} className={item.activeClass}>
+              <span className={item.page === currentPage ? "active-page" : ""}>
+                {item.name}
+              </span>
+                                    </Link>
+                                ) : (
+                                    <span className={item.activeClass}>
+              <span className={item.page === currentPage ? "active-page" : ""}>
+                {item.name}
+              </span>
+            </span>
+                                )}
 
-      <div className="ptf-offcanvas-menu__footer">
-        <p className="ptf-offcanvas-menu__copyright">
-          @{new Date().getFullYear()} <span>ZaVolt</span>. All Rights Reserved.{" "}
-          <br />
-          Development by{" "}
-          <span>
-            <a
-              href="https://themeforest.net/user/ib-themes"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              ib-themes
-            </a>
-          </span>
-          .
-        </p>
-        <Social />
-      </div>
-      {/* End .ptf-offcanvas-menu__footer */}
-    </>
-  );
+                                {/*{item.dropDownItems && (*/}
+                                {/*  <ul className="sub-menu mega">*/}
+                                {/*    {item.dropDownItems.map((val, j) => (*/}
+                                {/*      <li key={j}>*/}
+                                {/*        {val.subMenu ? (*/}
+                                {/*          <>*/}
+                                {/*            <span>{val.name}</span>*/}
+                                {/*            <ul className="sub-menu">*/}
+                                {/*              {val.subMenu.map((subItem, k) => (*/}
+                                {/*                <li key={k}>*/}
+                                {/*                  <Link href={subItem.routerPath}>*/}
+                                {/*                    <span*/}
+                                {/*                      className={*/}
+                                {/*                        subItem.routerPath === pathname*/}
+                                {/*                          ? "active-page"*/}
+                                {/*                          : ""*/}
+                                {/*                      }*/}
+                                {/*                    >*/}
+                                {/*                      {subItem.name}*/}
+                                {/*                    </span>*/}
+                                {/*                  </Link>*/}
+                                {/*                </li>*/}
+                                {/*              ))}*/}
+                                {/*            </ul>*/}
+                                {/*          </>*/}
+                                {/*        ) : (*/}
+                                {/*          <Link href={val.routerPath}>*/}
+                                {/*            <span*/}
+                                {/*              className={val.routerPath === pathname ? "active-page" : ""}*/}
+                                {/*            >*/}
+                                {/*              {val.name}*/}
+                                {/*            </span>*/}
+                                {/*          </Link>*/}
+                                {/*        )}*/}
+                                {/*      </li>*/}
+                                {/*    ))}*/}
+                                {/*  </ul>*/}
+                                {/*)}*/}
+                            </li>
+                        ))}
+                    </Menu>
+                    {/* </SidebarContent> */}
+                </Sidebar>
+            </div>
+            {/* End .ptf-offcanvas-menu__navigation */}
+
+            <div className="ptf-offcanvas-menu__footer">
+                <p className="ptf-offcanvas-menu__copyright">
+                    @{new Date().getFullYear()} <span>ZaVolt</span>. All Rights Reserved.{" "}
+                </p>
+                <Social/>
+            </div>
+            {/* End .ptf-offcanvas-menu__footer */}
+        </>
+    );
 };
 
 export default MobileMenu;

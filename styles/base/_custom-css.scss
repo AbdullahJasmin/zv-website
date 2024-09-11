@@ -2,7 +2,7 @@
 -------------------------------------------- */
 
 .ptf-page--contact {
-  // background-image: url(/images/root/contact-bubble.png);
+  // background-image: url(/images/root/contact-us-bubble.png);
   background-repeat: no-repeat;
   background-position: 100% 130px;
 }
@@ -319,9 +319,9 @@
 
   .ptf-custom--1569 {
     background-color: var(--ptf-color-8);
-    background-image: url(/images/root/home-agency-symbol.png);
+    background-image: url('/images/root/home-zv-symbol.png');
     background-repeat: no-repeat;
-    background-position: calc(100% + 15px) calc(100% + 150px);
+    background-position: calc(100% - 15px) calc(100% - 150px);
   }
 }
 .ptf-btn.ptf-btn--underlined {
@@ -339,7 +339,7 @@
   height: 45px;
   position: fixed;
   bottom: 20px;
-  right: 5px;
+  right: 12px;
   z-index: 99;
   text-align: center;
   color: #fff;
@@ -425,5 +425,17 @@
 @media (max-width: 991px) {
   .ptf-is--home-agency .ptf-custom--3993 {
     background-image: none;
+  }
+}
+
+section {
+
+
+  padding-left: 0!important;
+  padding-right: 0!important;
+
+  @include mq('large') {
+    padding-left: 0.75rem!important;
+    padding-right: 0.75rem!important;
   }
 }

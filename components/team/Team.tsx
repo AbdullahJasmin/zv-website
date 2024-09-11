@@ -46,7 +46,7 @@ const teamContent = [
     designation: "Software Engineer",
   },
   {
-    delayAnimation: "200",
+    delayAnimation: "400",
     img: "new-member",
     title: "",
     designation: "",

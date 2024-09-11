@@ -6,34 +6,23 @@ import Image from "next/image";
 
 const testimonialContent = [
   {
-    avatar: "twitter-avatar",
-    name: "Thiago Alcantara",
-    email: "@thiago.lfc",
-    hightlightText: "@zavolt",
-    date: "15 Dec, 2022",
-    description: `a studio with passionate, profressional &
-    full creativity. Much more things that i’m expect. Really
-    awesome & satisfied, alway recommended!`,
+    avatar: "avatar-sabith.webp",
+    name: "Sabith Mazahir",
+    email: "Head of Sales & Marketing - Stag Technologies",
+    hightlightText: "",
+    date: "",
+    description: `Abdullah and the team at ZaVolt brings a wealth of knowledge and skills to the table. Their relentless attitude and attention to detail is what I admire the most, when it comes to their ways of working. I felt as if we had our own development team backing us up. I have my complete trust and fullest confidence in this young and upcoming team, and I wish them all the success in the years to come.`,
   },
   {
-    avatar: "twitter-avatar-2",
-    name: "Laura Lowrence",
-    email: "@laura.cubichotel",
-    hightlightText: "@awesome",
-    date: "24 Dec, 2022",
-    description: ` I don’t know what else to say, this is something that you
-    haven’t seen before. Unique design, impressive & outstanding
-    support.`,
-  },
-  {
-    avatar: "comment-avatar-1",
-    name: "Laura Lowrence",
-    email: "@laura.cubichotel",
-    hightlightText: "@design",
-    date: "24 Dec, 2022",
-    description: ` This is something that you
-    haven’t seen before. Unique design, impressive & outstanding
-    support. I don’t know what else to say, `,
+    avatar: "avatar-akash.webp",
+    name: "Akash Moonesinghe",
+    email: "Marketing & Operations Manager\n" +
+        "Fitness First Sri Lanka",
+    hightlightText: "",
+    date: "",
+    description: `I had the pleasure of working with ZaVolt on a recent project, and they truly exceeded expectations. Their software development work was exceptional, turning our vision into a high-quality, user-friendly application. What stood out was their remarkable efficiency, delivering on time and within budget without compromising quality.
+
+Their exemplary work, efficiency, friendly service, and responsive problem-solving make them an outstanding software development partner. `,
   },
 ];
 
@@ -70,7 +59,7 @@ const TestimonialTwo = () => {
                       width={1200}
                       height={1200}
                       style={{width : '100%' , height: '100%'}}
-                    src={`/images/root/${val.avatar}.png`}
+                    src={`/images/root/${val.avatar}`}
                     alt="avatar"
                     loading="lazy"
                   />
@@ -78,24 +67,24 @@ const TestimonialTwo = () => {
                 <div className="ptf-twitter-review__meta">
                   <h6 className="ptf-twitter-review__author">{val.name}</h6>
                   <div className="ptf-twitter-review__info">
-                    <a href="mailto:ibthemes21@gmail.com">{val.email}</a> -{" "}
-                    {val.date}
+                    {val.email}
                   </div>
                 </div>
-                <div className="ptf-twitter-review__icon">
-                  <i className="socicon-twitter"></i>
-                </div>
+                {/*<div className="ptf-twitter-review__icon">*/}
+                {/*  <i className="socicon-twitter"></i>*/}
+                {/*</div>*/}
               </div>
               <div className="ptf-twitter-review__content">
                 <p>
-                  <a
-                    href="https://twitter.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {val.hightlightText}
-                  </a>{" "}
-                  - {val.description}
+                  {/*<a*/}
+                  {/*  href="https://twitter.com/"*/}
+                  {/*  target="_blank"*/}
+                  {/*  rel="noopener noreferrer"*/}
+                  {/*>*/}
+                  {/*  {val.hightlightText}*/}
+                  {/*</a>{" "}*/}
+                  {/*- */}
+                  {val.description}
                 </p>
               </div>
             </div>

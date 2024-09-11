@@ -42,7 +42,7 @@ const HomeHeader = () => {
               : "ptf-navbar ptf-navbar--main ptf-navbar--sticky ptf-navbar--transparent ptf-navbar--white-text-on-top"
           }
         >
-          <div className="container-xxl">
+          <div className="container-xxl px-4">
             <div className="ptf-navbar-inner">
               <Link className="ptf-navbar-logo" href="/">
                 <Image
@@ -97,6 +97,7 @@ const HomeHeader = () => {
             <i className="lnir lnir-close"></i>
           </span>
         </div>
+        <MobileMenu />
       </div>
     </>
   );

@@ -61,7 +61,7 @@ const Contact = () => {
               style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
             ></div>
           </section>
-          {/* End section contact header */}
+          {/* End section contact-us header */}
 
           <section>
             <div className="container-xxl">

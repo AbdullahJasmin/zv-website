@@ -16,7 +16,7 @@ const FooterThree = () => {
               style={{ width: "141px", height: "46px" }}
               src="/images/root/logo-dark.png"
               alt=""
-              loading="lazy"
+              priority
             />
           </a>
         </div>

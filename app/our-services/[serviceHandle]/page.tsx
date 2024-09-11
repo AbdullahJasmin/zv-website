@@ -1,7 +1,6 @@
 import DefaultHeader from "@/components/headers/DefaultHeader";
 import { services } from "../data";
 import ImageGridFour from "@/components/image-grid/ImageGridFour";
-import CounterThree from "@/components/counter/CounterThree";
 import Skills from "@/components/skill/Skills";
 import Approach2 from "@/components/service/Approach2";
 import ServiceListThree from "@/components/list/ServiceListThree";
@@ -84,7 +83,7 @@ const OurServiceDetails = ({ params }: OurServiceDetailsPageProps) => {
                       // @ts-ignore
                       style={{ "--ptf-xxl": "2.5rem" }}
                     ></div>
-                    <p className="fz-18">{service?.descriptions}</p>
+                    <p className="fz-18">{service?.description1}</p>
                   </div>
                   {/* <!--Spacer--> */}
                   <div
@@ -95,7 +94,7 @@ const OurServiceDetails = ({ params }: OurServiceDetailsPageProps) => {
                 </div>
                 <div className="col-lg-12">
                   {/* <!--Animated Block--> */}
-                  <ImageGridFour />
+                  <ImageGridFour url={service?.coverImage} />
                 </div>
               </div>
             </div>
@@ -118,15 +117,7 @@ const OurServiceDetails = ({ params }: OurServiceDetailsPageProps) => {
                     data-aos="fade"
                     data-aos-delay="0"
                   >
-                    <p className="fz-18">
-                      Encouraging the use of natural systems and processes in
-                      design allows for exposure to nature, and in turn, these
-                      design approaches improve health and wellbeing. There are
-                      a number of possible benefits, including reduced heart
-                      rate variability and pulse rates, decreased blood
-                      pressure, and increased activity in our nervous systems,
-                      to name a few.
-                    </p>
+                    <p className="fz-18">{service?.description2}</p>
                   </div>
                   {/* <!--Spacer--> */}
                   <div
@@ -147,11 +138,7 @@ const OurServiceDetails = ({ params }: OurServiceDetailsPageProps) => {
                       // @ts-ignore
                       style={{ "--ptf-xxl": "1.875rem" }}
                     ></div>
-                    <p className="fz-18">
-                      Encouraging the use of natural systems and processes in
-                      design allows for exposure to nature, and in turn, these
-                      design approaches improve health and wellbeing.
-                    </p>
+                    <p className="fz-18">{service?.specialization}</p>
                   </div>
                   {/* <!--Spacer--> */}
                   <div
@@ -159,16 +146,6 @@ const OurServiceDetails = ({ params }: OurServiceDetailsPageProps) => {
                     // @ts-ignore
                     style={{ "--ptf-xxl": "3.125rem" }}
                   ></div>
-                  <div
-                    className="row"
-                    style={{
-                      // @ts-ignore
-                      "--bs-gutter-x": "3.75rem",
-                      "--bs-gutter-y": "7.5rem",
-                    }}
-                  >
-                    <CounterThree />
-                  </div>
                   {/* <!--Spacer--> */}
                   <div
                     className="ptf-spacer"

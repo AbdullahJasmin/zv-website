@@ -45,7 +45,7 @@ const HeaderDark = () => {
                   className="black"
                   src="/images/root/logo-dark.png"
                   alt="brand"
-                  loading="lazy"
+                  priority
                 />
                 <Image
                   width={151}
@@ -55,6 +55,7 @@ const HeaderDark = () => {
                   src="/images/root/logo-white.png"
                   alt="brand"
                   loading="lazy"
+                  priority
                 />
               </Link>
               {/* <!--Navigation--> */}

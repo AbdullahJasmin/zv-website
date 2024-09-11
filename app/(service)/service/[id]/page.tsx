@@ -4,7 +4,6 @@ import ServiceListThree from "../../../../components/list/ServiceListThree";
 import Faq from "../../../../components/faq/Faq";
 import Skills from "../../../../components/skill/Skills";
 import Approach2 from "../../../../components/service/Approach2";
-import CounterThree from "../../../../components/counter/CounterThree";
 import ImageGridFour from "../../../../components/image-grid/ImageGridFour";
 
 
@@ -87,7 +86,7 @@ const ServiceDetails = ({ params }) => {
                 </div>
                 <div className="col-lg-12">
                   {/* <!--Animated Block--> */}
-                  <ImageGridFour />
+                  <ImageGridFour url={'/images/root/services/img-1.webp'} />
                 </div>
               </div>
             </div>
@@ -151,16 +150,6 @@ const ServiceDetails = ({ params }) => {
                     // @ts-ignore
                     style={{ "--ptf-xxl": "3.125rem" }}
                   ></div>
-                  <div
-                    className="row"
-                    style={{
-                      // @ts-ignore
-                      "--bs-gutter-x": "3.75rem",
-                      "--bs-gutter-y": "7.5rem",
-                    }}
-                  >
-                    <CounterThree />
-                  </div>
                   {/* <!--Spacer--> */}
                   <div
                     className="ptf-spacer"

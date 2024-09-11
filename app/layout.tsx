@@ -5,13 +5,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "photoswipe/dist/photoswipe.css";
 import "aos/dist/aos.css";
-import 'react-tooltip/dist/react-tooltip.css'
+import "react-tooltip/dist/react-tooltip.css";
 import dynamic from "next/dynamic";
 
 const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
   ssr: false,
 });
-
 
 import "../styles/main.scss";
 import "../styles/fonts/1.css";
@@ -39,6 +38,22 @@ export default function RootLayout({ children }) {
   }, []);
   return (
     <html suppressHydrationWarning={false} className="html" lang="en">
+      <head>
+        <link rel="icon" href="/images/favicon-light-mode.ico" id="favicon" />
+        {/* <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            function updateFavicon() {
+              document.getElementById('favicon').href = window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? '/images/favicon-dark-mode.ico'
+                : '/images/favicon-light-mode.ico';
+            }
+            updateFavicon();
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(updateFavicon);
+          `,
+          }}
+        /> */}
+      </head>
       <body>
         {children}
         {showCursor && (

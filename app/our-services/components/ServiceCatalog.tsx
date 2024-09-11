@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { services } from "../data";
+import {services} from "../data";
 
 
 const ServiceCatalog = () => {
@@ -26,7 +26,8 @@ const ServiceCatalog = () => {
               {val.titlePart2}
             </h5>
             <div className="ptf-service-box__content">
-              <p>{val.descriptions}</p>
+              <p>{val.description1}</p>
+              <p>{val.description2}</p>
             </div>
             <div className="ptf-service-box__arrow">
               <i className="lnil lnil-chevron-right"></i>

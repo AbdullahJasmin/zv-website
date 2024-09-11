@@ -50,7 +50,7 @@ const HeaderStudio = () => {
                   className="black"
                   src="/images/root/logo-dark.png"
                   alt="logo"
-                  loading="lazy"
+                  priority
                 />
                 <Image
                   width={151}
@@ -60,6 +60,7 @@ const HeaderStudio = () => {
                   src="/images/root/logo-white.png"
                   alt="brand"
                   loading="lazy"
+                  priority
                 />
               </Link>
               {/* <!--Navigation--> */}

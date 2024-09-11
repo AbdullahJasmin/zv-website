@@ -170,7 +170,7 @@ const HomeAgency = () => {
                         // @ts-ignore
                         style={{ "--ptf-xxl": "1.875rem" }}
                       ></div>
-                      <h3 style={{ maxWidth: "30rem" }}>
+                      <h3 style={{ maxWidth: "30rem", color: "white" }}>
                         Empowering Your Business with Innovative Solutions
                       </h3>
                       {/* <!--Spacer--> */}
@@ -179,14 +179,14 @@ const HomeAgency = () => {
                         // @ts-ignore
                         style={{ "--ptf-xxl": "5rem", "--ptf-md": "2.5rem" }}
                       ></div>
-                      <p className="fz-18" style={{ maxWidth: "30rem" }}>
+                      <p className="fz-18" style={{ maxWidth: "30rem", color: "white" }}>
                         At ZaVolt, we drive your success by creating impactful
                         digital experiences, innovative brand identities, and
                         results-oriented strategies. Our expertise lies in
                         blending creativity with technology to amplify your
                         brand&apos;s reach and effectiveness.
                       </p>
-                      <p className="fz-18" style={{ maxWidth: "30rem" }}>
+                      <p className="fz-18" style={{ maxWidth: "30rem", color: "white" }}>
                       Whether it&apos;s
                         crafting a memorable online presence or optimizing your
                         digital marketing efforts, we ensure your business not

@@ -49,7 +49,7 @@ const HeaderHomeDefault = () => {
                   className="black"
                   src="/images/root/logo-dark.png"
                   alt="logo"
-                  loading="lazy"
+                  priority
                 />
                 <Image
                   width={151}
@@ -59,6 +59,7 @@ const HeaderHomeDefault = () => {
                   src="/images/root/logo-white.png"
                   alt="logo"
                   loading="lazy"
+                  priority
                 />
               </Link>
               {/* <!--Navigation--> */}

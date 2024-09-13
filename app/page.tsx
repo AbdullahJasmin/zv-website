@@ -8,6 +8,7 @@ import PortfolioTw from "@/components/portfolio/PortfolioTwo";
 import Team from "@/components/team/Team";
 import TestimonialTwo from "@/components/testimonial/TestimonialTwo";
 import HomeHeader from "@/components/headers/HomeHeader";
+import Link from "next/link";
 
 export const metadata = {
   title: "ZaVolt - Premier UI/UX, Development & Digital Marketing Agency",
@@ -95,7 +96,7 @@ const HomeAgency = () => {
               <div
                 className="ptf-spacer"
                 // @ts-ignore
-                style={{ "--ptf-xxl": "8.125rem", "--ptf-md": "4.0625rem" }}
+                style={{"--ptf-xxl": "5rem", "--ptf-md": "5rem"}}
               ></div>
               <div className="container">
                 <div className="row">
@@ -111,18 +112,18 @@ const HomeAgency = () => {
                       </h2>
                     </div>
                   </div>
-                  <div className="col-xl-5 d-none d-xl-block">
+                  <div className="col-xl-5 d-none d-xl-flex justify-content-end">
                     {/* <!--Animated Block--> */}
                     <div
                       className="ptf-animated-block"
                       data-aos="fade"
                       data-aos-delay="100"
                     >
-                      <div className="has-black-color fz-90 lh-1 text-end">
+                      <div className="has-black-color fz-90 lh-0p6 text-end">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="currentColor"
-                          style={{ height: "1em" }}
+                          style={{height: "0.8em"}}
                           viewBox="0 0 17 17"
                         >
                           <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z" />
@@ -270,20 +271,32 @@ const HomeAgency = () => {
                       data-aos="fade"
                       data-aos-delay="100"
                     >
-                      <h2>ZV Digital</h2>
+                      <Link href={'https://zavolt.digital'} target={'_blank'} rel="noopener noreferrer">
+                        <h2>ZV Digital
+                          <div className="has-black-color text-end d-inline-block mx-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                style={{height: "1em"}}
+                                viewBox="0 0 17 17"
+                            >
+                              <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z"/>
+                            </svg>
+                          </div></h2>
+                      </Link>
                       {/* <!--Spacer--> */}
                       <div
-                        className="ptf-spacer"
-                        // @ts-ignore
-                        style={{ "--ptf-xxl": "1.5625rem" }}
+                          className="ptf-spacer"
+                          // @ts-ignore
+                          style={{"--ptf-xxl": "1.5625rem"}}
                       ></div>
                       {/* <!--Divider--> */}
                       <div className="ptf-divider"></div>
                       {/* <!--Spacer--> */}
                       <div
-                        className="ptf-spacer"
-                        // @ts-ignore
-                        style={{ "--ptf-xxl": "3.125rem" }}
+                          className="ptf-spacer"
+                          // @ts-ignore
+                          style={{"--ptf-xxl": "3.125rem"}}
                       ></div>
                       {/* <!--Services List--> */}
                       <ListTwo />
@@ -376,7 +389,7 @@ const HomeAgency = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h2 className="h1 large-heading has-accent-1">Our Crew</h2>
+                  <h2 className="h1 large-heading has-accent-1">Core Team</h2>
                 </div>
                 {/* <!--Spacer--> */}
                 <div

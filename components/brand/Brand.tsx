@@ -5,52 +5,52 @@ import Image from "next/image";
 const brandContent = [
   {
     delayAnimation: "0",
-    hoverBg: "#fcf8f4",
-    imgHeight: "85px",
-    imgName: "image-1",
-    title: "Zeplin",
+    hoverBg: "#a9d100",
+    imgHeight: "70px",
+    imgName: "ctp.png",
+    title: "Commercial Technologies Plus",
   },
   {
     delayAnimation: "100",
-    hoverBg: "#f3f7fc",
-    imgHeight: "78px",
-    imgName: "image-2",
-    title: "Dropbox",
+    hoverBg: "#27adea",
+    imgHeight: "80px",
+    imgName: "ogl.png",
+    title: "Ocean Gate Logistics",
   },
   {
     delayAnimation: "200",
-    hoverBg: "#f9fcf3",
-    imgHeight: "90px",
-    imgName: "image-3",
-    title: "Shopify",
+    hoverBg: "#bcf09a",
+    imgHeight: "100px",
+    imgName: "geld.png",
+    title: "Geld.Network",
   },
   {
     delayAnimation: "300",
-    hoverBg: "#f9f9f9",
-    imgHeight: "90px",
-    imgName: "image-4",
-    title: "Slack",
+    hoverBg: "#c01314",
+    imgHeight: "100px",
+    imgName: "ff.png",
+    title: "Fitness First",
   },
   {
     delayAnimation: "400",
-    hoverBg: "#fdf4fb",
-    imgHeight: "62px",
-    imgName: "image-5",
-    title: "WooCommerce",
+    hoverBg: "#b5b4b3",
+    imgHeight: "100px",
+    imgName: "sumaga.png",
+    title: "Sumaga Ruhunu Circle of Deaf",
   },
   {
     delayAnimation: "500",
-    hoverBg: "#fdf4fb",
-    imgHeight: "77px",
-    imgName: "image-6",
-    title: "InvisionApp",
+    hoverBg: "#0064cf",
+    imgHeight: "80px",
+    imgName: "stag-tech.png",
+    title: "Stag Technologies",
   },
 ];
 
 const Brand = () => {
   return (
     // @ts-ignore
-    <div className="row" style={{ "--bs-gutter-y": "2rem" }}>
+      <div className="row" style={{"--bs-gutter-y": "2rem", alignItems: "center"}}>
       {brandContent.map((item, i) => (
         <div className="col-6 col-md-3 col-lg-2" key={i}>
           {/* <!--Animated Block--> */}
@@ -73,12 +73,12 @@ const Brand = () => {
                   width={200}
                   height={200}
                   style={{
-                    width: "108px",
-                    height: "90px",
-                    objectFit: "contain",
+                    height: item.imgHeight,
+                    objectFit: "cover",
+                    borderRadius: "8px"
                   }}
-                  src={`/images/root/partners/${item.imgName}.png`}
-                  alt="Zeplin"
+                  src={`/images/root/clients/${item.imgName}`}
+                  alt="Client Logo"
                   loading="lazy"
                 />
               </div>

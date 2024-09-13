@@ -16,8 +16,7 @@ const testimonialContent = [
   {
     avatar: "avatar-akash.webp",
     name: "Akash Moonesinghe",
-    email: "Marketing & Operations Manager\n" +
-        "Fitness First Sri Lanka",
+    email: "Marketing & Operations Manager - Fitness First Sri Lanka",
     hightlightText: "",
     date: "",
     description: `I had the pleasure of working with ZaVolt on a recent project, and they truly exceeded expectations. Their software development work was exceptional, turning our vision into a high-quality, user-friendly application. What stood out was their remarkable efficiency, delivering on time and within budget without compromising quality.

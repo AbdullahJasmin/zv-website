@@ -19,12 +19,13 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		border-radius: 8px !important;
 
 		height: px2rem(85px);
 
 		transition: all var(--ptf-transition-duration) var(--ptf-transition-easing);
 
-		filter: grayscale(100%);
+		//filter: grayscale(100%);
 
 		img {
 			width: auto;

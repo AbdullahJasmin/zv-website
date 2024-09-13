@@ -5,25 +5,25 @@ import Link from "next/link";
 
 const linkList = [
   {
-    itemName: "Faqs",
+      itemName: "FAQs",
     link: "/",
   },
-  {
-    itemName: "Term & Conditions",
-    link: "/",
-  },
-  {
-    itemName: "Privacy Policy",
-    link: "/",
-  },
-  {
-    itemName: "Help",
-    link: "/",
-  },
-  {
-    itemName: "Affiliate",
-    link: "/",
-  },
+    // {
+    //   itemName: "Term & Conditions",
+    //   link: "/",
+    // },
+    // {
+    //   itemName: "Privacy Policy",
+    //   link: "/",
+    // },
+    // {
+    //   itemName: "Help",
+    //   link: "/",
+    // },
+    // {
+    //   itemName: "Affiliate",
+    //   link: "/",
+    // },
   {
     itemName: "Services",
     link: "/",
@@ -32,20 +32,24 @@ const linkList = [
 
 const Product = [
   {
-    itemName: "Works",
-    link: "/",
+      itemName: "About Us",
+      link: "/about-us",
+  },
+    {
+        itemName: "Our Services",
+        link: "/our-services",
   },
   {
-    itemName: "About",
-    link: "/",
+      itemName: "Contact Us",
+      link: "/contact-us",
   },
   {
-    itemName: "News",
-    link: "/",
+      itemName: "FAQ",
+      link: "/faq",
   },
   {
-    itemName: "Contact",
-    link: "/",
+      itemName: "Blog",
+      link: "https://blog.zavolt.com",
   },
 ];
 
@@ -59,11 +63,11 @@ const Footer = () => {
             className="ptf-footer-heading has-black-color"
             style={{ maxWidth: "37.5rem" }}
           >
-            Boost Your Business Up To High Level
+              Craft exceptional digital products!
           </div>
 
           <div className="ptf-footer-heading has-black-color">
-            Start by
+              Start by&nbsp;
             <Link
               className="has-accent-1 text-decoration-underline"
               href="/contact"
@@ -72,31 +76,32 @@ const Footer = () => {
             </Link>
           </div>
 
-          <p className="fz-24">90 Fairground Rd, FL 3290, United States</p>
-          <a className="fz-40 has-black-color" href="mailto:contact@zavolt.com">
+            <a href="tel:+94771281441" className="fz-36">(+94) 77 128 1441</a>
+            <br/>
+            <a className="fz-36 has-black-color" href="mailto:contact@zavolt.com">
             contact@zavolt.com
           </a>
         </div>
       </div>
-      <div className="col-12 col-md-6 col-xl-3">
-        {/* <!--Animated Block--> */}
-        <div
-          className="ptf-animated-block"
-          data-aos="fade"
-          data-aos-delay="100"
-        >
-          <div className="ptf-widget ptf-widget-links has-black-color">
-            <h4 className="ptf-widget-title">Links</h4>
-            <ul>
-              {linkList.map((val, i) => (
-                <li key={i}>
-                  <a href={val.link}>{val.itemName}</a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </div>
+        {/*<div className="col-12 col-md-6 col-xl-3">*/}
+        {/*  /!* <!--Animated Block--> *!/*/}
+        {/*  <div*/}
+        {/*    className="ptf-animated-block"*/}
+        {/*    data-aos="fade"*/}
+        {/*    data-aos-delay="100"*/}
+        {/*  >*/}
+        {/*    <div className="ptf-widget ptf-widget-links has-black-color">*/}
+        {/*      <h4 className="ptf-widget-title">Links</h4>*/}
+        {/*      <ul>*/}
+        {/*        {linkList.map((val, i) => (*/}
+        {/*          <li key={i}>*/}
+        {/*            <a href={val.link}>{val.itemName}</a>*/}
+        {/*          </li>*/}
+        {/*        ))}*/}
+        {/*      </ul>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
       <div className="col-12 col-md-6 col-xl-3">
         {/* <!--Animated Block--> */}
         <div
@@ -105,7 +110,7 @@ const Footer = () => {
           data-aos-delay="200"
         >
           <div className="ptf-widget ptf-widget-text">
-            <h4 className="ptf-widget-title">Product</h4>
+              <h4 className="ptf-widget-title">Links</h4>
             <div className="ptf-widget ptf-widget-links has-black-color">
               <ul>
                 {Product.map((val, i) => (

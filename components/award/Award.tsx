@@ -5,47 +5,35 @@ import React from "react";
 
 const awardContent = [
   {
-    date: "2021",
-    img: "logo-4",
+    date: "2024",
+    img: "dic.jpg",
     delayAnimation: "0",
     awardList: [
       {
-        title: "POTY 2021",
-        subTitle: "SPA Brand Redesign",
-      },
-      {
-        title: "Design Inspiration #5",
-        subTitle: "MNX Business Card",
+        title: "BODO - Finalists",
+        subTitle: "Dialog Innovation Challenge",
       },
     ],
   },
   {
-    date: "2020",
-    img: "logo-2",
+    date: "2023",
+    img: "insl.jpg",
     delayAnimation: "100",
     awardList: [
       {
-        title: "Websites Of The Year 2020",
-        subTitle: "Lewis Studio",
-      },
-      {
-        title: "Websites Of The Month, August 2020",
-        subTitle: "Liarch Architecture Firm Website",
-      },
-      {
-        title: "Best 20 Websites Favourite 2020",
-        subTitle: "Bauhaus Arc Site",
+        title: "BODO - 2nd Runners Up",
+        subTitle: "IEEE INSL 2023 National Round",
       },
     ],
   },
   {
-    date: "2019",
-    img: "logo-3",
-    delayAnimation: "200",
+    date: "2023",
+    img: "hackx.jpg",
+    delayAnimation: "100",
     awardList: [
       {
-        title: "1st Winner Portfolio Review US 2019",
-        subTitle: "Designer Logan Cee",
+        title: "BODO - Finalists",
+        subTitle: "HackX 8.0 - Inter University Startup Challenge",
       },
     ],
   },
@@ -53,59 +41,59 @@ const awardContent = [
 
 const Award = () => {
   return (
-    <ul
-      className="ptf-rewards-list ptf-rewards-list--small"
-      style={{
-        // @ts-ignore
-        "--ptf-border-width": "2px",
-        "--ptf-border-color": "var(--ptf-color-black)",
-      }}
-    >
-      {awardContent.map((val, i) => (
-        <li
-          className="ptf-rewards-item"
-          data-aos="fade"
-          data-aos-delay={val.delayAnimation}
-          key={i}
-        >
-          <div className="ptf-rewards-item__date">{val.date}</div>
-          <div className="ptf-rewards-item__logo">
-            <Image
-              width={1200}
-              height={1200}
-              style={{ width: "45%" }}
-              // layout="fill"
-              src={`/images/root/rewards/${val.img}.png`}
-              alt="brand"
-              loading="lazy"
-            />
-          </div>
-          {/* End .ptf-rewards-item__logo */}
-
-          <div className="ptf-rewards-item__content">
-            {val.awardList.map((list, i) => (
-              <div className="ptf-rewards-project" key={i}>
-                <div className="ptf-rewards-project__content">
-                  <h5>
-                    <a href="#">{list.title}</a>
-                  </h5>
-                  <span>{list.subTitle}</span>
-                </div>
-                <div className="ptf-rewards-project__link">
-                  <a
-                    className="ptf-link-with-arrow text-uppercase fz-14"
-                    href="#"
-                  >
-                    See project
-                  </a>
-                </div>
+      <ul
+          className="ptf-rewards-list ptf-rewards-list--small"
+          style={{
+            // @ts-ignore
+            "--ptf-border-width": "2px",
+            "--ptf-border-color": "var(--ptf-color-black)",
+          }}
+      >
+        {awardContent.map((val, i) => (
+            <li
+                className="ptf-rewards-item"
+                data-aos="fade"
+                data-aos-delay={val.delayAnimation}
+                key={i}
+            >
+              <div className="ptf-rewards-item__date">{val.date}</div>
+              <div className="ptf-rewards-item__logo">
+                <Image
+                    width={1200}
+                    height={1200}
+                    style={{width: "55%"}}
+                    // layout="fill"
+                    src={`/images/root/rewards/${val.img}`}
+                    alt="brand"
+                    loading="lazy"
+                />
               </div>
-            ))}
-            {/* End .ptf-rewards-project */}
-          </div>
-        </li>
-      ))}
-    </ul>
+              {/* End .ptf-rewards-item__logo */}
+
+              <div className="ptf-rewards-item__content">
+                {val.awardList.map((list, i) => (
+                    <div className="ptf-rewards-project" key={i}>
+                      <div className="ptf-rewards-project__content">
+                        <h5>
+                          <a href="#">{list.title}</a>
+                        </h5>
+                        <span>{list.subTitle}</span>
+                      </div>
+                      {/*<div className="ptf-rewards-project__link">*/}
+                      {/*  <a*/}
+                      {/*    className="ptf-link-with-arrow text-uppercase fz-14"*/}
+                      {/*    href="#"*/}
+                      {/*  >*/}
+                      {/*    See project*/}
+                      {/*  </a>*/}
+                      {/*</div>*/}
+                    </div>
+                ))}
+                {/* End .ptf-rewards-project */}
+              </div>
+            </li>
+        ))}
+      </ul>
   );
 };
 

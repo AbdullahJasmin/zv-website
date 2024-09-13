@@ -15,11 +15,11 @@
   &__content {
     color: var(--ptf-content-color);
     font-family: var(--ptf-secondary-font);
-    font-size: px2rem(48px);
+    font-size: px2rem(36px);
     line-height: 1.375;
 
     @include mq("large") {
-      font-size: px2rem(36px);
+      font-size: px2rem(28px);
     }
 
     a {

@@ -6,30 +6,30 @@ import CountUp from "react-countup";
 const counterUpContent = [
   {
     startCount: "0",
-    endCount: "120",
+    endCount: "2",
     metaText1: "YEARS OF",
     metaText2: "EXPERIENCE",
     animationDelay: "0",
   },
   {
     startCount: "0",
-    endCount: "8200",
-    metaText1: "SATISFACTION",
+    endCount: "25",
+    metaText1: "SATISFIED",
     metaText2: "CLIENTS",
     animationDelay: "100",
   },
   {
     startCount: "0",
-    endCount: "6430",
-    metaText1: "EMPLOYEES ON",
-    metaText2: "WORLDWIDE",
+    endCount: "10",
+    metaText1: "TEAM",
+    metaText2: "MEMBERS",
     animationDelay: "200",
   },
   {
     startCount: "0",
-    endCount: "18750",
+    endCount: "35",
     metaText1: "PROJECTS COMPLETED",
-    metaText2: "ON 60 COUNTRIES",
+    metaText2: "WITH GLOBAL CLIENTELE",
     animationDelay: "300",
   },
 ];

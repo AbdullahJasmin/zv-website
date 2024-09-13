@@ -3,6 +3,7 @@
 import React from "react";
 import SocialTwo from "../../social/SocialTwo";
 import Image from "next/image";
+
 const logo = "/images/root/logo-dark.png";
 
 const CopyRight = () => {
@@ -11,9 +12,9 @@ const CopyRight = () => {
       <div className="col-12 col-md">
         <a href="#">
           <Image
-            width={950}
-            height={370}
-            style={{ width: "95px", height: "37px" }}
+              width={95}
+              height={37}
+              style={{width: "120px"}}
             src={logo}
             alt="logo"
             loading="lazy"
@@ -24,14 +25,7 @@ const CopyRight = () => {
         <p className="ptf-footer-copyright has-black-color">
           ©{new Date().getFullYear()}{" "}
           <span>
-            ZaVolt by{" "}
-            <a
-              href="https://themeforest.net/user/ib-themes"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              ib-themes
-            </a>
+            ZaVolt
           </span>
           . All Rights Reserved.
         </p>

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, {useEffect, useState} from "react";
 import Link from "next/link";
 import DropdownMenu from "./menu/DropdownMenu";
 import MobileMenu from "./menu/MobileMenu";
@@ -30,15 +30,15 @@ const DefaultHeader = () => {
 
   return (
     <>
-      <header className="ptf-header ptf-header--style-3 ptf-header--opaque px-3">
+      <header className="ptf-header ptf-header--style-3 ptf-header--opaque">
         <div
           className={
             navbar
-              ? "ptf-navbar ptf-navbar--main ptf-navbar--sticky ptf-navbar--fixed"
-              : "ptf-navbar ptf-navbar--main ptf-navbar--sticky"
+                ? "ptf-navbar ptf-navbar--main ptf-navbar--sticky ptf-navbar--fixed px-3"
+                : "ptf-navbar ptf-navbar--main ptf-navbar--sticky px-3"
           }
         >
-          <div className="container-xxl">
+          <div className="container-xxl px-1">
             <div className="ptf-navbar-inner">
               <Link className="ptf-navbar-logo" href="/">
                 <Image

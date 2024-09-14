@@ -125,9 +125,9 @@ const Service = () => {
           <section
             className="jarallax jarallax-img"
             style={{
-              backgroundImage: `url(${
-                "" + "/images/services-call-to-action-background.png"
-              })`,
+              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(${"" + "/images/services-cta-bg.webp"})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
           >
             {/* <!--Spacer--> */}

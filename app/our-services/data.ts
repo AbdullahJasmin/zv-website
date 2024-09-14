@@ -14,8 +14,8 @@ export const services: OurServiceItem[] = [
   {
     id: 11,
     handle: "custom-software-development",
-    icon: "lnil lnil-cup",
-    titlePart1: "CUSTOM SOFTWARE",
+    icon: "lnil lnil-3d",
+    titlePart1: "WEB APPLICATION",
     titlePart2: "DEVELOPMENT",
     description1: `Our development team brings excellence in crafting custom software solutions. 
     We understand that each business is unique, and we tailor our software to meet your specific needs.`,
@@ -30,7 +30,7 @@ export const services: OurServiceItem[] = [
   {
     id: 12,
     handle: "mobile-application-development",
-    icon: "lnil lnil-website-rank",
+    icon: "lnil lnil-Mobile",
     titlePart1: "MOBILE APPLICATION",
     titlePart2: "DEVELOPMENT",
     specialization: `Our expertise lies in crafting mobile applications that combine functionality with 
@@ -47,7 +47,7 @@ export const services: OurServiceItem[] = [
   {
     id: 13,
     handle: "custom-ai-solutions",
-    icon: "lnil lnil-3d",
+    icon: "lnil lnil-bulb-alt",
     titlePart1: "CUSTOM AI",
     titlePart2: "SOLUTIONS",
     specialization: `ZaVolt's specialization in AI allows us to create intelligent solutions 

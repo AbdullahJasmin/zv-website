@@ -48,9 +48,11 @@ const OurServicesPage = () => {
                       style={{ "--ptf-xxl": "2.5rem" }}
                     ></div>
                     <p className="fz-18">
-                      We help ambitious businesses like yours generate more
-                      profits by building awareness, driving web traffic,
-                      connecting with customers and growing overall sales.
+                      We specialize in custom software development, mobile app creation, and
+                      AI-driven solutions. At ZaVolt, we deliver tailored technology to meet
+                      your unique business challenges and drive growth. For design services,
+                      our <strong>ZV | Digital</strong> team crafts impactful branding and
+                      digital experiences.
                     </p>
                   </div>
                   {/* <!--Spacer--> */}
@@ -126,9 +128,9 @@ const OurServicesPage = () => {
           <section
             className="jarallax jarallax-img"
             style={{
-              backgroundImage: `url(${
-                "" + "/images/services-call-to-action-background.png"
-              })`,
+              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(${"" + "/images/services-cta-bg.webp"})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
           >
             {/* <!--Spacer--> */}
@@ -151,7 +153,7 @@ const OurServicesPage = () => {
       {/*=============================================
         Start Footer
         ============================================== */}
-      <footer className="ptf-footer ptf-footer--style-1">
+      <footer className="ptf-footer ptf-footer--style-1 px-3 px-lg-0">
         <div className="container-xxl">
           <div className="ptf-footer__top">
             <Footer />

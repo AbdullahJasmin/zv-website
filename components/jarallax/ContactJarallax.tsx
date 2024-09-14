@@ -9,7 +9,13 @@ const ContactJarallax = () => {
       <div className="d-inline-flex text-start">
         {/* <!--Animated Block--> */}
         <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
-          <div className="fz-36 has-accent-1">Describe your project</div>
+          <div className="fz-36" style={{
+            paddingInline: "16px",
+            color: "lightgray",
+            width: "fit-content",
+            background: "var(--ptf-accent-1)",
+          }}>Describe your project
+          </div>
           {/* <!--Spacer--> */}
           <div className="ptf-spacer" style={{ "--ptf-xxl": "0.625rem" }}></div>
           <div className="fz-100 fz-90--md has-white-color fw-bold lh-1p1">

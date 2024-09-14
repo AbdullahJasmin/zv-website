@@ -3,10 +3,10 @@ import Brand from "../../../components/brand/Brand";
 import Counter from "../../../components/counter/Counter";
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
-import ServiceOne from "../../../components/service/ServiceOne";
 import Testimonial from "../../../components/testimonial/Testimonial";
 import Image from "next/image";
 import DefaultHeader from "@/components/headers/DefaultHeader";
+import WhyUs from "../../our-services/components/WhyUs";
 
 export const metadata = {
     title: "About Us - ZaVolt",
@@ -157,77 +157,121 @@ const AboutUs = () => {
                             ></div>
                         </section>
 
-                        <section>
-                            <div className="container-xxl">
-                                {/* <!--Divider--> */}
-                                <div className="ptf-divider"></div>
-                            </div>
-                        </section>
+                        {/*<section>*/}
+                        {/*    <div className="container-xxl">*/}
+                        {/*        /!* <!--Divider--> *!/*/}
+                        {/*        <div className="ptf-divider"></div>*/}
+                        {/*    </div>*/}
+                        {/*</section>*/}
 
                         {/*=============================================
-                Start Service Section
-              ============================================== */}
-                        <section>
+            Why Us Section
+        ============================================== */}
+                        <section
+                            className="has-accent-1-background"
+                            style={{
+                                backgroundImage: `url(${
+                                    "" + "/images/root/service-bubble.png"
+                                })`,
+                                backgroundRepeat: "no-repeat",
+                                backgroundPosition: "100% calc(100% + 120px)",
+                            }}
+                        >
+                            {/* <!--Spacer--> */}
+                            <div
+                                className="ptf-spacer"
+                                // @ts-ignore
+                                style={{"--ptf-xxl": "9rem", "--ptf-md": "5rem"}}
+                            ></div>
+                            <div className="container-xxl">
+                                {/* <!--Animated Block--> */}
+                                <div
+                                    className="ptf-animated-block"
+                                    data-aos="fade"
+                                    data-aos-delay="0"
+                                >
+                                    <h2 className="h1 large-heading">Why ZaVolt?</h2>
+                                </div>
+                                {/* <!--Spacer--> */}
+                                <div
+                                    className="ptf-spacer"
+                                    // @ts-ignore
+                                    style={{"--ptf-xxl": "7rem", "--ptf-md": " 3.5rem"}}
+                                ></div>
+                                <WhyUs/>
+                            </div>
                             {/* <!--Spacer--> */}
                             <div
                                 className="ptf-spacer"
                                 // @ts-ignore
                                 style={{"--ptf-xxl": "10rem", "--ptf-md": "5rem"}}
                             ></div>
-                            <div className="container-xxl">
-                                <div className="row">
-                                    <div className="col-lg-3">
-                                        {/* <!--Animated Block--> */}
-                                        <div
-                                            className="ptf-animated-block"
-                                            data-aos="fade"
-                                            data-aos-delay="0"
-                                        >
-                                            <h2 className="h1 large-heading">
-                                                Our <br/>
-                                                Services
-                                            </h2>
-                                            {/* <!--Spacer--> */}
-                                            <div
-                                                className="ptf-spacer"
-                                                // @ts-ignore
-                                                style={{"--ptf-xxl": "2.5rem"}}
-                                            ></div>
-                                            <p className="fz-18">
-                                                We specialize in custom software development, mobile app creation, and
-                                                AI-driven solutions. At ZaVolt, we deliver tailored technology to meet
-                                                your unique business challenges and drive growth. For design services,
-                                                our <strong>ZV | Digital</strong> team crafts impactful branding and
-                                                digital experiences.
-                                            </p>
-                                        </div>
-                                        {/* <!--Spacer--> */}
-                                        <div
-                                            className="ptf-spacer"
-                                            style={{
-                                                // @ts-ignore
-                                                "--ptf-lg": "4.375rem",
-                                                "--ptf-md": "2.1875rem",
-                                            }}
-                                        ></div>
-                                    </div>
-                                    <div className="col-lg-8 offset-lg-1">
-                                        <ServiceOne/>
-                                    </div>
-                                </div>
-                                {/* End .row */}
-
-                                {/* <!--Spacer--> */}
-                                {/*<div*/}
-                                {/*  className="ptf-spacer"*/}
-                                {/*  // @ts-ignore*/}
-                                {/*  style={{ "--ptf-xxl": "7.5rem", "--ptf-md": "3.75rem" }}*/}
-                                {/*></div>*/}
-                                {/*<ImageGrid />*/}
-                            </div>
-                            {/* End .container-xxl */}
                         </section>
-                        {/* End service */}
+
+                        {/*          /!*=============================================*/}
+                        {/*  Start Service Section*/}
+                        {/*============================================== *!/*/}
+                        {/*          <section>*/}
+                        {/*              /!* <!--Spacer--> *!/*/}
+                        {/*              <div*/}
+                        {/*                  className="ptf-spacer"*/}
+                        {/*                  // @ts-ignore*/}
+                        {/*                  style={{"--ptf-xxl": "10rem", "--ptf-md": "5rem"}}*/}
+                        {/*              ></div>*/}
+                        {/*              <div className="container-xxl">*/}
+                        {/*                  <div className="row">*/}
+                        {/*                      <div className="col-lg-3">*/}
+                        {/*                          /!* <!--Animated Block--> *!/*/}
+                        {/*                          <div*/}
+                        {/*                              className="ptf-animated-block"*/}
+                        {/*                              data-aos="fade"*/}
+                        {/*                              data-aos-delay="0"*/}
+                        {/*                          >*/}
+                        {/*                              <h2 className="h1 large-heading">*/}
+                        {/*                                  Our <br/>*/}
+                        {/*                                  Services*/}
+                        {/*                              </h2>*/}
+                        {/*                              /!* <!--Spacer--> *!/*/}
+                        {/*                              <div*/}
+                        {/*                                  className="ptf-spacer"*/}
+                        {/*                                  // @ts-ignore*/}
+                        {/*                                  style={{"--ptf-xxl": "2.5rem"}}*/}
+                        {/*                              ></div>*/}
+                        {/*                              <p className="fz-18">*/}
+                        {/*                                  We specialize in custom software development, mobile app creation, and*/}
+                        {/*                                  AI-driven solutions. At ZaVolt, we deliver tailored technology to meet*/}
+                        {/*                                  your unique business challenges and drive growth. For design services,*/}
+                        {/*                                  our <strong>ZV | Digital</strong> team crafts impactful branding and*/}
+                        {/*                                  digital experiences.*/}
+                        {/*                              </p>*/}
+                        {/*                          </div>*/}
+                        {/*                          /!* <!--Spacer--> *!/*/}
+                        {/*                          <div*/}
+                        {/*                              className="ptf-spacer"*/}
+                        {/*                              style={{*/}
+                        {/*                                  // @ts-ignore*/}
+                        {/*                                  "--ptf-lg": "4.375rem",*/}
+                        {/*                                  "--ptf-md": "2.1875rem",*/}
+                        {/*                              }}*/}
+                        {/*                          ></div>*/}
+                        {/*                      </div>*/}
+                        {/*                      <div className="col-lg-8 offset-lg-1">*/}
+                        {/*                          <ServiceCatalog/>*/}
+                        {/*                      </div>*/}
+                        {/*                  </div>*/}
+                        {/*                  /!* End .row *!/*/}
+
+                        {/*                  /!* <!--Spacer--> *!/*/}
+                        {/*                  /!*<div*!/*/}
+                        {/*                  /!*  className="ptf-spacer"*!/*/}
+                        {/*                  /!*  // @ts-ignore*!/*/}
+                        {/*                  /!*  style={{ "--ptf-xxl": "7.5rem", "--ptf-md": "3.75rem" }}*!/*/}
+                        {/*                  /!*></div>*!/*/}
+                        {/*                  /!*<ImageGrid />*!/*/}
+                        {/*              </div>*/}
+                        {/*              /!* End .container-xxl *!/*/}
+                        {/*          </section>*/}
+                        {/*          /!* End service *!/*/}
 
                         {/*=============================================
                 Start Brand and Counterup Section
@@ -394,7 +438,7 @@ const AboutUs = () => {
                 {/* End ptf-main */}
 
                 {/* <!--Footer--> */}
-                <footer className="ptf-footer ptf-footer--style-1">
+                <footer className="ptf-footer ptf-footer--style-1 px-3 px-lg-0">
                     <div className="container-xxl">
                         <div className="ptf-footer__top">
                             <Footer/>

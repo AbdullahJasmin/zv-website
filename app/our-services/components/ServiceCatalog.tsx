@@ -1,4 +1,3 @@
-import Link from "next/link";
 import {services} from "../data";
 
 
@@ -14,10 +13,10 @@ const ServiceCatalog = () => {
         >
           {/* <!--Services Box--> */}
           <div className="ptf-service-box">
-            <Link
-              href={`/our-services/${val.handle}`}
-              className="ptf-service-box__link"
-            ></Link>
+              {/*<Link*/}
+              {/*  href={`/our-services/${val.handle}`}*/}
+              {/*  className="ptf-service-box__link"*/}
+              {/*></Link>*/}
             <div className="ptf-service-box__icon">
               <i className={val.icon}></i>
             </div>
@@ -29,9 +28,9 @@ const ServiceCatalog = () => {
               <p>{val.description1}</p>
               <p>{val.description2}</p>
             </div>
-            <div className="ptf-service-box__arrow">
-              <i className="lnil lnil-chevron-right"></i>
-            </div>
+              {/*<div className="ptf-service-box__arrow">*/}
+              {/*  <i className="lnil lnil-chevron-right"></i>*/}
+              {/*</div>*/}
           </div>
         </div>
       ))}

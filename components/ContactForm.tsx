@@ -4,7 +4,7 @@ import React, {useRef, useState} from "react";
 import {useForm} from "react-hook-form";
 import {yupResolver} from "@hookform/resolvers/yup";
 import * as Yup from "yup";
-import {toast, ToastContainer} from "react-toastify";
+import {toast} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ReCAPTCHA from "react-google-recaptcha"; // Import ReCAPTCHA
 
@@ -70,7 +70,6 @@ const ContactForm = () => {
 
     return (
         <>
-            <ToastContainer/> {/* Container for displaying toasts */}
             <form onSubmit={handleSubmit(onSubmit)} className="contact_form">
                 <div className="ptf-form-group">
                     <label data-number="01">What’s your name?</label>

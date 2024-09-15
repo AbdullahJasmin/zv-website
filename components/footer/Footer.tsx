@@ -55,7 +55,7 @@ const Product = [
 
 const Footer = () => {
   return (
-    <div className="row">
+      <div className="row px-3 px-xxl-0">
       <div className="col-12 col-xl-6">
         {/* <!--Animated Block--> */}
         <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">

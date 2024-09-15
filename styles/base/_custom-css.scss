@@ -411,8 +411,14 @@
   top: 50%;
 }
 .contact_form {
-  input {
-    font-size: 2.5rem !important;
+  label {
+    color: var(--ptf-color-2);
+    font-weight: 200;
+  }
+
+  input, select, textarea {
+    font-size: 1.5rem !important;
+    font-weight: 600;
   }
 }
 
@@ -428,13 +434,11 @@
 }
 
 section {
+  padding-left: 0.75rem !important;
+  padding-right: 0.75rem !important;
 
-
-  padding-left: 0!important;
-  padding-right: 0!important;
-
-  @include mq('large') {
-    padding-left: 0.75rem!important;
-    padding-right: 0.75rem!important;
+  @include mq('xlarge') {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }

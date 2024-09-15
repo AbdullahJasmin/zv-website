@@ -29,7 +29,7 @@ const AboutUs = () => {
                             <div
                                 className="ptf-spacer"
                                 // @ts-ignore
-                                style={{"--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem"}}
+                                style={{"--ptf-xxl": "7rem", "--ptf-md": "3.5rem"}}
                             ></div>
 
                             <div className="container-xxl">

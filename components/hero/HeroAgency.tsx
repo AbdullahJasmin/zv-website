@@ -1,9 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
+import React, {useState} from "react";
 import Link from "next/link";
-import Slider from "react-slick";
-import ModalVideo from "react-modal-video";
 
 const HeroAgency = () => {
   const [isOpen, setOpen] = useState(false);
@@ -21,7 +19,11 @@ const HeroAgency = () => {
   };
   return (
     <>
-        <div className="ptf-showcase-image image-1 px-3 px-lg-0">
+      <div className="ptf-showcase-image px-3 px-lg-0" style={{
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(${"" + "/images/home/agency/team-pic.webp"})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}>
           <div className="ptf-showcase-slide">
             <div className="container">
               <h1 className="fz-70 fz-100--lg lh-1p1 has-white-color">
@@ -56,9 +58,12 @@ const HeroAgency = () => {
 
               <div className="d-flex">
                 {/* <!--Button--> */}
-                <a className="ptf-btn ptf-btn--primary" href="" target="_self">
+                <Link
+                    className="ptf-btn ptf-btn--primary"
+                    href="/contact-us"
+                >
                   Get Started
-                </a>
+                </Link>
                 {/* <!--Button--> */}
                 <Link
                   className="ptf-btn ptf-btn--secondary"

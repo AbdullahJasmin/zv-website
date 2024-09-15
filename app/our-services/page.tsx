@@ -26,7 +26,7 @@ const OurServicesPage = () => {
             <div
               className="ptf-spacer"
               // @ts-ignore
-              style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              style={{"--ptf-xxl": "7rem", "--ptf-md": "3.5rem"}}
             ></div>
             <div className="container-xxl">
               <div className="row">

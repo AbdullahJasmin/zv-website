@@ -40,7 +40,7 @@ const HomeAgency = () => {
               <div
                 className="ptf-spacer"
                 // @ts-ignore
-                style={{ "--ptf-xxl": "3.75rem" }}
+                style={{"--ptf-xxl": "4.25rem"}}
               ></div>
               <div className="container">
                 <div
@@ -96,18 +96,18 @@ const HomeAgency = () => {
               <div
                 className="ptf-spacer"
                 // @ts-ignore
-                style={{"--ptf-xxl": "5rem", "--ptf-md": "5rem"}}
+                style={{"--ptf-xxl": "3rem", "--ptf-md": "2rem"}}
               ></div>
               <div className="container">
                 <div className="row">
                   <div className="col-xl-7">
                     {/* <!--Animated Block--> */}
                     <div
-                      className="ptf-animated-block"
+                        className="ptf-animated-block h-100"
                       data-aos="fade"
                       data-aos-delay="0"
                     >
-                      <h2 className="h2 large-heading has-accent-1">
+                      <h2 className="h2 large-heading has-accent-1 d-flex align-items-center h-100">
                         Creative Design & Development
                       </h2>
                     </div>
@@ -137,7 +137,7 @@ const HomeAgency = () => {
               <div
                 className="ptf-spacer"
                 //  @ts-ignore
-                style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
+                style={{"--ptf-xxl": "4.25rem", "--ptf-md": "3rem"}}
               ></div>
             </section>
             {/* End  Advertising Big Title */}

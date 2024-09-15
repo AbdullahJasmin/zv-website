@@ -4,13 +4,7 @@ import React from "react";
 import Link from "next/link";
 import {usePathname} from "next/navigation";
 
-import {
-    Sidebar,
-    Menu,
-    MenuItem,
-    SubMenu,
-
-} from "react-pro-sidebar";
+import {Menu, Sidebar,} from "react-pro-sidebar";
 
 import Social from "../../social/Social";
 
@@ -127,9 +121,23 @@ const MobileMenu = () => {
                         {menuContent.map((item, i) => (
                             <li className={`menu-item-has-children ${item.menuClass}`} key={i}>
                                 {item.routerPath ? (
-                                    <Link href={item.routerPath} className={item.activeClass}>
+                                    <Link href={item.routerPath} className={item.activeClass}
+                                          target={item.routerPath.includes('https://') ? '_blank' : '_self'}>
               <span className={item.page === currentPage ? "active-page" : ""}>
                 {item.name}
+                  {
+                      item.routerPath.includes('https://') &&
+                      <div className="text-end d-inline-block mx-2">
+                          <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="currentColor"
+                              style={{height: "1em"}}
+                              viewBox="0 0 17 17"
+                          >
+                              <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z"/>
+                          </svg>
+                      </div>
+                  }
               </span>
                                     </Link>
                                 ) : (

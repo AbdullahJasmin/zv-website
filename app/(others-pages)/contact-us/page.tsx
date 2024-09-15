@@ -22,7 +22,7 @@ const Contact = () => {
             <div
               className="ptf-spacer"
               // @ts-ignore
-              style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              style={{"--ptf-xxl": "7rem", "--ptf-md": "3.5rem"}}
             ></div>
 
             <div className="container-xxl">
@@ -35,14 +35,13 @@ const Contact = () => {
                     data-aos-delay="0"
                   >
                     <h1 className="large-heading">
-                      Let&apos;s get Contact an <br />
-                      estimate
+                      Get in touch!
                     </h1>
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
                       // @ts-ignore
-                      style={{ "--ptf-xxl": "3rem", "--ptf-md": "2.5rem" }}
+                      style={{"--ptf-xxl": "1.75rem", "--ptf-md": "1.25rem"}}
                     ></div>
 
                     <Social />
@@ -58,7 +57,7 @@ const Contact = () => {
             <div
               className="ptf-spacer"
               // @ts-ignore
-              style={{ "--ptf-xxl": "6.25rem", "--ptf-md": "3.125rem" }}
+              style={{"--ptf-xxl": "4.25rem", "--ptf-md": "2.125rem"}}
             ></div>
           </section>
           {/* End section contact-us header */}
@@ -78,8 +77,9 @@ const Contact = () => {
                     data-aos="fade"
                     data-aos-delay="300"
                   >
-                    <h5 className="fz-14 text-uppercase has-3-color fw-normal">
-                      Tell us about your project and goals.
+                    <h5 className="fz-24 text-uppercase has-dark-color fw-semibold">
+                      Ready to Start?
+                      Let’s Talk!
                     </h5>
                     {/* <!--Spacer--> */}
                     <div

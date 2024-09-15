@@ -20,7 +20,7 @@ const Faq = () => {
             <div
               className="ptf-spacer"
               // @ts-ignore
-              style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              style={{"--ptf-xxl": "7rem", "--ptf-md": "3.5rem"}}
             ></div>
             <div className="container-xxl">
               <div className="row">
@@ -38,7 +38,7 @@ const Faq = () => {
                       // @ts-ignore
                       style={{ "--ptf-xxl": "2.5rem" }}
                     ></div>
-                    <p className="fz-18">
+                    <p className="fz-24">
                       Here are the frequently asked questions that we have
                       compiled to help you find the answers to the problems you
                       are wondering.

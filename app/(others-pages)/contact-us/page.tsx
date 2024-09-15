@@ -4,6 +4,8 @@ import Social from "../../../components/social/Social";
 import ContactForm from "../../../components/ContactForm";
 import Address from "../../../components/Address";
 import DefaultHeader from "@/components/headers/DefaultHeader";
+import {ToastContainer} from "react-toastify";
+import React from "react";
 
 export const metadata = {
   title: "Contact Us - ZaVolt",
@@ -14,6 +16,7 @@ const Contact = () => {
     <>
       <DefaultHeader />
       {/* End Header */}
+      <ToastContainer position={"top-center"}/>
 
       <div className="ptf-main">
         <div className="ptf-page ptf-page--contact">

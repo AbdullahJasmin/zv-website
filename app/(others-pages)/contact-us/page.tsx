@@ -16,7 +16,7 @@ const Contact = () => {
     <>
       <DefaultHeader />
       {/* End Header */}
-      <ToastContainer position={"top-center"}/>
+      <ToastContainer/>
 
       <div className="ptf-main">
         <div className="ptf-page ptf-page--contact">

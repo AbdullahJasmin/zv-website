@@ -60,17 +60,17 @@ const HeroAgency = () => {
                 {/* <!--Button--> */}
                 <Link
                     className="ptf-btn ptf-btn--primary"
-                    href="/contact-us"
+                    href="#get-started"
                 >
                   Get Started
                 </Link>
                 {/* <!--Button--> */}
                 <Link
                   className="ptf-btn ptf-btn--secondary"
-                  href="/our-services"
+                  href="/contact-us"
                   style={{ marginLeft: "2rem" }}
                 >
-                  Our Services
+                  Request Quote
                 </Link>
               </div>
             </div>

@@ -88,12 +88,12 @@ const Approach = () => {
             <div
               className="ptf-approach-box"
               style={{
-                "--ptf-title-color": "var(--ptf-color-white)",
+                "--ptf-title-color": "var(--ptf-color-black)",
               }}
             >
-              <div className="ptf-approach-box__subtitle">{val.subTitle}</div>
+              <div className="ptf-approach-box__subtitle has-accent-1">{val.subTitle}</div>
               <h3 className="ptf-approach-box__title h1">{val.title}</h3>
-              <div className="ptf-approach-box__content">
+              <div className="ptf-approach-box__content white">
                 <p>{val.descriptions}</p>
               </div>
             </div>

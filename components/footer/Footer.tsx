@@ -3,54 +3,38 @@
 import React from "react";
 import Link from "next/link";
 
-const linkList = [
-  {
-      itemName: "FAQs",
-    link: "/",
-  },
-    // {
-    //   itemName: "Term & Conditions",
-    //   link: "/",
-    // },
-    // {
-    //   itemName: "Privacy Policy",
-    //   link: "/",
-    // },
-    // {
-    //   itemName: "Help",
-    //   link: "/",
-    // },
-    // {
-    //   itemName: "Affiliate",
-    //   link: "/",
-    // },
-  {
-    itemName: "Services",
-    link: "/",
-  },
-];
-
-const Product = [
-  {
-      itemName: "About Us",
-      link: "/about-us",
-  },
+const siteLinks = [
+    {
+        itemName: "About Us",
+        link: "/about-us",
+    },
     {
         itemName: "Our Services",
         link: "/our-services",
-  },
-  {
-      itemName: "Contact Us",
-      link: "/contact-us",
-  },
-  {
-      itemName: "FAQ",
-      link: "/faq",
-  },
-  {
-      itemName: "Blog",
-      link: "https://blog.zavolt.com",
-  },
+    },
+    {
+        itemName: "Contact Us",
+        link: "/contact-us",
+    },
+    {
+        itemName: "FAQ",
+        link: "/faq",
+    },
+];
+
+const externalLinks = [
+    {
+        itemName: "Blog",
+        link: "https://blog.zavolt.com",
+    },
+    {
+        itemName: "Careers",
+        link: "https://careers.zavolt.com",
+    },
+    {
+        itemName: "ZV | Digital",
+        link: "https://zavolt.digital",
+    },
 ];
 
 const Footer = () => {
@@ -83,25 +67,25 @@ const Footer = () => {
           </a>
         </div>
       </div>
-        {/*<div className="col-12 col-md-6 col-xl-3">*/}
-        {/*  /!* <!--Animated Block--> *!/*/}
-        {/*  <div*/}
-        {/*    className="ptf-animated-block"*/}
-        {/*    data-aos="fade"*/}
-        {/*    data-aos-delay="100"*/}
-        {/*  >*/}
-        {/*    <div className="ptf-widget ptf-widget-links has-black-color">*/}
-        {/*      <h4 className="ptf-widget-title">Links</h4>*/}
-        {/*      <ul>*/}
-        {/*        {linkList.map((val, i) => (*/}
-        {/*          <li key={i}>*/}
-        {/*            <a href={val.link}>{val.itemName}</a>*/}
-        {/*          </li>*/}
-        {/*        ))}*/}
-        {/*      </ul>*/}
-        {/*    </div>*/}
-        {/*  </div>*/}
-        {/*</div>*/}
+          <div className="col-12 col-md-6 col-xl-3">
+              {/* <!--Animated Block--> */}
+              <div
+                  className="ptf-animated-block"
+                  data-aos="fade"
+                  data-aos-delay="100"
+              >
+                  <div className="ptf-widget ptf-widget-links has-black-color">
+                      <h4 className="ptf-widget-title">Site Links</h4>
+                      <ul>
+                          {siteLinks.map((val, i) => (
+                              <li key={i}>
+                                  <Link href={val.link}>{val.itemName}</Link>
+                              </li>
+                          ))}
+                      </ul>
+                  </div>
+              </div>
+          </div>
       <div className="col-12 col-md-6 col-xl-3">
         {/* <!--Animated Block--> */}
         <div
@@ -110,20 +94,30 @@ const Footer = () => {
           data-aos-delay="200"
         >
           <div className="ptf-widget ptf-widget-text">
-              <h4 className="ptf-widget-title">Links</h4>
+              <h4 className="ptf-widget-title">External Links</h4>
             <div className="ptf-widget ptf-widget-links has-black-color">
               <ul>
-                {Product.map((val, i) => (
-                  <li key={i}>
-                    <a href={val.link}>{val.itemName}</a>
-                  </li>
+                  {externalLinks.map((val, i) => (
+                      <li key={i}>
+                          <Link href={val.link} target={'_blank'}>{val.itemName}</Link>
+                          <div className="text-end d-inline-block mx-2">
+                              <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  fill="currentColor"
+                                  style={{height: "1em"}}
+                                  viewBox="0 0 17 17"
+                              >
+                                  <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z"/>
+                              </svg>
+                          </div>
+                      </li>
                 ))}
               </ul>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      </div>
   );
 };
 

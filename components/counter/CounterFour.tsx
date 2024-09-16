@@ -45,7 +45,7 @@ const CounterFour = () => {
             data-aos="fade"
             data-aos-delay={val.animationDelay}
           >
-            <h5 className="fz-14 text-uppercase has-3-color fw-normal">
+              <h5 className="fz-18 text-uppercase has-3-color fw-semibold">
               {val.metaText1} <br />
               {val.metaText2}
             </h5>
@@ -71,8 +71,7 @@ const CounterFour = () => {
                   end={Number(val.endCount)}
                   duration={1}
                   redraw={true}
-                >
-                </CountUp>
+                />
               </div>
             </div>
           </div>

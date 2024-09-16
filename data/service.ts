@@ -193,8 +193,9 @@ export const serviceContentfour: ServiceItem[] = [
 export const serviceListfive: ServiceItem[] = [
   { id: 1, name: "Full Stack Web Development", number: "1" },
   { id: 2, name: "Mobile App Development", number: "2" },
-  { id: 3, name: "AI Solutions", number: "3" },
-  { id: 4, name: "IT Consultant", number: "4" },
+  {id: 3, name: "Software System Maintenance", number: "3"},
+  {id: 4, name: "Custom AI Solutions", number: "4"},
+  {id: 5, name: "IT Consultancy", number: "5"},
 ];
 
 

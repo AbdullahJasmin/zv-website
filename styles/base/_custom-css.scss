@@ -433,12 +433,12 @@
   }
 }
 
-section {
-  padding-left: 0.75rem !important;
-  padding-right: 0.75rem !important;
+.ptf-main section {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 
-  @include mq('xlarge') {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+  @include mq('xxlarge', 'min') {
+    padding-left: 0;
+    padding-right: 0;
   }
 }

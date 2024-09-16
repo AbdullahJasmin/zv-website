@@ -82,20 +82,20 @@ const OurServicesPage = () => {
             Our Approach Section
         ============================================== */}
           <section
-            className="has-accent-1-background"
-            style={{
-              backgroundImage: `url(${
-                "" + "/images/root/service-bubble.png"
-              })`,
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "100% calc(100% + 120px)",
-            }}
+              className="has-gray-color-background"
+              // style={{
+              //   backgroundImage: `url(${
+              //     "" + "/images/root/service-bubble.png"
+              //   })`,
+              //   backgroundRepeat: "no-repeat",
+              //   backgroundPosition: "100% calc(100% + 120px)",
+              // }}
           >
             {/* <!--Spacer--> */}
             <div
               className="ptf-spacer"
               // @ts-ignore
-              style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+              style={{"--ptf-xxl": "9rem", "--ptf-md": "4.5rem"}}
             ></div>
             <div className="container-xxl">
               {/* <!--Animated Block--> */}
@@ -104,7 +104,7 @@ const OurServicesPage = () => {
                 data-aos="fade"
                 data-aos-delay="0"
               >
-                <h2 className="h1 large-heading">Our Approach</h2>
+                <h2 className="h1 large-heading has-accent-1">Our Approach</h2>
               </div>
               {/* <!--Spacer--> */}
               <div

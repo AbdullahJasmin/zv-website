@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import {Fragment} from "react";
 
 const brandContent = [
   {
@@ -15,35 +16,35 @@ const brandContent = [
     hoverBg: "#27adea",
     imgHeight: "80px",
     imgName: "ogl.png",
-    title: "Ocean Gate Logistics",
+    title: "Ocean Gate\nLogistics",
   },
   {
     delayAnimation: "200",
     hoverBg: "#bcf09a",
     imgHeight: "100px",
     imgName: "geld.png",
-    title: "Geld.Network",
+    title: "Geld\nNetwork",
   },
   {
     delayAnimation: "300",
-    hoverBg: "#c01314",
+    hoverBg: "#ef6d7c",
     imgHeight: "100px",
     imgName: "ff.png",
-    title: "Fitness First",
+    title: "Fitness First\nSri Lanka",
   },
   {
     delayAnimation: "400",
     hoverBg: "#b5b4b3",
     imgHeight: "100px",
     imgName: "sumaga.png",
-    title: "Sumaga Ruhunu Circle of Deaf",
+    title: "Sumaga Ruhunu\nCircle of Deaf",
   },
   {
     delayAnimation: "500",
     hoverBg: "#0064cf",
     imgHeight: "80px",
     imgName: "stag-tech.png",
-    title: "Stag Technologies",
+    title: "Stag\nTechnologies",
   },
 ];
 
@@ -82,7 +83,11 @@ const Brand = () => {
                   loading="lazy"
                 />
               </div>
-              <h6 className="ptf-partner-box__title">{item.title}</h6>
+              <h6 className="ptf-partner-box__title">{item.title.split('\n').map((word, index) => (
+                  <Fragment key={index}>
+                    {word} <br/>
+                  </Fragment>
+              ))}</h6>
             </div>
           </div>
         </div>

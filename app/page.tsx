@@ -120,13 +120,17 @@ const HomeAgency = () => {
                       data-aos-delay="100"
                     >
                       <div className="has-black-color fz-90 lh-0p6 text-end">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="currentColor"
-                          style={{height: "0.8em"}}
-                          viewBox="0 0 17 17"
-                        >
-                          <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z" />
+                        <svg width="81" height="82" viewBox="0 0 81 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M80.5547 25.8887L59.4952 67.2987L54.6314 57.9983L70.9903 25.8887H80.5547Z"
+                                fill="#E50914"/>
+                          <path d="M57.341 71.7139L33.9948 25.8887H24.4297L52.4728 81.0077H52.6055L57.341 71.7139Z"
+                                fill="#E50914"/>
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M39.297 55.1078L34.5586 45.7942H20.3332L29.1205 35.1252L24.4356 25.917L0.570312 55.1189H39.2912L39.297 55.1078Z"
+                                fill="#141414"/>
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M39.6541 22.9773L58.6018 0H14.2644L9.55469 9.32467H38.6966L27.4518 22.9773H39.6541Z"
+                                fill="#141414"/>
                         </svg>
                       </div>
                     </div>
@@ -135,14 +139,14 @@ const HomeAgency = () => {
               </div>
               {/* <!--Spacer--> */}
               <div
-                className="ptf-spacer"
-                //  @ts-ignore
-                style={{"--ptf-xxl": "4.25rem", "--ptf-md": "3rem"}}
+                  className="ptf-spacer"
+                  //  @ts-ignore
+                  style={{"--ptf-xxl": "4.25rem", "--ptf-md": "3rem"}}
               ></div>
             </section>
             {/* End  Advertising Big Title */}
 
-            <section className="ptf-custom--3993 jarallax">
+            <section className="ptf-custom--3993 jarallax" id="get-started" style={{scrollMarginTop: 140}}>
               <div className="-fluid px-3 px-lg-0">
                 <div className="row">
                   <div className="col-lg-5 offset-lg-7 px-lg-5" style={{
@@ -161,7 +165,7 @@ const HomeAgency = () => {
                       data-aos-delay="0"
                     >
                       <h6 className="fz-16 has-accent-1 text-uppercase">
-                        About Us
+                        WHO ARE WE?
                       </h6>
                       {/* <!--Spacer--> */}
                       <div
@@ -170,26 +174,32 @@ const HomeAgency = () => {
                         style={{ "--ptf-xxl": "1.875rem" }}
                       ></div>
                       <h3 style={{maxWidth: "30rem"}}>
-                        Empowering Your Business with Innovative Solutions
+                        We Empower Your Business with Innovative Solutions
                       </h3>
                       {/* <!--Spacer--> */}
                       <div
                         className="ptf-spacer"
                         // @ts-ignore
-                        style={{ "--ptf-xxl": "5rem", "--ptf-md": "2.5rem" }}
+                        style={{"--ptf-xxl": "4rem", "--ptf-md": "2rem"}}
                       ></div>
-                      <p className="fz-18" style={{maxWidth: "30rem"}}>
-                        At ZaVolt, we drive your success by creating impactful
-                        digital experiences, innovative brand identities, and
-                        results-oriented strategies. Our expertise lies in
-                        blending creativity with technology to amplify your
-                        brand&apos;s reach and effectiveness.
+                      <p className="fz-20" style={{maxWidth: "30rem"}}>
+                        Welcome to <strong>ZaVolt</strong>, where we electrify your business to
+                        greatness!
+                        We take immense pride in being a premier company that offers
+                        top-tier design,
+                        marketing, and development solutions, all aimed at powering
+                        the unparalleled success of
+                        your brand.
+
                       </p>
-                      <p className="fz-18" style={{maxWidth: "30rem"}}>
-                      Whether it&apos;s
-                        crafting a memorable online presence or optimizing your
-                        digital marketing efforts, we ensure your business not
-                        only meets its goals but exceeds them.
+                      <p className="fz-20" style={{maxWidth: "30rem"}}>
+                        Our passionate team of digital wizards is committed to
+                        illuminating your true potential,
+                        igniting innovation,
+                        and crafting remarkable digital experiences.
+                        Join us on this electrifying journey, and together
+                        we&apos;ll make your business shine
+                        like never before!
                       </p>
                     </div>
                     {/* <!--Spacer--> */}
@@ -271,9 +281,10 @@ const HomeAgency = () => {
                       data-aos="fade"
                       data-aos-delay="100"
                     >
-                      <Link href={'https://zavolt.digital'} target={'_blank'} rel="noopener noreferrer">
-                        <h2>ZV Digital
-                          <div className="has-black-color text-end d-inline-block mx-2">
+                      <Link href={'https://zavolt.digital'} target={'_blank'} rel="noopener noreferrer"
+                            className="has-black-color">
+                        <h2 style={{color: "inherit"}}>ZV Digital
+                          <div className="text-end d-inline-block mx-2">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="currentColor"
@@ -389,7 +400,7 @@ const HomeAgency = () => {
                   data-aos="fade"
                   data-aos-delay="0"
                 >
-                  <h2 className="h1 large-heading has-accent-1">Core Team</h2>
+                  <h2 className="h1 large-heading has-accent-1">Board of Directors</h2>
                 </div>
                 {/* <!--Spacer--> */}
                 <div

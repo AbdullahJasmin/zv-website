@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import Link from "next/link";
 
 import {serviceListfive} from '../../data/service'
+
 const ListOne = () => {
   return (
     <ul
@@ -12,11 +12,11 @@ const ListOne = () => {
     >
       {serviceListfive.map((val, i) => (
         <li key={i}>
-          <Link
-            href={`/service/${val.id}`}
-          >
+            {/*<Link*/}
+            {/*  href={`/service/${val.id}`}*/}
+            {/*>*/}
             {val.name}
-          </Link>
+            {/*</Link>*/}
         </li>
       ))}
     </ul>

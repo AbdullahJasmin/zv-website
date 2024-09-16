@@ -73,13 +73,13 @@ const WhyUs = () => {
                         <div
                             className="ptf-approach-box"
                             style={{
-                                "--ptf-title-color": "var(--ptf-color-white)",
+                                "--ptf-title-color": "var(--ptf-color-black)",
                             }}
                         >
-                            <div className="ptf-approach-box__subtitle">{val.subTitle}</div>
-                            <h3 className="ptf-approach-box__title h1">{val.title}</h3>
-                            <div className="ptf-approach-box__content">
-                                <p>{val.descriptions}</p>
+                            <div className="ptf-approach-box__subtitle black">{val.subTitle}</div>
+                            <h3 className="ptf-approach-box__title h2">{val.title}</h3>
+                            <div className="ptf-approach-box__content black">
+                                <p className="">{val.descriptions}</p>
                             </div>
                         </div>
                     </div>

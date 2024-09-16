@@ -54,6 +54,20 @@ const menuContent = [
         page: "blog",
         routerPath: "https://blog.zavolt.com",
     },
+    {
+        name: "Careers",
+        activeClass: "",
+        menuClass: "",
+        page: "careers",
+        routerPath: "https://careers.zavolt.com",
+    },
+    {
+        name: "ZV | Digital",
+        activeClass: "",
+        menuClass: "",
+        page: "zv-digital",
+        routerPath: "https://zavolt.digital",
+    },
     // {
     //   name: "More ...",
     //   activeClass: "",

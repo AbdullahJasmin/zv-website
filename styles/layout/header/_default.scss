@@ -19,7 +19,7 @@
     margin-right: auto;
     margin-left: px2rem(140px);
 
-    @include mq("large") {
+    @include mq("xxlarge") {
       display: none;
     }
   }

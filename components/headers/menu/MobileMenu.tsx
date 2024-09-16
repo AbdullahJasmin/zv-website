@@ -58,6 +58,20 @@ const menuContent = [
         page: "blog",
         routerPath: "https://blog.zavolt.com",
     },
+    {
+        name: "Careers",
+        activeClass: "",
+        menuClass: "",
+        page: "careers",
+        routerPath: "https://careers.zavolt.com",
+    },
+    {
+        name: "ZV | Digital",
+        activeClass: "",
+        menuClass: "",
+        page: "zv-digital",
+        routerPath: "https://zavolt.digital",
+    },
     // {
     //   name: "More ...",
     //   activeClass: "",
@@ -196,7 +210,7 @@ const MobileMenu = () => {
 
             <div className="ptf-offcanvas-menu__footer">
                 <p className="ptf-offcanvas-menu__copyright">
-                    @{new Date().getFullYear()} <span>ZaVolt</span>. All Rights Reserved.{" "}
+                    @{new Date().getFullYear()} <span>ZaVolt</span>. All Rights Reserved.
                 </p>
                 <Social/>
             </div>

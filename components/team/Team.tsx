@@ -8,25 +8,25 @@ const teamContent = [
         delayAnimation: "0",
         img: "aj",
         title: "Abdullah Jasmin",
-        designation: "Co-Founder / UI/UX Designer / Web Developer",
+        designation: "Co-Founder / Managing Director",
     },
     {
         delayAnimation: "100",
         img: "ns",
         title: "Nethsara Sandeepa",
-        designation: "Co-Founder / Software Engineer",
+        designation: "Co-Founder / Technology Director",
     },
     {
         delayAnimation: "200",
         img: "sr",
         title: "Sandul Renuja",
-        designation: "Co-Founder / Software Engineer",
+        designation: "Co-Founder / Operations Director",
     },
     {
         delayAnimation: "300",
         img: "sm",
         title: "Suraif Muhammad",
-        designation: "Co-Founder / Web Developer",
+        designation: "Co-Founder / Business Development Director",
     },
     // {
     //   delayAnimation: "100",
@@ -46,12 +46,12 @@ const teamContent = [
     //   title: "Neethamadhu Madurasinghe",
     //   designation: "Software Engineer",
     // },
-    {
-        delayAnimation: "400",
-        img: "new-member",
-        title: "",
-        designation: "",
-    },
+    // {
+    //     delayAnimation: "400",
+    //     img: "new-member",
+    //     title: "",
+    //     designation: "",
+    // },
 ];
 
 const Team = () => {

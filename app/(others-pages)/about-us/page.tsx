@@ -67,8 +67,8 @@ const AboutUs = () => {
                                             style={{"--ptf-xxl": "5rem", "--ptf-md": "2.5rem"}}
                                         ></div>
                                         <div className="row">
-                                            <div className="col-xl-8">
-                                                <div style={{maxWidth: "29.6875rem"}}>
+                                            <div className="col-xl-11">
+                                                <div style={{maxWidth: "40rem"}}>
                                                     {/* <!--Animated Block--> */}
                                                     <div
                                                         className="ptf-animated-block"
@@ -87,21 +87,21 @@ const AboutUs = () => {
                                                                 "--ptf-md": "2.1875rem",
                                                             }}
                                                         ></div>
-                                                        <p className="fz-24">
-                                                            Welcome to ZaVolt, where we electrify your business to
-                                                            greatness!
-                                                            We take immense pride in being a premier company that offers
-                                                            top-tier design,
-                                                            marketing, and development solutions, all aimed at powering
-                                                            the unparalleled success of
-                                                            your brand.
-                                                            Our passionate team of digital wizards is committed to
-                                                            illuminating your true potential,
-                                                            igniting innovation,
-                                                            and crafting remarkable digital experiences.
-                                                            Join us on this electrifying journey, and together
-                                                            we&apos;ll make your business shine
-                                                            like never before!
+                                                        <p className="fz-24" style={{textAlign: "justify"}}>
+                                                            Our journey began in 2023 when a group of enthusiastic
+                                                            undergraduates from UCSC Sri Lanka, came together to bring
+                                                            their entrepreneurial dreams to life by
+                                                            founding <strong>ZaVolt</strong>.
+                                                            Leveraging our collective skills in design, development, and
+                                                            marketing, we aimed to brighten the digital world for
+                                                            businesses big and small.
+                                                            <br/><br/>Following a triumphant inaugural
+                                                            year, we saw the potential for ZaVolt to achieve even more.
+                                                            Thus, in 2024, <strong>ZV | Digital</strong> was born,
+                                                            marking the next step
+                                                            in our mission and allowing us to broaden our scope to
+                                                            deliver all-encompassing solutions that drive brands
+                                                            forward, no matter their size or stage.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -168,7 +168,7 @@ const AboutUs = () => {
             Why Us Section
         ============================================== */}
                         <section
-                            className="has-accent-1-background"
+                            className="has-gray-color-background"
                             style={{
                                 backgroundImage: `url(${
                                     "" + "/images/root/service-bubble.png"
@@ -181,7 +181,7 @@ const AboutUs = () => {
                             <div
                                 className="ptf-spacer"
                                 // @ts-ignore
-                                style={{"--ptf-xxl": "9rem", "--ptf-md": "5rem"}}
+                                style={{"--ptf-xxl": "9rem", "--ptf-md": "4.5rem"}}
                             ></div>
                             <div className="container-xxl">
                                 {/* <!--Animated Block--> */}
@@ -190,7 +190,7 @@ const AboutUs = () => {
                                     data-aos="fade"
                                     data-aos-delay="0"
                                 >
-                                    <h2 className="h1 large-heading">Why ZaVolt?</h2>
+                                    <h2 className="h1 large-heading has-accent-1">Why ZaVolt?</h2>
                                 </div>
                                 {/* <!--Spacer--> */}
                                 <div
@@ -330,7 +330,7 @@ const AboutUs = () => {
                             <div
                                 className="ptf-spacer"
                                 // @ts-ignore
-                                style={{"--ptf-xxl": "9rem", "--ptf-md": "5rem"}}
+                                style={{"--ptf-xxl": "7rem", "--ptf-md": "5rem"}}
                             ></div>
                         </section>
 

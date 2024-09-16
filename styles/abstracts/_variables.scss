@@ -4,6 +4,7 @@ $base_font_size: 16px;
 
 :root {
   --ptf-accent-1: #E50914 !important;
+  --ptf-accent-1-dark: #5c0408 !important;
   // Accent colors
   @include defineColorHSL("--ptf-accent-2", 8, 75%, 51%); // #df3d23
   @include defineColorHSL("--ptf-accent-3", 80, 100%, 30%); // #669900
@@ -21,7 +22,7 @@ $base_font_size: 16px;
   @include defineColorHSL("--ptf-color-7", 0, 0%, 97%); // #f8f8f8
   @include defineColorHSL("--ptf-color-8", 0, 0%, 95%); // #f3f3f3
   @include defineColorHSL("--ptf-color-9", 0, 0%, 96%); // #f6f6f6
-  @include defineColorHSL("--ptf-color-10", 0, 0%, 87%); // #dfdfdf
+  @include defineColorHSL("--ptf-color-10", 0, 0%, 92%); // #dfdfdf
   @include defineColorHSL("--ptf-color-11", 38, 22%, 93%); // #f1eee9
   @include defineColorHSL("--ptf-color-12", 0, 0%, 7%); // #131313
   @include defineColorHSL("--ptf-color-13", 0, 0%, 50%); // #7f7f7f

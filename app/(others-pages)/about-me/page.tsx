@@ -241,7 +241,7 @@ const AboutMe = () => {
               <div
                 className="ptf-spacer"
                 // @ts-ignore
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                style={{"--ptf-xxl": "9rem", "--ptf-md": "4rem"}}
               ></div>
             </section>
 
@@ -300,7 +300,7 @@ const AboutMe = () => {
               <div
                 className="ptf-spacer"
                 // @ts-ignore
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                style={{"--ptf-xxl": "9rem", "--ptf-md": "4rem"}}
               ></div>
             </section>
 
@@ -353,7 +353,7 @@ const AboutMe = () => {
               <div
                 className="ptf-spacer"
                 // @ts-ignore
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                style={{"--ptf-xxl": "9rem", "--ptf-md": "4rem"}}
               ></div>
 
               <div className="container-xxl">
@@ -408,7 +408,7 @@ const AboutMe = () => {
               <div
                 className="ptf-spacer"
                 // @ts-ignore
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                style={{"--ptf-xxl": "9rem", "--ptf-md": "4rem"}}
               ></div>
             </section>
             {/* End mulitblock */}

@@ -16,8 +16,8 @@
   background-size: 450px;
 
   .ptf-footer__top {
-    padding-top: px2rem(150px);
-    padding-bottom: px2rem(40px);
+    padding-top: px2rem(100px);
+    padding-bottom: px2rem(10px);
 
     @include mq("medium") {
       padding-top: px2rem(75px);
@@ -25,15 +25,15 @@
     }
 
     [class^="col"] {
-      margin-bottom: px2rem(80px);
+      margin-bottom: px2rem(70px);
 
       @include mq("medium") {
-        margin-bottom: px2rem(60px);
+        margin-bottom: px2rem(50px);
       }
     }
 
     .ptf-footer-heading {
-      font-size: px2rem(42px);
+      font-size: px2rem(40px);
       line-height: 1.42;
       font-weight: 700;
 
@@ -61,8 +61,8 @@
   }
 
   .ptf-footer__bottom {
-    padding-top: px2rem(65px);
-    padding-bottom: px2rem(45px);
+    padding-top: px2rem(60px);
+    padding-bottom: px2rem(40px);
 
     border-top: 2px solid var(--ptf-color-black);
 

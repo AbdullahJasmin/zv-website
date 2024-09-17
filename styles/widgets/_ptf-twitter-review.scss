@@ -14,7 +14,7 @@
   }
 
   &__avatar {
-    max-width: 105px;
+    max-width: 90px;
     flex-shrink: 0;
 
     margin-right: px2rem(20px);
@@ -113,8 +113,9 @@
     font-weight: 700;
   }
 
-  .ptf-twitter-review__content {
-    font-size: px2rem(21px);
+  .ptf-twitter-review__content p {
+    font-size: px2rem(20px);
+    text-align: justify;
   }
 
 }

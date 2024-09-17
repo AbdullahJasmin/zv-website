@@ -134,7 +134,7 @@
   }
 
   .ptf-post--style-1 .ptf-post__title {
-    font-size: px2rem(30px);
+    font-size: px2rem(28px);
     font-weight: normal;
   }
 }
@@ -297,6 +297,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+    .custom-about-section {
+      @include mq("large", "min") {
+        padding-left: 7rem !important;
+        padding-right: 3.75rem !important;
+      }
+    }
+
     &::after {
       content: "";
 
@@ -433,7 +440,7 @@
   }
 }
 
-.ptf-main section {
+.ptf-main section, .ptf-footer {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 

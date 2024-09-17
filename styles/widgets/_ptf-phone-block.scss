@@ -38,8 +38,16 @@
 	&__phone {
 		flex-basis: 100%;
 
-		font-size: px2rem(36px);
+      font-size: px2rem(24px);
 		font-weight: 700;
+
+      @include mq('small', "min") {
+        font-size: px2rem(28px);
+      }
+
+      @include mq('medium', "min") {
+        font-size: px2rem(34px);
+      }
 	}
 
 }

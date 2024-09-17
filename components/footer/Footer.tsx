@@ -78,7 +78,7 @@ const Footer = () => {
                       <h4 className="ptf-widget-title">Site Links</h4>
                       <ul>
                           {siteLinks.map((val, i) => (
-                              <li key={i}>
+                              <li key={i} className="fz-24 lh-1p5">
                                   <Link href={val.link}>{val.itemName}</Link>
                               </li>
                           ))}
@@ -98,13 +98,13 @@ const Footer = () => {
             <div className="ptf-widget ptf-widget-links has-black-color">
               <ul>
                   {externalLinks.map((val, i) => (
-                      <li key={i}>
+                      <li key={i} className="fz-24 lh-1p5">
                           <Link href={val.link} target={'_blank'}>{val.itemName}</Link>
                           <div className="text-end d-inline-block mx-2">
                               <svg
                                   xmlns="http://www.w3.org/2000/svg"
                                   fill="currentColor"
-                                  style={{height: "1em"}}
+                                  style={{height: "0.6em"}}
                                   viewBox="0 0 17 17"
                               >
                                   <path d="M16 .997V10h-1V2.703L4.683 13l-.707-.708L14.291 1.997H6.975v-1H16z"/>

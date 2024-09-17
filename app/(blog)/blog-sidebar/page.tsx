@@ -1,13 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import {useState} from "react";
 import BlogSidebarPost from "../../../components/blog/blog-sidebar/BlogSidebarPost";
 import BlogFive from "../../../components/blog/BlogFive";
 import BlogFour from "../../../components/blog/BlogFour";
 import Pagination from "../../../components/blog/Pagination";
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
-import { blogContentfive } from "../../../data/blog";
+import {blogContentfive} from "../../../data/blog";
 import DefaultHeader from "@/components/headers/DefaultHeader";
 
 const BlogSidebar = () => {
@@ -29,7 +29,7 @@ const BlogSidebar = () => {
               <div
                 className="ptf-spacer"
                 // @ts-ignore
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                style={{"--ptf-xxl": "9rem", "--ptf-md": "4rem"}}
               ></div>
               <div className="container-xxl">
                 <div className="row">

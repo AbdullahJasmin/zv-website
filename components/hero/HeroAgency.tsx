@@ -46,7 +46,7 @@ const HeroAgency = () => {
               >
                 At ZaVolt, we fuse creativity with technology to spark unique
                 digital experiences that drive results. Your vision, our
-                expertise—together, we light the path to your brand&apos;s success.
+                  expertise together, we light the path to your brand&apos;s success.
               </p>
 
               {/* <!--Spacer--> */}

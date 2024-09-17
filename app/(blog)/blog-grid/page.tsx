@@ -24,7 +24,7 @@ const BlogGrid = () => {
               <div
                 className="ptf-spacer"
                 // @ts-ignore
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                style={{"--ptf-xxl": "9rem", "--ptf-md": "4rem"}}
               ></div>
 
               <div className="container-xxl">
@@ -95,7 +95,7 @@ const BlogGrid = () => {
               <div
                 className="ptf-spacer"
                 // @ts-ignore
-                style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}
+                style={{"--ptf-xxl": "7rem", "--ptf-md": "3.5rem"}}
               ></div>
             </section>
 
@@ -122,7 +122,7 @@ const BlogGrid = () => {
               <div
                 className="ptf-spacer"
                 // @ts-ignore
-                style={{ "--ptf-xxl": "8.75rem", "--ptf-md": "4.375rem" }}
+                style={{"--ptf-xxl": "7rem", "--ptf-md": "3.5rem"}}
               ></div>
 
               <div className="container-xxl">
@@ -243,7 +243,7 @@ const BlogGrid = () => {
               <div
                 className="ptf-spacer"
                 // @ts-ignore
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                style={{"--ptf-xxl": "9rem", "--ptf-md": "4rem"}}
               ></div>
             </section>
           </div>

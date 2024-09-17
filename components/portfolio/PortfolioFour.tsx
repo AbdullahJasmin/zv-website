@@ -1,12 +1,12 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, {useEffect, useState} from "react";
 import Link from "next/link";
 import ServiceListTwo from "../list/ServiceListTwo";
 import SocialThree from "../social/SocialThree";
 import Image from "next/image";
-import dynamic from "next/dynamic";
-import { Tooltip as ReactTooltip } from 'react-tooltip'
+import {Tooltip as ReactTooltip} from 'react-tooltip'
+import {portfolioContentfour} from '../../data/works'
 
 const portfolioMenu = [
   { name: "All Projects", number: "11" },
@@ -15,8 +15,6 @@ const portfolioMenu = [
   { name: "Motion Video", number: "3" },
   { name: "Illustration", number: "4" },
 ];
-
-import { portfolioContentfour } from '../../data/works'
 
 const PortfolioFour = () => {
   const [pageItems, setPageItems] = useState([]);
@@ -79,7 +77,7 @@ const PortfolioFour = () => {
               <div
                 className="ptf-spacer"
                 // @ts-ignore
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                style={{"--ptf-xxl": "9rem", "--ptf-md": "4rem"}}
               ></div>
               {/* <!--Spacer--> */}
 
@@ -92,7 +90,7 @@ const PortfolioFour = () => {
               <div
                 className="ptf-spacer"
                 // @ts-ignore
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                style={{"--ptf-xxl": "9rem", "--ptf-md": "4rem"}}
               ></div>
 
               <div className="has-black-color">

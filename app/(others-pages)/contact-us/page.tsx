@@ -44,7 +44,7 @@ const Contact = () => {
                     <div
                       className="ptf-spacer"
                       // @ts-ignore
-                      style={{"--ptf-xxl": "1.75rem", "--ptf-md": "1.25rem"}}
+                      style={{"--ptf-xxl": "1.5rem", "--ptf-md": "1rem"}}
                     ></div>
 
                     <Social />

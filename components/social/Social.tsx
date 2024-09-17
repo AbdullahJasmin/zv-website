@@ -18,6 +18,16 @@ const SocialShare = [
         link: "https://www.instagram.com/zavolt_com",
         iconClass: "instagram",
     },
+    {
+        iconName: "socicon-behance",
+        link: "https://www.behance.net/ZaVolt",
+        iconClass: "behance",
+    },
+    {
+        iconName: "socicon-github",
+        link: "https://github.com/ZaVolt",
+        iconClass: "github",
+    },
 ];
 const Social = () => {
     return (
@@ -25,7 +35,7 @@ const Social = () => {
             {/* <!--Social Icon--> */}
             {SocialShare.map((icon, i) => (
                 <a
-                    className={`ptf-social-icon ptf-social-icon--style-3 facebook  ${icon.iconClass}`}
+                    className={`ptf-social-icon ptf-social-icon--style-3 facebook ${icon.iconClass}`}
                     href={icon.link}
                     target="_blank"
                     rel="noopener noreferrer"

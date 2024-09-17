@@ -62,7 +62,7 @@ const WorksShowcase = ({ params }) => {
               <div
                 className="ptf-spacer"
                 // @ts-ignore
-                style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                style={{"--ptf-xxl": "9rem", "--ptf-md": "4rem"}}
               ></div>
               <div className="container-xxl">
                 <div className="row">

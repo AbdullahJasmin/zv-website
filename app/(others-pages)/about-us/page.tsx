@@ -363,7 +363,7 @@ const AboutUs = () => {
                                             <Image
                                                 width={1200}
                                                 height={1200}
-                                                style={{width: "80%", height: "80%"}}
+                                                style={{width: "70%", height: "70%"}}
                                                 src="/images/root/quote.png"
                                                 alt=""
                                                 loading="lazy"
@@ -385,7 +385,7 @@ const AboutUs = () => {
                             <div
                                 className="ptf-spacer"
                                 // @ts-ignore
-                                style={{"--ptf-xxl": "12.5rem", "--ptf-md": "6.25rem"}}
+                                style={{"--ptf-xxl": "11rem", "--ptf-md": "5.5rem"}}
                             ></div>
                         </section>
 

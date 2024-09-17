@@ -660,7 +660,7 @@ export const blogContent: BlogItem[] = [
       img: "/images/blog/slider/post-1.png",
       date: "Dec 7, 2021",
       title: "How to use solid color combine with simple furnitures",
-      descriptions: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+        description: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
           do eiusmod tempor incididunt ut labore et dolore magna
           aliqua...`,
     },
@@ -669,7 +669,7 @@ export const blogContent: BlogItem[] = [
       img: "/images/blog/slider/post-2.png",
       date: "Dec 11, 2021",
       title: "The evolution of Swiss style in Interaction Design",
-      descriptions: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
           do eiusmod tempor incididunt ut labore et dolore magna
           aliqua...`,
     },
@@ -678,7 +678,7 @@ export const blogContent: BlogItem[] = [
       img: "/images/blog/slider/post-3.png",
       date: "Dec 7, 2021",
       title: "The evolution of Swiss style in Interaction Design",
-      descriptions: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+        description: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
           do eiusmod tempor incididunt ut labore et dolore magna
           aliqua...`,
     },

@@ -19,7 +19,7 @@ export const approachContent: ServiceItem[] = [
     id: 1,
     subTitle: "ONE",
     title: "Research",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.`,
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.`,
     delayAnimation: "0",
   },
 
@@ -27,35 +27,35 @@ export const approachContent: ServiceItem[] = [
     id: 2,
     subTitle: "TWO",
     title: "Concept",
-    descriptions: `Donec venenatis consequat libero, quis auctor nunc volutpat quis. Proin at ipsum id magna dapibus dictum eget lobortis magna. Fusce et ligula non tellus vulputate condimentum.`,
+    description: `Donec venenatis consequat libero, quis auctor nunc volutpat quis. Proin at ipsum id magna dapibus dictum eget lobortis magna. Fusce et ligula non tellus vulputate condimentum.`,
     delayAnimation: "100",
   },
   {
     id: 3,
     subTitle: "THREE",
     title: "Strategy",
-    descriptions: `Consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.`,
+    description: `Consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.`,
     delayAnimation: "200",
   },
   {
     id: 4,
     subTitle: "FOUR",
     title: "Development",
-    descriptions: `Vivamus vel sollicitudin sem, id sagittis justo. Nam non magna eleifend, tempus nisl quis, commod diam. Morbi gravida ut nulla non porttitor. Suspendis eget arcu eu ex dignissim faucibus. Nullam et luctus tortor.`,
+    description: `Vivamus vel sollicitudin sem, id sagittis justo. Nam non magna eleifend, tempus nisl quis, commod diam. Morbi gravida ut nulla non porttitor. Suspendis eget arcu eu ex dignissim faucibus. Nullam et luctus tortor.`,
     delayAnimation: "300",
   },
   {
     id: 5,
     subTitle: "FIVE",
     title: "Test",
-    descriptions: `Suspendisse vel magna vitae nunc consequat eleifend. Aenean iaculis Nam non magna eleifend est eget turpis lacinia egest dictum ipsum sollicitudin.Suspendis eget arcu eu ex dignissim faucibus.`,
+    description: `Suspendisse vel magna vitae nunc consequat eleifend. Aenean iaculis Nam non magna eleifend est eget turpis lacinia egest dictum ipsum sollicitudin.Suspendis eget arcu eu ex dignissim faucibus.`,
     delayAnimation: "400",
   },
   {
     id: 6,
     subTitle: "SIX",
     title: "Hand Over",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.`,
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.`,
     delayAnimation: "500",
   },
 ];
@@ -64,28 +64,28 @@ export const approachContenttwo: ServiceItem[] = [
   {
     id: 7,
     title: "Partnership",
-    descriptions: `We believe in design partnership and co-creation. We like to discuss,
+    description: `We believe in design partnership and co-creation. We like to discuss,
         plan and be a part of your team.`,
     delayAnimation: "0",
   },
   {
     id: 8,
     title: "Clossness",
-    descriptions: `We believe in design partnership and co-creation. We like to discuss,
+    description: `We believe in design partnership and co-creation. We like to discuss,
         plan and be a part of your team.`,
     delayAnimation: "100",
   },
   {
     id: 9,
     title: "Future",
-    descriptions: `We believe in design partnership and co-creation. We like to discuss,
+    description: `We believe in design partnership and co-creation. We like to discuss,
         plan and be a part of your team.`,
     delayAnimation: "200",
   },
   {
     id: 10,
     title: "Commitment",
-    descriptions: `We believe in design partnership and co-creation. We like to discuss,
+    description: `We believe in design partnership and co-creation. We like to discuss,
         plan and be a part of your team.`,
     delayAnimation: "300",
   },
@@ -97,14 +97,14 @@ export const serviceContent: ServiceItem[] = [
     icon: "lnil lnil-cup",
     titlePart1: "CUSTOM SOFTWARE",
     titlePart2: "DEVELOPMENT",
-    descriptions: `Streamline your business operations with our custom software solutions. We create tailor-made applications that address your unique challenges, boost efficiency, and support your business growth.`,
+    description: `Streamline your business operations with our custom software solutions. We create tailor-made applications that address your unique challenges, boost efficiency, and support your business growth.`,
   },
   {
     id: 12,
     icon: "lnil lnil-website-rank",
     titlePart1: "MOBILE APPLICATION",
     titlePart2: "DEVELOPMENT",
-    descriptions: ` We build and activate brands throung cultural insight &amp;
+    description: ` We build and activate brands throung cultural insight &amp;
           strategic vision.`,
   },
   {
@@ -112,7 +112,7 @@ export const serviceContent: ServiceItem[] = [
     icon: "lnil lnil-3d",
     titlePart1: "CUSTOM AI",
     titlePart2: "SOLUTIONS",
-    descriptions: ` We build and activate brands throung cultural insight &amp;
+    description: ` We build and activate brands throung cultural insight &amp;
           strategic vision.`,
   },
 ];

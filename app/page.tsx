@@ -154,7 +154,7 @@ const HomeAgency = () => {
                             <div className="-fluid px-3 px-lg-0">
                                 <div className="row">
                                     <div className="col-lg-5 custom-about-section px-0 px-sm-3 ps-md-4 ps-lg-5" style={{
-                                        backgroundColor: 'rgba(255,255,255,0.95)'
+                                        backgroundColor: 'rgba(255,255,255,0.93)'
                                     }}>
                                         {/* <!--Spacer--> */}
                                         <div
@@ -177,7 +177,7 @@ const HomeAgency = () => {
                                                 // @ts-ignore
                                                 style={{"--ptf-xxl": "1.875rem"}}
                                             ></div>
-                                            <h3 style={{maxWidth: "30rem"}}>
+                                            <h3 style={{maxWidth: "36rem"}}>
                                                 We Empower Your Business with Innovative Digital Solutions
                                             </h3>
                                             {/* <!--Spacer--> */}
@@ -186,7 +186,7 @@ const HomeAgency = () => {
                                                 // @ts-ignore
                                                 style={{"--ptf-xxl": "2.5rem", "--ptf-md": "1.5rem"}}
                                             ></div>
-                                            <p className="fz-20" style={{maxWidth: "30rem",}}>
+                                            <p className="fz-20" style={{maxWidth: "36rem",}}>
                                                 Welcome to <strong>ZaVolt</strong>, where we electrify your business to
                                                 greatness!
                                                 We take immense pride in being a premier company that offers
@@ -196,7 +196,7 @@ const HomeAgency = () => {
                                                 your brand.
 
                                             </p>
-                                            <p className="fz-20" style={{maxWidth: "30rem"}}>
+                                            <p className="fz-20" style={{maxWidth: "36rem"}}>
                                                 Our passionate team of digital wizards is committed to
                                                 illuminating your true potential,
                                                 igniting innovation,
@@ -495,14 +495,13 @@ const HomeAgency = () => {
                                     <div className="col-12">
                                         {/* <!--Animated Block--> */}
                                         <div
-                                            className="ptf-animated-block justify-content-between d-flex align-items-center mb-3 flex-wrap gap-5 flex-md-nowrap"
+                                            className="ptf-animated-block justify-content-between d-flex align-items-center mb-1 flex-wrap gap-5 flex-md-nowrap"
                                             data-aos="fade"
                                             data-aos-delay="0"
                                         >
                                             <h2 className="h1 large-heading has-accent-1">
                                                 Trusted By Clients
                                             </h2>
-
                                             <ClutchWidget/>
                                         </div>
                                     </div>

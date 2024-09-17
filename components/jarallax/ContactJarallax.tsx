@@ -18,12 +18,12 @@ const ContactJarallax = () => {
           </div>
           {/* <!--Spacer--> */}
           <div className="ptf-spacer" style={{ "--ptf-xxl": "0.625rem" }}></div>
-          <div className="fz-100 fz-90--md has-white-color fw-bold lh-1p1">
+          <div className="fz-70 fz-90--lg has-white-color fw-bold lh-1p1">
             <Link href="/contact-us" className="ptf-filled-link">
               Contact ZaVolt
             </Link>
           </div>
-          <div className="fz-80 has-white-color">
+          <div className="fz-60 fz-90--lg has-white-color">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"

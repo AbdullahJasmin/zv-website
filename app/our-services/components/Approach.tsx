@@ -2,7 +2,7 @@ interface ApproachItem {
   id: number;
   subTitle: string;
   title: string;
-  descriptions: string;
+  description: string;
   delayAnimation: string;
 }
 
@@ -11,7 +11,7 @@ const approaches: ApproachItem[] = [
     id: 1,
     subTitle: "ONE",
     title: "Research",
-    descriptions: `Our process begins with thorough research and analysis. 
+    description: `Our process begins with thorough research and analysis. 
       We dive deep into understanding your business needs, market trends, and technological landscape. 
       This phase is crucial for gathering insights that will guide the entire project, 
       ensuring that our solutions are not only innovative but also relevant and aligned with your goals.`,
@@ -22,7 +22,7 @@ const approaches: ApproachItem[] = [
     id: 2,
     subTitle: "TWO",
     title: "Concept",
-    descriptions: `In this stage, we transform insights into actionable concepts. 
+    description: `In this stage, we transform insights into actionable concepts. 
       We brainstorm ideas, develop initial wireframes, and outline the core functionalities that will drive your project forward. 
       Our focus is on creating a concept that is both user-centric and technically feasible, 
       setting a strong foundation for development.`,
@@ -32,7 +32,7 @@ const approaches: ApproachItem[] = [
     id: 3,
     subTitle: "THREE",
     title: "Strategy",
-    descriptions: `With a solid concept in place, we craft a comprehensive strategy that includes project timelines, 
+    description: `With a solid concept in place, we craft a comprehensive strategy that includes project timelines, 
       resource allocation, and technology stack selection. Our strategy phase ensures that every aspect of 
       the project is planned with precision, minimizing risks and optimizing efficiency from start to finish.`,
     delayAnimation: "200",
@@ -41,7 +41,7 @@ const approaches: ApproachItem[] = [
     id: 4,
     subTitle: "FOUR",
     title: "Development",
-    descriptions: `This is where ideas come to life. Our development team takes the detailed plans and strategies 
+    description: `This is where ideas come to life. Our development team takes the detailed plans and strategies 
     and turns them into a fully functional product. We use the latest technologies and best practices to 
     ensure that the final solution is robust, scalable, and future-proof.`,
     delayAnimation: "300",
@@ -50,7 +50,7 @@ const approaches: ApproachItem[] = [
     id: 5,
     subTitle: "FIVE",
     title: "Test",
-    descriptions: `Quality assurance is integral to our process. We rigorously test the product at every stage of 
+    description: `Quality assurance is integral to our process. We rigorously test the product at every stage of 
     development to identify and resolve issues early. Our testing phase includes functional, 
     performance, and security testing to ensure that the solution meets the highest standards and is ready for deployment.`,
     delayAnimation: "400",
@@ -59,7 +59,7 @@ const approaches: ApproachItem[] = [
     id: 6,
     subTitle: "SIX",
     title: "Hand Over",
-    descriptions: `Once development and testing are complete, we prepare for a seamless handover. 
+    description: `Once development and testing are complete, we prepare for a seamless handover. 
     This phase includes deployment, user training, and documentation.
      We ensure that you have everything you need to manage and maintain the solution effectively, 
      with ongoing support available as needed.`,
@@ -94,7 +94,7 @@ const Approach = () => {
               <div className="ptf-approach-box__subtitle has-accent-1">{val.subTitle}</div>
               <h3 className="ptf-approach-box__title h1">{val.title}</h3>
               <div className="ptf-approach-box__content white">
-                <p>{val.descriptions}</p>
+                <p>{val.description}</p>
               </div>
             </div>
           </div>

@@ -2,7 +2,7 @@ interface WhyUsFact {
     id: number;
     subTitle: string;
     title: string;
-    descriptions: string;
+    description: string;
     delayAnimation: string;
 }
 
@@ -11,7 +11,7 @@ const whyUsFacts: WhyUsFact[] = [
         id: 1,
         subTitle: "",
         title: "Quality Centric",
-        descriptions: `At ZaVolt, we are unwaveringly committed to delivering quality-centric solutions. Our rigorous processes and attention to detail ensure that every project meets the highest standards of excellence`,
+        description: `At ZaVolt, we are unwaveringly committed to delivering quality-centric solutions. Our rigorous processes and attention to detail ensure that every project meets the highest standards of excellence`,
         delayAnimation: "0",
     },
 
@@ -19,35 +19,35 @@ const whyUsFacts: WhyUsFact[] = [
         id: 2,
         subTitle: "",
         title: "Best Practices",
-        descriptions: `With ZaVolt, you can trust that we follow industry best practices. Our experienced team stays up-to-date with the latest trends and innovations, ensuring that we provide you with cutting-edge solutions.`,
+        description: `With ZaVolt, you can trust that we follow industry best practices. Our experienced team stays up-to-date with the latest trends and innovations, ensuring that we provide you with cutting-edge solutions.`,
         delayAnimation: "100",
     },
     {
         id: 3,
         subTitle: "",
         title: "Reasonable Pricing",
-        descriptions: `At ZaVolt, we believe in transparency and fairness. Our pricing is reasonable, providing you with cost-effective solutions without compromising on quality or service.`,
+        description: `At ZaVolt, we believe in transparency and fairness. Our pricing is reasonable, providing you with cost-effective solutions without compromising on quality or service.`,
         delayAnimation: "200",
     },
     {
         id: 4,
         subTitle: "",
         title: "Expert Team",
-        descriptions: `Our team consists of skilled experts who are passionate about their craft. With a diverse range of expertise, we tackle every project with proficiency and dedication.`,
+        description: `Our team consists of skilled experts who are passionate about their craft. With a diverse range of expertise, we tackle every project with proficiency and dedication.`,
         delayAnimation: "300",
     },
     {
         id: 5,
         subTitle: "",
         title: "One Stop Solution",
-        descriptions: `ZaVolt is your one-stop solution for all your digital needs. From design to development, marketing, and support, we offer a comprehensive suite of services to streamline your business.`,
+        description: `ZaVolt is your one-stop solution for all your digital needs. From design to development, marketing, and support, we offer a comprehensive suite of services to streamline your business.`,
         delayAnimation: "400",
     },
     {
         id: 6,
         subTitle: "",
         title: "After Sales Service",
-        descriptions: `We value our clients beyond project completion. With ZaVolt's after-sales service, you can rely on us for ongoing support, maintenance, and assistance to ensure your continued success.`,
+        description: `We value our clients beyond project completion. With ZaVolt's after-sales service, you can rely on us for ongoing support, maintenance, and assistance to ensure your continued success.`,
         delayAnimation: "500",
     },
 ];
@@ -79,7 +79,7 @@ const WhyUs = () => {
                             <div className="ptf-approach-box__subtitle black">{val.subTitle}</div>
                             <h3 className="ptf-approach-box__title h2">{val.title}</h3>
                             <div className="ptf-approach-box__content black">
-                                <p className="">{val.descriptions}</p>
+                                <p className="">{val.description}</p>
                             </div>
                         </div>
                     </div>

@@ -183,3 +183,10 @@
   background-size: cover;
   background-attachment: fixed;
 }
+
+@media all and (max-device-width: 768px) {
+  .min-vh-100.jarallax,
+  .jarallax.jarallax-img {
+    background-attachment: scroll;
+  }
+}

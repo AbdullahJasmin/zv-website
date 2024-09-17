@@ -12,21 +12,21 @@ const services: OurServiceItem[] = [
       icon: "lnil lnil-3d",
     titlePart1: "CUSTOM SOFTWARE",
     titlePart2: "DEVELOPMENT",
-    descriptions: `Streamline your business operations with our custom software solutions. We create tailor-made applications that address your unique challenges, boost efficiency, and support your business growth.`,
+    description: `Streamline your business operations with our custom software solutions. We create tailor-made applications that address your unique challenges, boost efficiency, and support your business growth.`,
   },
   {
     id: 12,
       icon: "lnil lnil-Mobile",
     titlePart1: "MOBILE APPLICATION",
     titlePart2: "DEVELOPMENT",
-      descriptions: `Bring your app ideas to life with our mobile development expertise. We design and develop user-friendly, feature-rich mobile applications that connect with your audience across all devices.`,
+    description: `Bring your app ideas to life with our mobile development expertise. We design and develop user-friendly, feature-rich mobile applications that connect with your audience across all devices.`,
   },
   {
     id: 13,
       icon: "lnil lnil-bulb-alt",
     titlePart1: "CUSTOM AI",
     titlePart2: "SOLUTIONS",
-      descriptions: `Harness the power of AI to drive innovation in your business. Our custom AI solutions are designed to optimize processes, provide insightful analytics, and enhance decision-making, tailored to your specific needs.`,
+    description: `Harness the power of AI to drive innovation in your business. Our custom AI solutions are designed to optimize processes, provide insightful analytics, and enhance decision-making, tailored to your specific needs.`,
   },
 ];
 

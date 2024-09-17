@@ -83,7 +83,7 @@
 
   &__copyright {
     color: var(--ptf-color-3);
-    font-size: px2rem(14px);
+    font-size: px2rem(16px);
 
     span {
       color: var(--ptf-color-black);
@@ -119,9 +119,9 @@
   background: white;
 
   .pro-menu-item.pro-sub-menu {
-    font-size: 2rem;
+    font-size: 2.25rem;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.2;
     padding: 0.5rem 0;
     text-transform: uppercase;
   }

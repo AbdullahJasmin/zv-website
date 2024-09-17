@@ -6,14 +6,22 @@ import Slider from "react-slick";
 
 const testimonialContent = [
     {
-        descriptions: `Abdullah and the team at ZaVolt brings a wealth of knowledge and skills to the table. Their relentless attitude and attention to detail is what I admire the most, when it comes to their ways of working...`,
+        description: `"Abdullah and the team at ZaVolt brings a wealth of knowledge and skills to the table. 
+        Their relentless attitude and attention to detail is what I admire the most, when it comes to their ways of working..."`,
         name: "Sabith Mazahir",
         designation: "Head of Sales & Marketing - Stag Technologies",
     },
     {
-        descriptions: `I had the pleasure of working with ZaVolt on a recent project, and they truly exceeded expectations... ”`,
+        description: `"I had the pleasure of working with ZaVolt on a recent project, and they truly exceeded expectations...”`,
         name: "Akash Moonesinghe",
         designation: "Marketing & Operations Manager - Fitness First Sri Lanka",
+    },
+    {
+        name: "Gianluca Iacopini ",
+        designation: "Senses Sri Lanka",
+        description: `“ZaVolt (PVT) Ltd successfully delivered the project within the agreed-upon schedule.
+        They maintained stellar communication and ensured constant availability throughout the engagement.
+        Their responsiveness was a trademark of their work.”`,
     },
 ];
 
@@ -48,7 +56,7 @@ const Testimonial = () => {
                             }}
                         >
                             <div className="ptf-testimonial__content">
-                                <p>{val.descriptions}</p>
+                                <p>{val.description}</p>
                             </div>
                             <div className="ptf-testimonial__meta">
                                 <h6 className="ptf-testimonial__author">{val.name}</h6>

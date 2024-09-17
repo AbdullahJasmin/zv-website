@@ -1,4 +1,4 @@
-import { approachContenttwo } from "../../data/service";
+import {approachContenttwo} from "../../data/service";
 
 const Approach2 = () => {
   return (
@@ -11,7 +11,7 @@ const Approach2 = () => {
           key={i}
         >
           <h6 className="ptf-process-item__title">{val.title}</h6>
-          <p className="ptf-process-item__text">{val.descriptions}</p>
+          <p className="ptf-process-item__text">{val.description}</p>
         </li>
       ))}
     </ul>

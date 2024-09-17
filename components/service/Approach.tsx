@@ -1,4 +1,4 @@
-import { approachContent } from "../../data/service";
+import {approachContent} from "../../data/service";
 
 const Approach = () => {
   return (
@@ -27,7 +27,7 @@ const Approach = () => {
               <div className="ptf-approach-box__subtitle">{val.subTitle}</div>
               <h3 className="ptf-approach-box__title h1">{val.title}</h3>
               <div className="ptf-approach-box__content">
-                <p>{val.descriptions}</p>
+                  <p>{val.description}</p>
               </div>
             </div>
           </div>

@@ -3,7 +3,7 @@ interface OurServiceItem {
   icon: string;
   titlePart1: string;
   titlePart2: string;
-  descriptions: string;
+  description: string;
 }
 
 const services: OurServiceItem[] = [
@@ -54,7 +54,7 @@ const ServiceOne = () => {
               {val.titlePart2}
             </h5>
             <div className="ptf-service-box__content">
-              <p>{val.descriptions}</p>
+              <p>{val.description}</p>
             </div>
               {/*<div className="ptf-service-box__arrow">*/}
               {/*  <i className="lnil lnil-chevron-right"></i>*/}

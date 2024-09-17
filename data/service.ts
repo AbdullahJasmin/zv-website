@@ -2,7 +2,7 @@ export type ServiceItem = {
   id?: number;
   subTitle?: string;
   title?: string;
-  descriptions?: string;
+  description?: string;
   delayAnimation?: string;
   serviceList?: ServiceItem[];
   name?: string;

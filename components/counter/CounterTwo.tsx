@@ -6,15 +6,15 @@ import CountUp from "react-countup";
 const counterUpContent = [
   {
     startCount: "0",
-    endCount: "20",
+    endCount: "30",
     metaText1: "HAPPY CLIENTS",
-    metaText2: "IN 1.5 YEARS",
+    metaText2: "",
     animationDelay: "100",
     colClass: "",
   },
   {
     startCount: "0",
-    endCount: "30",
+    endCount: "40",
     metaText1: "PROJECTS COMPLETED",
     metaText2: "WITH WORLDWIDE CLIENTELE",
     animationDelay: "200",
@@ -45,8 +45,9 @@ const CounterTwo = () => {
                   redraw={true}
                 >
                 </CountUp>
+                {"+"}
               </div>
-              <h5 className="ptf-counter-up__title">
+              <h5 className="ptf-counter-up__title fz-30">
                 {val.metaText1} <br />
                 {val.metaText2}
               </h5>

@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
       }
     }
 
-      setTimeout(() => setLoading(false), 300);
+      setTimeout(() => setLoading(false), 200);
 
   }, []);
   return (

@@ -54,7 +54,7 @@ const Footer = () => {
               Start by&nbsp;
             <Link
               className="has-accent-1 text-decoration-underline"
-              href="/contact"
+              href="/contact-us"
             >
               Saying Hi!
             </Link>

@@ -94,7 +94,7 @@ const ContactForm = () => {
                 </div>
 
                 <div className="ptf-form-group">
-                    <label data-number="02">What’s your phone number?</label>
+                    <label data-number="03">What’s your phone number?</label>
                     <input
                         type="tel"
                         {...register("phone")}
@@ -104,7 +104,7 @@ const ContactForm = () => {
                 </div>
 
                 <div className="ptf-form-group">
-                    <label data-number="03">What would you like to talk about?</label>
+                    <label data-number="04">What would you like to talk about?</label>
                     <select
                         {...register("subject")}
                         className={`${errors.subject ? "is-invalid" : ""}`}
@@ -118,7 +118,7 @@ const ContactForm = () => {
                 </div>
 
                 <div className="ptf-form-group">
-                    <label data-number="04">Tell us more...</label>
+                    <label data-number="05">Tell us more...</label>
                     <textarea
                         rows={3}
                         {...register("message")}

@@ -11,6 +11,7 @@ import ReCAPTCHA from "react-google-recaptcha"; // Import ReCAPTCHA
 type FormData = {
     name: string;
     email: string;
+    phone: string;
     subject: string;
     message: string;
 };
@@ -23,6 +24,7 @@ const ContactForm = () => {
     const validationSchema = Yup.object().shape({
         name: Yup.string().required("Name is required"),
         email: Yup.string().required("Email is required").email("Invalid email format"),
+        phone: Yup.string().required("Phone number is required"),
         subject: Yup.string().required("Subject is required").nonNullable(),
         message: Yup.string(),
     });
@@ -51,7 +53,7 @@ const ContactForm = () => {
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify({...data, recaptchaToken}), // Send reCAPTCHA token with form data
+                body: JSON.stringify({...data, recaptchaToken}),
             });
 
             const result = await response.json();
@@ -89,6 +91,16 @@ const ContactForm = () => {
                         className={`${errors.email ? "is-invalid" : ""}`}
                     />
                     {errors.email && <div className="invalid-feedback">{errors.email.message}</div>}
+                </div>
+
+                <div className="ptf-form-group">
+                    <label data-number="02">What’s your phone number?</label>
+                    <input
+                        type="tel"
+                        {...register("phone")}
+                        className={`${errors.email ? "is-invalid" : ""}`}
+                    />
+                    {errors.phone && <div className="invalid-feedback">{errors.phone.message}</div>}
                 </div>
 
                 <div className="ptf-form-group">

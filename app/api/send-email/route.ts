@@ -2,7 +2,7 @@ import {NextResponse} from 'next/server';
 import nodemailer from 'nodemailer';
 
 export async function POST(req: Request) {
-    const {name, email, subject, message, recaptchaToken} = await req.json();
+    const {name, email, phone, subject, message, recaptchaToken} = await req.json();
 
     // Verify reCAPTCHA
     const recaptchaSecretKey = process.env.RECAPTCHA_SECRET_KEY;
@@ -38,6 +38,7 @@ export async function POST(req: Request) {
             text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
             html: `<p><strong>Name:</strong> ${name}</p>
                    <p><strong>Email:</strong> ${email}</p>
+                   <p><strong>Phone:</strong> ${phone}</p>
                    <p><strong>Subject:</strong> ${subject}</p>
                    <p><strong>Message:</strong> ${message}</p>`,
         });
